@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow"
+    android:orientation="vertical"
+    android:padding="@dimen/widght_padding" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="@dimen/widght_padding" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tca_relato_quanto_ao"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tca_condutor_1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/checkBox_tca_condutor_1_sim"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_sim"
+                android:textColor="@color/whight" />
+
+            <CheckBox
+                android:id="@+id/checkBox_tca_condutor_1_nao"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_title_nao"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tca_condutor_2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/checkBox_tca_condutor_2_sim"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_sim"
+                android:textColor="@color/whight" />
+
+            <CheckBox
+                android:id="@+id/checkBox_tca_condutor_2_nao"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_title_nao"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/widght_padding" >
+
+            <Button
+                android:id="@+id/btn_tca_date_picker_condutor_2"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/indicator_width"
+                android:layout_weight="1"
+                android:background="@drawable/btn_yellow_2"
+                android:padding="@dimen/widght_padding"
+                android:text="@string/data"
+                android:textColor="@color/whight" />
+
+            <Button
+                android:id="@+id/btn_tca_time_picker_condutor_2"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/indicator_width"
+                android:layout_weight="1"
+                android:background="@drawable/btn_yellow_2"
+                android:padding="@dimen/widght_padding"
+                android:text="@string/hora"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tca_condutor_3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/checkBox_tca_condutor_3_sim"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_sim"
+                android:textColor="@color/whight" />
+
+            <CheckBox
+                android:id="@+id/checkBox_tca_condutor_3_nao"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_title_nao"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/widght_padding" >
+
+            <Button
+                android:id="@+id/btn_tca_date_picker_condutor_3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/indicator_width"
+                android:layout_weight="1"
+                android:background="@drawable/btn_yellow_2"
+                android:padding="@dimen/widght_padding"
+                android:text="@string/data"
+                android:textColor="@color/whight" />
+
+            <Button
+                android:id="@+id/btn_tca_time_picker_condutor_3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/indicator_width"
+                android:layout_weight="1"
+                android:background="@drawable/btn_yellow_2"
+                android:padding="@dimen/widght_padding"
+                android:text="@string/hora"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tca_o_condutor_apresenta"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/widght_padding_3" >
+
+            <CheckBox
+                android:id="@+id/checkBox_condutor_apresenta_1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_sonolencia"
+                android:textColor="@color/whight" />
+
+            <CheckBox
+                android:id="@+id/checkBox_condutor_apresenta_2"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/widght_padding_3"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_solucos"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/widght_padding_3" >
+
+            <CheckBox
+                android:id="@+id/checkBox_condutor_apresenta_3"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_olhos_vermelhos"
+                android:textColor="@color/whight" />
+
+            <CheckBox
+                android:id="@+id/checkBox_condutor_apresenta_4"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/widght_padding_3"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_desordem_nas_vertes"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/widght_padding_3" >
+
+            <CheckBox
+                android:id="@+id/checkBox_condutor_apresenta_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_vomitos"
+                android:textColor="@color/whight" />
+
+            <CheckBox
+                android:id="@+id/checkBox_condutor_apresenta_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/widght_padding_3"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_odor_de_alcool_no_halito"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tca_em_sua_atitude_ocorre"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/widght_padding_3" >
+
+            <CheckBox
+                android:id="@+id/cb_atitude_ocorre_1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_agressividade"
+                android:textColor="@color/whight" />
+
+            <CheckBox
+                android:id="@+id/cb_atitude_ocorre_2"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_ironia"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/widght_padding_3" >
+
+            <CheckBox
+                android:id="@+id/cb_atitude_ocorre_3"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_arrogancia"
+                android:textColor="@color/whight" />
+
+            <CheckBox
+                android:id="@+id/cb_atitude_ocorre_4"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_falante"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/widght_padding_3" >
+
+            <CheckBox
+                android:id="@+id/cb_atitude_ocorre_5"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_exaltacao"
+                android:textColor="@color/whight" />
+
+            <CheckBox
+                android:id="@+id/cb_atitude_ocorre_6"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_dispersao"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tca_em_relacao_a_sua_orientacao"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tca_sabe_onde_esta"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/widght_padding_3" >
+
+            <CheckBox
+                android:id="@+id/cb_sabe_onde_esta_sim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_sim"
+                android:textColor="@color/whight" />
+
+            <CheckBox
+                android:id="@+id/cb_sabe_onde_esta_nao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_title_nao"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tca_sabe_a_data_e_a_hora"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/widght_padding_3" >
+
+            <CheckBox
+                android:id="@+id/cb_sabe_a_data_e_a_hora_sim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_sim"
+                android:textColor="@color/whight" />
+
+            <CheckBox
+                android:id="@+id/cb_sabe_a_data_e_a_hora_nao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_title_nao"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tca_em_relacao_a_sua_memoria"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tca_sabe_seu_enderecao"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/widght_padding_3" >
+
+            <CheckBox
+                android:id="@+id/cb_sabe_seu_enderecao_sim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_sim"
+                android:textColor="@color/whight" />
+
+            <CheckBox
+                android:id="@+id/cb_sabe_seu_enderecao_nao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_title_nao"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tca_lembra_dos_atos_cometidos"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/widght_padding_3" >
+
+            <CheckBox
+                android:id="@+id/cb_atos_cometidos_sim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_sim"
+                android:textColor="@color/whight" />
+
+            <CheckBox
+                android:id="@+id/cb_atos_cometidos_nao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_title_nao"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tca_em_relacao_a_sua"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tca_sabe_onde_esta"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/widght_padding_3" >
+
+            <CheckBox
+                android:id="@+id/cb_relacao_a_sua_sim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_sim"
+                android:textColor="@color/whight" />
+
+            <CheckBox
+                android:id="@+id/cb_relacao_a_sua_nao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_title_nao"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tca_conclusao"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tca_se_constatei"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/widght_padding_3" >
+
+            <CheckBox
+                android:id="@+id/cb_conclusao_sim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_sim"
+                android:textColor="@color/whight" />
+
+            <CheckBox
+                android:id="@+id/cb_conclusao_nao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/tca_title_nao"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding" >
+
+            <Button
+                android:id="@+id/btn_tca_conferir"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/indicator_width"
+                android:layout_weight="1"
+                android:background="@drawable/btn_yellow_2"
+                android:padding="@dimen/widght_padding"
+                android:text="@string/conferir"
+                android:textColor="@color/whight" />
+
+            <Button
+                android:id="@+id/btn_tca_gerar"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/indicator_width"
+                android:layout_weight="1"
+                android:background="@drawable/btn_yellow_2"
+                android:padding="@dimen/widght_padding"
+                android:text="@string/gerar"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

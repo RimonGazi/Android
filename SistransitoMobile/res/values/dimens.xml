@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="title_fint_size">32sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="widght_padding_4">4dip</dimen>
+    <dimen name="widght_padding">8dip</dimen>
+    <dimen name="widght_padding_2">10dip</dimen>
+    <dimen name="widght_padding_3">20dip</dimen>
+    <dimen name="widght_padding_3">3dip</dimen>
+    <dimen name="widght_margin">8dip</dimen>
+    <dimen name="widght_margin_top">5dip</dimen>
+    <dimen name="widght_margin_top_3">2dip</dimen>
+    <dimen name="widght_margin_top_2">10dip</dimen>
+    <dimen name="widght_margin_top_2_reverse">-10dip</dimen>
+    <dimen name="layout_margin_left_right">30dip</dimen>
+    <dimen name="layout_margin_top">20dip</dimen>
+    <dimen name="layout_margin_buttom">10dip</dimen>
+    <dimen name="progress_bar_height">5dip</dimen>
+    <dimen name="progress_bar_stoke">0dip</dimen>
+    <dimen name="action_bar_line_margin">1dip</dimen>
+    <dimen name="indicator_height">2dip</dimen>
+    <dimen name="indicator_width">2dip</dimen>
+    <dimen name="indicator_height_1">1dip</dimen>
+    <dimen name="indicator_height_4">2dip</dimen>
+    <dimen name="indicator_height_3">3dip</dimen>
+    <dimen name="stroke">2dip</dimen>
+    <dimen name="mene_text_size">2sp</dimen>
+    <dimen name="expendablelist_divider_height">2dip</dimen>
+    <dimen name="radio_text_size_2">12sp</dimen>
+    <dimen name="lister_delete_cb_height_weight">35dip</dimen>
+    <dimen name="view_poager_title_height">40dip</dimen>
+</resources>

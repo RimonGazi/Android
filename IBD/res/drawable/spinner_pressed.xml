@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item><layer-list>
+            <item><shape>
+
+                    <!-- this is to give gradient effect -->
+                    <solid android:color="@color/sp_focuse" />
+                    <!-- this is make corners of button rounded -->
+                    <stroke android:width="4dip" android:color="@color/sp_pressed" />
+
+                    <corners android:bottomLeftRadius="5dp" android:bottomRightRadius="5dp" android:topLeftRadius="5dp" android:topRightRadius="5dp" />
+                </shape></item>
+            <item><bitmap android:filter="true" android:gravity="right|center" android:src="@drawable/sp_pressed_icon" />
+            </item>
+        </layer-list></item>
+
+</selector>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JU Admission</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <color name="manual_input_btn_bacground">#3276B1</color>
+    <color name="honeycombish_blue">#8AE6FF</color>
+    <color name="teal">#008080</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="manual_input_resulttext_bacground">#EEF5FD</color>
+    <color name="textview_show_result_boder_color">#CADFF4</color>
+    <color name="white_gray">#F0F0F2</color>
+    <color name="orange">#FFA500</color>
+    <color name="setting_line_color">#BCBCBC</color>
+    <color name="manul_input_title_bacground">#CFE8F4</color>
+    <color name="manual_input_title_text">#398EB9</color>
+    <color name="text_bacground_r">#5883A5</color>
+
+    <string name="alert_ok">OK</string>
+    <string name="alert_cancel">Cancle</string>
+    <string name="alert_file_save_as">File Save As</string>
+    <string name="hint_filename_unadorned">Enter file name</string>
+    <string name="file_extension_xml">.txt</string>
+    <string name="tag_fragment_FileSave">File Save</string>
+    <string name="ju_name">Jahangirnagar University</string>
+    <string name="ju_cse">Department of C.S.E</string>
+
+    <color name="red">#FF0000</color>
+
+</resources>

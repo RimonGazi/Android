@@ -1,0 +1,1609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="splash_title">IBD Patient Assessment and Empowerment\nProgram</string>
+    <string name="app_name">IPAEPS</string>
+    <string name="app_name_cap">IPAEPS</string>
+    <string name="app_name_first_cap">Ipaeps</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="splash_title_buttom">IBD patient empowerment application developed by\nSimon Knowles</string>
+    <string name="start">&#160;&#160;&#160;&#160;&#160;Start ipaeps</string>
+    <string name="log">&#160;&#160;&#160;&#160;&#160;Patient log</string>
+    <string name="setting">&#160;&#160;&#160;&#160;&#160;Setting </string>
+    <string name="print">&#160;&#160;&#160;&#160;&#160;Print patient data</string>
+    <string name="patient_report">&#160;&#160;&#160;&#160;&#160;Patient Report</string>
+    <string name="patient_report_2">Patient Report</string>
+    <string name="print_2">&#160;Print</string>
+    <string name="export">&#160;&#160;&#160;&#160;&#160;Export patient information</string>
+    <string name="export_2">&#160;Export</string>
+    <string name="export_3">Export</string>
+    <string name="delete">&#160;&#160;&#160;&#160;&#160;Delete patient log</string>
+    <string name="next">&#160;&#160;&#160;&#160;&#160;Next</string>
+    <string name="previous">Previous&#160;&#160;&#160;&#160;&#160;</string>
+
+    <!-- module 1 patient id -->
+    <string name="patient_id">Patient ID</string>
+    <string name="gastroenterologist">&#160;&#160;&#160;Enter Gastroenterologist ID</string>
+    <string name="enter_patient_id">&#160;&#160;&#160;Enter Patient ID</string>
+    <string name="site">Site: </string>
+    <string name="q_module_1_1">Patient ID</string>
+    <string name="q_module_1_2">Gastroenterologist ID</string>
+    <string name="q_module_1_3">Site: </string>
+
+    <string-array name="array_site">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+    <!-- module 2 Demographic details -->
+    <string name="demographic_details">Demographic details</string>
+    <string name="q_module_2_1">Age?</string>
+    <string name="q_module_2_2">Gender?</string>
+    <string name="q_module_2_3">Marital status?</string>
+    <string name="q_module_2_4">What is your highest level of education completed?</string>
+    <string name="q_module_2_5">Is English your primary language?</string>
+    <string name="q_module_2_6">How many months ago did you last see your gastroenterologist?</string>
+
+    <string-array name="age">
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Gender non&#8211;specific</item>
+    </string-array>
+    <string-array name="marrid_status">
+        <item>Single</item>
+        <item>Married/de facto</item>
+        <item>Separated/divorced</item>
+        <item>Widowed</item>
+    </string-array>
+    <string-array name="education">
+        <item>Primary school</item>
+        <item>Secondary school</item>
+        <item>Certificate</item>
+        <item>Diploma</item>
+        <item>Undergraduate degree</item>
+        <item>Postgraduate degree</item>
+    </string-array>
+    <string-array name="yes_no">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="gastroenterologist">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>49+</item>
+    </string-array>
+
+    <!-- module 3 ibd -->
+    <string name="ibd_activity">IBD activity</string>
+    <string name="q_module_3_1">Condition:</string>
+    <string name="q_module_3_2">Number of years diagnosed with IBD?</string>
+    <string name="q_module_3_3">In the past 3 months my IBD has been:</string>
+    <string name="q_module_3_4">Over the past week, how many bowel movements have you had per day?</string>
+    <string name="q_module_3_5">Over the past week, how many of your bowel movements have been loose/watery stools per day?</string>
+    <string name="q_module_3_6">General well-being over the last week</string>
+    <string name="q_module_3_7">Over the past week, my rectal bleeding has been:</string>
+    <string name="q_module_3_8">Over the past week have you taken any antidiarrheal medication?</string>
+    <string name="q_module_3_9">Have you experienced a fever over the past week?</string>
+    <string name="q_module_3_10">Have you experienced an abdominal mass/tenderness over  the last week?</string>
+    <string name="q_module_3_11">Have you experienced abdominal pain or cramping over  the last week?</string>
+    <string name="q_module_3_12">Please tick any complications you are currently experiencing. (Please select as many as relevant) </string>
+    <string name="q_module_3_13">Do you have a stoma?</string>
+    <string name="q_module_3_14">If yes, how many months have you had a stoma?</string>
+    <string name="q_module_3_15">If yes, what type of stoma do you have?</string>
+    <string name="q_module_3_16">Have you been diagnosed with any of the following conditions along with IBD? (Please select as many as relevant) </string>
+    <string name="q_module_3_17">Compared to your last visit to the gastroenterologist, how would you describe the status of your IBD SYMPTOMS now? </string>
+    <string name="q_module_3_18">Compared to your last visit to the gastroenterologist, how would you describe the status of your PAIN now? </string>
+    <string name="q_module_3_19">Compared to your last visit to the gastroenterologist, how would you describe any changes to the FREQUENCY OF BOWEL MOVEMENTS now?</string>
+    <string name="colostomy">Colostomy</string>
+    <string name="ileostomy">Ileostomy</string>
+    <string name="urostomy">Urostomy  </string>
+    <string name="very_well">Very well</string>
+    <string name="slightly_below_par">Slightly below par</string>
+    <string name="poor">Poor</string>
+    <string name="very_poor">Very poor</string>
+    <string name="terrible">Terrible</string>
+    <string name="none">None</string>
+    <string name="streaks_of_blood">Streaks of blood </string>
+    <string name="obvious_blood">Obvious blood </string>
+    <string name="mostly_blood">Mostly blood</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="mild">Mild</string>
+    <string name="moderate">Moderate</string>
+    <string name="severe">Severe</string>
+    <string name="nocturnal_diarrhea">Nocturnal diarrhea</string>
+    <string name="faecal_incontinence">Faecal incontinence</string>
+    <string name="faecal_urgency">Faecal urgency</string>
+    <string name="nausea_vomiting">Nausea and /or vomiting</string>
+    <string name="joint_swelling">Joint pain and swelling (e.g., Arthralgia/arthritis)</string>
+    <string name="irritations">Irritations and inflammation of the eye (e.g., Iritis/uveitis)</string>
+    <string name="inflammation">Inflammation of the skin (e.g., Erythema nodosum, Pyoderma gangrenosum)</string>
+    <string name="mouth">Mouth lesions (e.g., Aphthous stomatitis)</string>
+    <string name="anal_fissure">Anal fissure, fistula or abscess</string>
+    <string name="other_fistula">Other fistula </string>
+    <string name="no_if">No (if NO – no further questions skip next question).</string>
+    <string name="yes_tem">Yes - Temporary</string>
+    <string name="yes_permanent">Yes - Permanent</string>
+    <string name="irritable_bowel">Irritable bowel syndrome</string>
+    <string name="chronic_fatigue">Chronic fatigue syndrome</string>
+    <string name="fibromyalgia">Fibromyalgia</string>
+    <string name="primary_sclerosing">Primary sclerosing cholangitis (PSC)</string>
+    <string name="ankylosing_spondylitis">Ankylosing spondylitis</string>
+    <string name="other">Other</string>
+    <string name="much_better">Much\nbetter</string>
+    <string name="much_worse">Much\nworse</string>
+    <string name="score">Score:&#160;</string>
+    <string name="score_2">/100</string>
+    <string name="zero">0</string>
+    <string name="many_more">Many more bowel movements each day</string>
+    <string name="less_frequest">Less frequent bowel movements each day</string>
+
+    <string-array name="condition">
+        <item>Crohn\'s disease</item>
+        <item>Crohn\'s disease with Irritable Bowel Syndrome</item>
+        <item>Ulcerative colitis</item>
+        <item>Ulcerative colitis with Irritable Bowel Syndrome</item>
+        <item>Indeterminate colitis</item>
+    </string-array>
+    <string-array name="diagnosed_with_ibd">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="past_3_month_ibd">
+        <item>Constantly active, giving me symptoms every day</item>
+        <item>Often active, giving me symptoms most days</item>
+        <item>Sometimes active, giving me symptoms on some days (for instance 1&#8211;2 days / week)</item>
+        <item>Occasionally active, giving me symptoms 1&#8211;2 days / month</item>
+        <item>Rarely active, giving me symptoms on a few days in the past 3 months</item>
+        <item>I was well in the past 3 months, what I consider a remission or absence of symptoms</item>
+    </string-array>
+    <string-array name="zero_to_thirty">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="zero_to_sisty">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>60+</item>
+    </string-array>
+    <!-- 4. Medications -->
+    <string name="q_module_4_1">IBD drug</string>
+    <string name="q_module_4_2">Dosage</string>
+    <string name="q_module_4_3">IBD drug</string>
+    <string name="q_module_4_4">Dosage</string>
+    <string name="q_module_4_5">IBD drug</string>
+    <string name="q_module_4_6">Dosage</string>
+    <string name="q_module_4_7">IBD drug</string>
+    <string name="q_module_4_8">Dosage</string>
+    <string name="q_module_4_9">What other medications are you taking?</string>
+    <string name="medications">Medications</string>
+    <string name="madication_title">The following set of questions ask about your medications you are currently taking.</string>
+    <string name="ibd_drug">IBD drug</string>
+    <string name="drug_dosage_and_method_of_entry">Drug dosage and method of entry</string>
+    <string name="what_other_medications_are_you_taking">What other medications are you taking? </string>
+    <string name="dosage">Dosage</string>
+    <string name="drug_dosage_and_method_of_entry">Drug dosage and method of entry</string>
+    <string name="ibd_drug">IBD drug</string>
+    <string name="what_other_medications_are_you_taking">What other medications are you taking?</string>
+    <string name="other_drug">Other Drug</string>
+    <string name="m_4_index0">I\'m not taking any medications for my IBD </string>
+    <string name="m_4_index1">I don\'t know what medications I\'m taking for my IBD</string>
+    <string name="m_4_ohter">Other</string>
+
+    <string-array name="drug_array">
+        <item>I\'m not taking any medications for my IBD</item>
+        <item>I don\'t know what medications I\'m taking for my IBD</item>
+        <item>Prednisolone (also known as Solone, Predsone, Panafcort)</item>
+        <item>Budesonide (also known as Entocort)</item>
+        <item>Hydrocortisone</item>
+        <item>Sulfasalazine (also known as Salazopyrin, Pyraline)</item>
+        <item>Mesalazine (also known as 5-aminosalicylic acid, 5-ASA, Pentasa, Mezavant, Salofalk, Colazide)</item>
+        <item>Balsalazide (also known as Colazide)</item>
+        <item>Azathioprine (also known as AZA, Imuran, Thioprine, Azapin, Azamun, Azahexal)</item>
+        <item>Allopurinol (also known as Zyloprim, Allohexal, Allosig, Progout)</item>
+        <item>6-Mercaptopurine (also known as 6-MP, Purinethol)</item>
+        <item>Methotrexate (also known as Ledertrexate, Methoblastin)</item>
+        <item>Infliximab (also known as Remicade)</item>
+        <item>Adalimumab (also known as Humira)</item>
+        <item>Tacrolimus (also known as Prograf)</item>
+        <item>Ciprofloxacin (also known as C-Flox, Ciloquin, Ciprol, Ciproxin, Ciloxan)</item>
+        <item>Metronidazole (also known as Flagyl)</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="index_0"></string-array>
+    <string-array name="index_1"></string-array>
+    <string-array name="index_2">
+        <item>I don\'t remember my dosage</item>
+        <item>1mg oral daily</item>
+        <item>2mg oral daily</item>
+        <item>3mg oral daily</item>
+        <item>4mg oral daily</item>
+        <item>5mg oral daily</item>
+        <item>6mg oral daily</item>
+        <item>7mg oral daily</item>
+        <item>8mg oral daily</item>
+        <item>9mg oral daily</item>
+        <item>10mg oral daily</item>
+        <item>11mg oral daily</item>
+        <item>12mg oral daily</item>
+        <item>13mg oral daily</item>
+        <item>14mg oral daily</item>
+        <item>15mg oral daily</item>
+        <item>16mg oral daily</item>
+        <item>17mg oral daily</item>
+        <item>18mg oral daily</item>
+        <item>19mg oral daily</item>
+        <item>20mg oral daily</item>
+        <item>21mg oral daily</item>
+        <item>22mg oral daily</item>
+        <item>23mg oral daily</item>
+        <item>24mg oral daily</item>
+        <item>25mg oral daily</item>
+        <item>26mg oral daily</item>
+        <item>27mg oral daily</item>
+        <item>28mg oral daily</item>
+        <item>29mg oral daily</item>
+        <item>30mg oral daily</item>
+        <item>31mg oral daily</item>
+        <item>32mg oral daily</item>
+        <item>33mg oral daily</item>
+        <item>34mg oral daily</item>
+        <item>35mg oral daily</item>
+        <item>36mg oral daily</item>
+        <item>37mg oral daily</item>
+        <item>38mg oral daily</item>
+        <item>39mg oral daily</item>
+        <item>40mg oral daily</item>
+        <item>41mg oral daily</item>
+        <item>42mg oral daily</item>
+        <item>43mg oral daily</item>
+        <item>44mg oral daily</item>
+        <item>45mg oral daily</item>
+        <item>46mg oral daily</item>
+        <item>47mg oral daily</item>
+        <item>48mg oral daily</item>
+        <item>49mg oral daily</item>
+        <item>50mg oral daily</item>
+        <item>51mg oral daily</item>
+        <item>52mg oral daily</item>
+        <item>53mg oral daily</item>
+        <item>54mg oral daily</item>
+        <item>55mg oral daily</item>
+        <item>56mg oral daily</item>
+        <item>57mg oral daily</item>
+        <item>58mg oral daily</item>
+        <item>59mg oral daily</item>
+        <item>60mg oral daily</item>
+    </string-array>
+    <string-array name="index_3">
+        <item>I don\'t remember my dosage</item>
+        <item>3mg daily oral</item>
+        <item>6mg daily oral</item>
+        <item>9mg daily oral</item>
+    </string-array>
+    <string-array name="index_4">
+        <item>I don\'t remember my dosage</item>
+        <item>100mg 6 hourly Intravenous</item>
+    </string-array>
+    <string-array name="index_5">
+        <item>I don\'t remember my dosage</item>
+        <item>2mg daily oral</item>
+        <item>4mg daily oral</item>
+    </string-array>
+    <string-array name="index_6">
+        <item>I don\'t remember my dosage</item>
+        <item>2g daily oral</item>
+        <item>1.5g daily oral</item>
+        <item>2.4g daily oral</item>
+        <item>3g daily oral</item>
+        <item>4g daily oral</item>
+        <item>4.8g daily oral</item>
+        <item>1g daily rectal (foam/enema/suppository)</item>
+        <item>2g daily rectal (foam/enema/suppository)</item>
+        <item>4g daily rectal (foam/enema/suppository)</item>
+    </string-array>
+    <string-array name="index_7">
+        <item>I don\'t remember my dosage</item>
+        <item>750mg (2 x twice per day) oral </item>
+        <item>750mg (3 x three times per day) oral</item>
+    </string-array>
+    <string-array name="index_8">
+        <item>I don\'t remember my dosage</item>
+        <item>50mg daily oral</item>
+        <item>51mg daily oral</item>
+        <item>52mg daily oral</item>
+        <item>53mg daily oral</item>
+        <item>54mg daily oral</item>
+        <item>55mg daily oral</item>
+        <item>56mg daily oral</item>
+        <item>57mg daily oral</item>
+        <item>58mg daily oral</item>
+        <item>59mg daily oral</item>
+        <item>60mg daily oral</item>
+        <item>61mg daily oral</item>
+        <item>62mg daily oral</item>
+        <item>63mg daily oral</item>
+        <item>64mg daily oral</item>
+        <item>65mg daily oral</item>
+        <item>66mg daily oral</item>
+        <item>67mg daily oral</item>
+        <item>68mg daily oral</item>
+        <item>69mg daily oral</item>
+        <item>70mg daily oral</item>
+        <item>71mg daily oral</item>
+        <item>72mg daily oral</item>
+        <item>73mg daily oral</item>
+        <item>74mg daily oral</item>
+        <item>75mg daily oral</item>
+        <item>76mg daily oral</item>
+        <item>77mg daily oral</item>
+        <item>78mg daily oral</item>
+        <item>79mg daily oral</item>
+        <item>80mg daily oral</item>
+        <item>81mg daily oral</item>
+        <item>82mg daily oral</item>
+        <item>83mg daily oral</item>
+        <item>84mg daily oral</item>
+        <item>85mg daily oral</item>
+        <item>86mg daily oral</item>
+        <item>87mg daily oral</item>
+        <item>88mg daily oral</item>
+        <item>89mg daily oral</item>
+        <item>90mg daily oral</item>
+        <item>91mg daily oral</item>
+        <item>92mg daily oral</item>
+        <item>93mg daily oral</item>
+        <item>94mg daily oral</item>
+        <item>95mg daily oral</item>
+        <item>96mg daily oral</item>
+        <item>97mg daily oral</item>
+        <item>98mg daily oral</item>
+        <item>99mg daily oral</item>
+        <item>100mg daily oral</item>
+        <item>101mg daily oral</item>
+        <item>102mg daily oral</item>
+        <item>103mg daily oral</item>
+        <item>104mg daily oral</item>
+        <item>105mg daily oral</item>
+        <item>106mg daily oral</item>
+        <item>107mg daily oral</item>
+        <item>108mg daily oral</item>
+        <item>109mg daily oral</item>
+        <item>111mg daily oral</item>
+        <item>112mg daily oral</item>
+        <item>113mg daily oral</item>
+        <item>114mg daily oral</item>
+        <item>115mg daily oral</item>
+        <item>116mg daily oral</item>
+        <item>117mg daily oral</item>
+        <item>118mg daily oral</item>
+        <item>119mg daily oral</item>
+        <item>120mg daily oral</item>
+        <item>121mg daily oral</item>
+        <item>122mg daily oral</item>
+        <item>123mg daily oral</item>
+        <item>124mg daily oral</item>
+        <item>125mg daily oral</item>
+        <item>126mg daily oral</item>
+        <item>127mg daily oral</item>
+        <item>128mg daily oral</item>
+        <item>129mg daily oral</item>
+        <item>130mg daily oral</item>
+        <item>131mg daily oral</item>
+        <item>132mg daily oral</item>
+        <item>133mg daily oral</item>
+        <item>134mg daily oral</item>
+        <item>135mg daily oral</item>
+        <item>136mg daily oral</item>
+        <item>137mg daily oral</item>
+        <item>138mg daily oral</item>
+        <item>139mg daily oral</item>
+        <item>140mg daily oral</item>
+        <item>141mg daily oral</item>
+        <item>142mg daily oral</item>
+        <item>143mg daily oral</item>
+        <item>144mg daily oral</item>
+        <item>145mg daily oral</item>
+        <item>146mg daily oral</item>
+        <item>147mg daily oral</item>
+        <item>148mg daily oral</item>
+        <item>149mg daily oral</item>
+        <item>150mg daily oral</item>
+        <item>151mg daily oral</item>
+        <item>152mg daily oral</item>
+        <item>153mg daily oral</item>
+        <item>154mg daily oral</item>
+        <item>155mg daily oral</item>
+        <item>156mg daily oral</item>
+        <item>157mg daily oral</item>
+        <item>158mg daily oral</item>
+        <item>159mg daily oral</item>
+        <item>160mg daily oral</item>
+        <item>161mg daily oral</item>
+        <item>162mg daily oral</item>
+        <item>163mg daily oral</item>
+        <item>164mg daily oral</item>
+        <item>165mg daily oral</item>
+        <item>166mg daily oral</item>
+        <item>167mg daily oral</item>
+        <item>168mg daily oral</item>
+        <item>169mg daily oral</item>
+        <item>170mg daily oral</item>
+        <item>171mg daily oral</item>
+        <item>172mg daily oral</item>
+        <item>173mg daily oral</item>
+        <item>174mg daily oral</item>
+        <item>175mg daily oral</item>
+        <item>176mg daily oral</item>
+        <item>177mg daily oral</item>
+        <item>178mg daily oral</item>
+        <item>179mg daily oral</item>
+        <item>180mg daily oral</item>
+        <item>181mg daily oral</item>
+        <item>182mg daily oral</item>
+        <item>183mg daily oral</item>
+        <item>184mg daily oral</item>
+        <item>185mg daily oral</item>
+        <item>186mg daily oral</item>
+        <item>187mg daily oral</item>
+        <item>188mg daily oral</item>
+        <item>189mg daily oral</item>
+        <item>190mg daily oral</item>
+        <item>191mg daily oral</item>
+        <item>192mg daily oral</item>
+        <item>193mg daily oral</item>
+        <item>194mg daily oral</item>
+        <item>195mg daily oral</item>
+        <item>196mg daily oral</item>
+        <item>197mg daily oral</item>
+        <item>198mg daily oral</item>
+        <item>199mg daily oral</item>
+        <item>200mg daily oral</item>
+    </string-array>
+    <string-array name="index_9">
+        <item>I don\'t remember my dosage</item>
+        <item>100mg daily oral</item>
+    </string-array>
+    <string-array name="index_10">
+        <item>I don\'t remember my dosage</item>
+        <item>25mg daily oral</item>
+        <item>125mg daily oral</item>
+    </string-array>
+    <string-array name="index_11">
+        <item>I don\'t remember my dosage</item>
+        <item>15mg daily (with folate) oral</item>
+        <item>15mg weekly (with folate) injection</item>
+        <item>25mg weekly (with folate) injection</item>
+    </string-array>
+    <string-array name="index_12">
+        <item>I don\'t remember my dosage</item>
+        <item>5mg/kg 8 weekly Intravenous</item>
+    </string-array>
+    <string-array name="index_13">
+        <item>I don\'t remember my dosage</item>
+        <item>160mg (induction - subcutaneous injection)</item>
+        <item>40mg fortnightly (subcutaneous injection)</item>
+    </string-array>
+    <string-array name="index_14">
+        <item>I don\'t remember my dosage</item>
+        <item>0.5mg daily</item>
+        <item>0.5mg daily (suppository)</item>
+    </string-array>
+    <string-array name="index_15">
+        <item>I don\'t remember my dosage</item>
+        <item>500mg (twice per day) oral</item>
+    </string-array>
+    <string-array name="index_16">
+        <item>I don\'t remember my dosage</item>
+        <item>400mg (twice per day) oral</item>
+        <item>400mg (three times per day) oral</item>
+    </string-array>
+    <string-array name="index_17"></string-array>
+
+    <!-- 5. Medication adherence -->
+    <string name="medication_adherence">Medication adherence</string>
+    <string name="q_module_5_1">Sometimes I forget to take my IBD medications</string>
+    <string name="q_module_5_2">Sometimes I\'m too busy to take my IBD medications</string>
+    <string name="q_module_5_3">Sometimes I don\'t take my medications because I don\'t like the side effects</string>
+    <string name="q_module_5_4">Sometimes I avoid taking my medication as  I feel its not natural to take them</string>
+    <string name="q_module_5_5">I only take my medications when my symptoms get worse</string>
+    <string name="agree">Agree</string>
+    <string name="disagree">Disagree</string>
+
+    <!-- 6. Pain symptoms -->
+    <string name="human_pic">Human Picture</string>
+    <string name="module_6_headline">Individuals with IBD can experience pain, especially during an active period of their disease. This section will ask you about your pain symptoms.</string>
+    <string name="module_6_hint">Please identify up to THREE areas where you feel pain based on the number identified in the body figure</string>
+    <string name="pain_symptoms">Pain symptoms</string>
+    <string name="sharp">Sharp</string>
+    <string name="dull">Dull</string>
+    <string name="burning">Burning</string>
+    <string name="aching">Aching </string>
+    <string name="stabbing">Stabbing</string>
+    <string name="tight">Tight</string>
+    <string name="area_1">1st area</string>
+    <string name="area_2">2nd area</string>
+    <string name="area_3">3rd area</string>
+    <string name="form_of_pain">Form of pain: </string>
+    <string name="duration_of_pain">Duration of pain in last 24 hours</string>
+    <string name="no_pain">No Pain</string>
+    <string name="severe_pain">Severe pain</string>
+    <string name="location_selected">Location (selected a number located on the body picture:</string>
+    <string name="pain_score">Please rate your level of pain in this area:</string>
+    <string name="q_module_6_1">Location (selected a number located on the body picture: </string>
+    <string name="q_module_6_1_reort">Location</string>
+    <string name="q_module_6_2">Form of pain: </string>
+    <string name="q_module_6_3">Duration of pain in last 24 hours</string>
+    <string name="q_module_6_4">Please rate your level of pain in this area:</string>
+    <string name="q_module_6_4_report">Rating of pain(higher score greater severity)</string>
+    <string name="q_module_6_5">Location (selected a number located on the body picture: </string>
+    <string name="q_module_6_6">Form of pain: </string>
+    <string name="q_module_6_7">Duration of pain in last 24 hours</string>
+    <string name="q_module_6_8">Please rate your level of pain in this area:</string>
+    <string name="q_module_6_9">Location (selected a number located on the body picture: </string>
+    <string name="q_module_6_10">Form of pain: </string>
+    <string name="q_module_6_11">Duration of pain in last 24 hours</string>
+    <string name="q_module_6_12">Please rate your level of pain in this area:</string>
+
+    <string-array name="loacation">
+        <item>I am not experiencing any pain</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>I am experiencing some pain in an area that is not shown in this image</item>
+    </string-array>
+    <string-array name="duration_of_pain">
+        <item>10 minutes</item>
+        <item>11&#8211;30minutes</item>
+        <item>31&#8211;60 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>4 hours</item>
+        <item>5 hours</item>
+        <item>6 hours</item>
+        <item>7 hours</item>
+        <item>8 hours</item>
+        <item>9 hours</item>
+        <item>10 hours</item>
+        <item>11 hours</item>
+        <item>12 hours</item>
+        <item>13 hours</item>
+        <item>14 hours</item>
+        <item>15 hours</item>
+        <item>16 hours</item>
+        <item>17 hours</item>
+        <item>18 hours</item>
+        <item>19 hours</item>
+        <item>20 hours</item>
+        <item>21 hours</item>
+        <item>22 hours</item>
+        <item>23 hours</item>
+        <item>24 hours</item>
+    </string-array>
+    <!-- 7. Mental health status -->
+
+    <string name="mental_health_status">Mental health status</string>
+    <string name="module_7_result_green_title">Individuals tend to report minimal levels of psychological distress</string>
+    <string name="module_7_result_green_sub_title">For further information and strategies to manage psychological distress related to IBD please go to IBDclinic.org.au</string>
+    <string name="module_7_result_green_footer">If you have any questions or concerns please talk to your Gastroenterologist or IBD nurse</string>
+    <string name="module_7_result_yellow_title">Individuals tend to report some symptoms which may be associated with psychological distress. These symptoms may be causing some distress in your life.</string>
+    <string name="module_7_result_yellow_sub_title">We recommend you meet with your mental health professional or doctor if symptoms worsen. For further information and strategies to manage psychological distress related to IBD please go to IBDclinic.org.au</string>
+    <string name="module_7_result_yellow_footer">If you have any questions or concerns please talk to your Gastroenterologist or IBD nurse</string>
+    <string name="module_7_result_red_title">Individuals tend to report strong and frequent symptoms which may be associated with psychological distress</string>
+    <string name="module_7_result_red_sub_title">Unless you are doing so already, we recommend you contact your mental health professional or doctor as soon as possible to arrange a mental health review. </string>
+    <string name="module_7_result_red_footer">Please review these results with your Gastroenterologist or IBD nurse</string>
+    <string name="q_7_1_title">Mental health status</string>
+    <string name="q_7_2_title">Anxiety, Depression, stress and fatigue</string>
+    <string name="q_7_3_title">Quality of life and social support</string>
+    <string name="q_7_4_title">Sleep</string>
+    <string name="q_7_5_title">Suicidal ideation and help seeking</string>
+    <string name="q_7_6_title">Mental Health Review</string>
+    <string name="q_7_7_title">Mental Health Review</string>
+    <string name="q_7_8_title">Note</string>
+    <string name="q_7_9_title">Result</string>
+    <string name="mental_health_headline">Mental health concerns are a common issue in patients living with IBD. This section will ask you about your mental health symptoms and provide feedback that may be of benefit.</string>
+    <string name="q_7_1_headline">Please indicate how you feel on average over the past week. (higher scores indicate more intense symptoms)</string>
+    <string name="not_at_all_depressed">Not at all depressed</string>
+    <string name="not_at_all_anxious">Not at all anxious</string>
+    <string name="not_at_all_stressed">Not at all stressed</string>
+    <string name="no_fatigue">No fatigue</string>
+    <string name="extremely_depressed">Extremely depressed</string>
+    <string name="extremely_anxious">Extremely anxious</string>
+    <string name="extremely_stressed">Extremely stressed</string>
+    <string name="very_severe_fatigue">Very severe fatigue</string>
+    <string name="very_poor_sleep_quality">Very poor sleep quality</string>
+    <string name="excellent_sleep_quality">Excellent sleep quality</string>
+    <string name="worst_imaginable_quality_of_life">Worst imaginable quality of life</string>
+    <string name="very_poor_social_support">Very poor social support</string>
+    <string name="perfect_quality_of_life">Perfect quality of life</string>
+    <string name="excellent_social_support">Excellent social support</string>
+    <string name="q_module_7_1">How you feel on average over the past week (DEPRESSION):</string>
+    <string name="q_module_7_2">How you feel on average over the past week (ANXIETY):</string>
+    <string name="q_module_7_3">How you feel on average over the past week (STRESS):</string>
+    <string name="q_module_7_4">How you feel on average over the past week (FATIGUE):</string>
+    <string name="q_module_7_5">Please move the red rectangle along the line to indicate your global level of quality of life (higher scores indicate greater quality of life)</string>
+    <string name="q_module_7_6">Please indicate your global level of social support available to you (higher scores indicate greater levels of social support)</string>
+    <string name="q_module_7_7">Please identify the average number of hours sleep in the last 24 hours:</string>
+    <string name="q_module_7_8">Please indicate how you would rate the quality of sleep you attain in an average 24 hour period. (higher scores indicate greater quality of sleep)</string>
+    <string name="q_module_7_9">Do you consider hurting yourself, others, or feel suicidal?</string>
+    <string name="q_module_7_10">Are you currently are CURRENTLY seeing a mental health professional?</string>
+    <string name="q_module_7_11">Do you have an appointment with a mental health expert within the next 14 days or willing to contact your local doctor (GP) if your mental health symptoms worsen? </string>
+    <string name="q_module_7_12">During the last 30 days, about often did you feel tired out for not good reason?</string>
+    <string name="q_module_7_13">During the last 30 days, about often did you feel nervous?</string>
+    <string name="q_module_7_14">During the last 30 days, about often did you feel so nervous that nothing could calm you </string>
+    <string name="q_module_7_15">During the last 30 days, about often did you feel hopeless?</string>
+    <string name="q_module_7_16">During the last 30 days, about often did you feel restless or fidgety?</string>
+    <string name="q_module_7_17">During the last 30 days, about often did you feel so restless you could not sit still?</string>
+    <string name="q_module_7_18">During the last 30 days, about often did you feel depressed?</string>
+    <string name="q_module_7_19">During the last 30 days, about often did you feel that everything was an effort?</string>
+    <string name="q_module_7_20">During the last 30 days, about often did you feel so sad that nothing could cheer you up?</string>
+    <string name="q_module_7_21">During the last 30 days, about often did you feel wprthless?</string>
+    <string name="q_module_7_22">Total Score</string>
+    <string name="q_module_7_note_content">Mental health concerns are a common issue in patients living with IBD. Based on your responses, the program has calculated your levels of psychological distress.Please be aware that these results are only subjective. A comprehensive assessment by a trained mental health specialist is needed to confirm any diagnosis or symptom severity.If you have any concerns or questions, please talk to your IBD nurse, gastroenterologist, medical practitioner or mental health professional (e.g., psychiatrist, psychologist).</string>
+    <string name="q_module_7_note">Please note:</string>
+
+    <string-array name="array_result_mhs">
+        <item>None of the time</item>
+        <item>A little of the time</item>
+        <item>Some of the time</item>
+        <item>Most of the time</item>
+        <item>All of the time</item>
+    </string-array>
+    <string-array name="array_sleep">
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>4 hours</item>
+        <item>5 hours</item>
+        <item>6 hours</item>
+        <item>7 hours</item>
+        <item>8 hours</item>
+        <item>9 hours</item>
+        <item>10 hours</item>
+        <item>10+ hours</item>
+    </string-array>
+    <!-- 8. Mental health status (patient feedback) -->
+    <string name="mental_health_status_feed_back">Mental health status(patient feedback)</string>
+    <string name="mental_health_status_feed_back_2">Mental health status(Feedback)</string>
+    <string name="post_feeedback">Post&#8211;feedback questions</string>
+    <string name="q_module_8_1">How helpful was this advice?</string>
+    <string name="q_module_8_2">How likely are you to follow up on the advice that was provided?</string>
+    <string name="q_module_8_3">Did you experience any distress after receiving feedback about your results?</string>
+    <string name="q_module_8_4">Are the results provided consistent with your sense of current mental health status?</string>
+    <string name="not_at_all_helpful">Not at all helpful</string>
+    <string name="extremely_helpful">Extremely helpful</string>
+    <string name="not_at_all_likely">Not at all likely</string>
+    <string name="extremely_likely">Extremely likely</string>
+    <string name="none_at_all">None at  all</string>
+    <string name="not_at_all">Not at  all</string>
+    <string name="extremely_easy">Extremely easy</string>
+    <string name="very_much_so">Very much so</string>
+    <string name="extremly_distress">Extreme distress</string>
+    <string name="very_much_so">Very much so</string>
+    <string name="extremely_willing">Extremely willing</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_10">10</string>
+
+    <string-array name="array_1_for_10">
+        <item>Very poor</item>
+        <item>Poor</item>
+        <item>Neither poor nor good</item>
+        <item>Good</item>
+        <item>Very good</item>
+    </string-array>
+    <string-array name="array_2_for_10">
+        <item>Very poor</item>
+        <item>Poor</item>
+        <item>Neither poor nor good</item>
+        <item>Good</item>
+        <item>Very good</item>
+        <item>N/A</item>
+    </string-array>
+
+    <!-- 9. Diet -->
+
+    <string name="q_module_9_1">Have you made any changes to your diet because of your IBD? </string>
+    <string name="q_module_9_2">If YES, who has guided this change?</string>
+    <string name="q_module_9_3">If YES, which of the following diets are you following? You may select as many as apply.</string>
+    <string name="q_module_9_4">If YES, do you feel that these changes have improved your gastrointestinal symptoms?</string>
+    <string name="q_module_9_5">Have you lost weight as a result of your IBD?</string>
+    <string name="q_module_9_6">Do you have any concerns in relation to your diet and IBD?</string>
+    <string name="q_module_9_7">Overall, how healthy do you believe your diet is? </string>
+    <string name="you_diet">Diet</string>
+    <string name="yes_minimal_changes_only">Yes, minimal changes only</string>
+    <string name="yes_significant_changes">Yes, significant changes</string>
+    <string name="i_have_made_changes">I have made changes based on my symptoms</string>
+    <string name="advice_from_friends">Advice from friends/relatives</string>
+    <string name="the_internet">The internet</string>
+    <string name="dietitian">Dietitian</string>
+    <string name="doctor">Doctor</string>
+    <string name="other_please_specify">Other (please specify): </string>
+    <string name="small_frequent_meals">Small, frequent meals</string>
+    <string name="low_fat_fibre">Low fat/fibre</string>
+    <string name="texture_modified">Texture modified (e.g. puree/liquid diet)</string>
+    <string name="high_fibre">High fibre</string>
+    <string name="low_fodmap">Low FODMAP</string>
+    <string name="low_food_chemical">Low food chemical</string>
+    <string name="elimination">Elimination</string>
+    <string name="yes_a_little">Yes, a little</string>
+    <string name="yes_a_lot">Yes, a lot</string>
+    <string name="yes_please_specify_how">Yes.  Please specify how much over the 6 months (note: 1 kilogram = 2.2 pounds): </string>
+    <string name="very_unhealthy">Very unhealthy</string>
+    <string name="very_healthy">Very healthy</string>
+    <string name="how_much_over_the_6">Please specify how much over the 6 months (note: 1 kilogram = 2.2 pounds)</string>
+
+    <string-array name="lost_weight">
+        <item>1kg</item>
+        <item>2kg</item>
+        <item>3kg</item>
+        <item>4kg</item>
+        <item>5kg</item>
+        <item>6kg</item>
+        <item>7kg</item>
+        <item>8kg</item>
+        <item>9kg</item>
+        <item>10kg</item>
+        <item>11kg</item>
+        <item>12kg</item>
+        <item>13kg</item>
+        <item>14kg</item>
+        <item>15kg</item>
+        <item>16kg</item>
+        <item>17kg</item>
+        <item>18kg</item>
+        <item>19kg</item>
+        <item>20kg</item>
+        <item>21kg</item>
+        <item>22kg</item>
+        <item>23kg</item>
+        <item>24kg</item>
+        <item>25kg</item>
+        <item>26kg</item>
+        <item>27kg</item>
+        <item>28kg</item>
+        <item>29kg</item>
+        <item>30kg</item>
+        <item>31kg</item>
+        <item>32kg</item>
+        <item>33kg</item>
+        <item>34kg</item>
+        <item>35kg</item>
+        <item>36kg</item>
+        <item>37kg</item>
+        <item>38kg</item>
+        <item>39kg</item>
+        <item>40kg</item>
+        <item>41kg</item>
+        <item>42kg</item>
+        <item>43kg</item>
+        <item>44kg</item>
+        <item>45kg</item>
+        <item>46kg</item>
+        <item>47kg</item>
+        <item>48kg</item>
+        <item>49kg</item>
+        <item>50kg</item>
+        <item>51kg</item>
+        <item>52kg</item>
+        <item>53kg</item>
+        <item>54kg</item>
+        <item>55kg</item>
+        <item>56kg</item>
+        <item>57kg</item>
+        <item>58kg</item>
+        <item>59kg</item>
+        <item>60kg</item>
+        <item>61kg</item>
+        <item>62kg</item>
+        <item>63kg</item>
+        <item>64kg</item>
+        <item>65kg</item>
+        <item>66kg</item>
+        <item>67kg</item>
+        <item>68kg</item>
+        <item>69kg</item>
+        <item>70kg</item>
+        <item>71kg</item>
+        <item>72kg</item>
+        <item>73kg</item>
+        <item>74kg</item>
+        <item>75kg</item>
+        <item>76kg</item>
+        <item>77kg</item>
+        <item>78kg</item>
+        <item>79kg</item>
+        <item>80kg</item>
+        <item>81kg</item>
+        <item>82kg</item>
+        <item>83kg</item>
+        <item>84kg</item>
+        <item>85kg</item>
+        <item>86kg</item>
+        <item>87kg</item>
+        <item>88kg</item>
+        <item>89kg</item>
+        <item>90kg</item>
+        <item>91kg</item>
+        <item>92kg</item>
+        <item>93kg</item>
+        <item>94kg</item>
+        <item>95kg</item>
+        <item>96kg</item>
+        <item>97kg</item>
+        <item>98kg</item>
+        <item>99kg</item>
+        <item>100kg</item>
+    </string-array>
+
+    <!-- 10. Patient confidence -->
+    <string name="patient_confidence">Patient confidence</string>
+    <string name="q_module_10_1">Please rate your overall level of self&#8211;confidence when it comes to managing your own physical health? </string>
+    <string name="q_module_10_2">Please rate your overall level of self&#8211;confidence when it comes to managing your own mental health?</string>
+    <string name="q_module_10_3">Please rate your overall level of self&#8211;confidence when it comes to keeping physically fit?</string>
+    <string name="q_module_10_4">Please rate your overall level of self&#8211;confidence when it comes to maintaining a healthy diet?</string>
+    <string name="q_module_10_5">Please rate your overall level of self&#8211;confidence when it comes to taking your medication as recommended?</string>
+    <string name="q_module_10_6">Please rate your overall level of self&#8211;confidence when it comes to quitting smoking</string>
+
+    <!-- 11. Patient questions/concerns -->
+    <string name="report_11">"Patient would like to talk about:"</string>
+    <!-- q_module 1 to 20 question for check box and 21 is main question -->
+    <string name="patient_questions_concerns">Patient questions/concerns</string>
+    <string name="q_module_11_1">How do I get into remission? How long can I stay in remission?</string>
+    <string name="q_module_11_2">Review of recent diagnostic tests (e.g., imaging, blood test, stool test) </string>
+    <string name="q_module_11_3">General well&#8211;being (e.g. fatigue, energy levels, sleeping patterns)</string>
+    <string name="q_module_11_4">The status of my IBD</string>
+    <string name="q_module_11_5">Support services</string>
+    <string name="q_module_11_6">Sexual difficulties</string>
+    <string name="q_module_11_7">Medication side&#8211;effects</string>
+    <string name="q_module_11_8">Diet/nutrition issues </string>
+    <string name="q_module_11_9">Dealing with stress</string>
+    <string name="q_module_11_10">Stoma management</string>
+    <string name="q_module_11_11">Other IBD&#8211;related issues</string>
+    <string name="q_module_11_12">Exercise and IBD</string>
+    <string name="q_module_11_13">Complementary therapies </string>
+    <string name="q_module_11_14">Impact of smoking</string>
+    <string name="q_module_11_15">Pain and pain management</string>
+    <string name="q_module_11_16">Medication&#8211;based treatment strategies</string>
+    <string name="q_module_11_17">Conception and pregnancy</string>
+    <string name="q_module_11_18">Psychological&#8211;based treatment strategies</string>
+    <string name="q_module_11_19">Managing fatigue/concentration concerns</string>
+    <string name="q_module_11_20">Other</string>
+    <string name="q_module_11">In our session today, I would like to talk about: (please tick as many that are relevant)</string>
+
+    <!-- 12. Responses to past goals -->
+    <string name="q_module_12_1">General area</string>
+    <string name="q_module_12_2">Specific goal</string>
+    <string name="q_module_12_3">How did you go completing this goal? </string>
+    <string name="q_module_12_4">General area</string>
+    <string name="q_module_12_5">Specific goal</string>
+    <string name="q_module_12_6">How did you go completing this goal? </string>
+    <string name="q_module_12_7">General area</string>
+    <string name="q_module_12_8">Specific goal</string>
+    <string name="q_module_12_9">How did you go completing this goal? </string>
+    <string name="responses_to_past_goals">Responses to past goals</string>
+    <string name="module_12_title">Since the last visit to the clinic, how did you go working towards your goals?</string>
+    <string name="goal_1">1st goal</string>
+    <string name="goal_2">2st goal</string>
+    <string name="goal_3">3st goal</string>
+    <string name="How_did_you_go_completing_this_goal">How did you go completing this goal? </string>
+    <string name="no_change">No change</string>
+    <string name="complete_success">Complete  success</string>
+    <string name="general_area">General area</string>
+    <string name="specific_goal">Specific goal</string>
+
+    <string-array name="array_modue_12_ga">
+        <item>I have NO goals I want to work on</item>
+        <item>Set my own specific goal</item>
+        <item>Work on strategies to better manage my pain</item>
+        <item>Work on strategies to reduce stress in my life</item>
+        <item>Work on strategies to reduce psychological symptoms </item>
+        <item>Become more physically fit</item>
+        <item>Improve my diet</item>
+        <item>Improve my liquid intake (i.e., water/tea/coffee)</item>
+        <item>Take my medications more regularly</item>
+        <item>Explore other medication options</item>
+        <item>Explore other treatment options</item>
+        <item>Sleep better</item>
+        <item>Reduce smoking</item>
+        <item>Reduce alcohol intake</item>
+    </string-array>
+    <string-array name="m_12_index_0"></string-array>
+    <string-array name="m_12_index_1"></string-array>
+    <string-array name="m_12_index_2">
+        <item>Organise a meeting with doctor to discuss options</item>
+        <item>Discuss options with a physiotherapist</item>
+        <item>Discuss options with a psychologist</item>
+        <item>Read and try suggested methods from the pain management handout at IBDclinic.org.au</item>
+        <item>Search for information on pain management strategies and try them out</item>
+        <item>Try massage therapy </item>
+        <item>Try yoga/Tai Chi class</item>
+        <item>Try acupuncture</item>
+        <item>Try hot and cold packs</item>
+        <item>Start a daily to record when pain occurs and what factors influence it (e.g., stressors, food)</item>
+        <item>Try out a mindfulness based intervention</item>
+    </string-array>
+    <string-array name="m_12_index_3">
+        <item>Discuss options with a psychologist</item>
+        <item>Search for information on stress management strategies and try them out</item>
+        <item>Engage in relaxation techniques (e.g., deep breathing, progressive muscle relaxation) for at least 10 minutes each day</item>
+        <item>Plan ones day better</item>
+        <item>Write down concerns and identify practical ways to help reduce or resolve them</item>
+        <item>Spend more time with friends/family</item>
+        <item>Reward myself more each day</item>
+        <item>Go for a daily walk</item>
+        <item>Write a journal every day</item>
+        <item>Take a relaxing bath at least once a week</item>
+        <item>Engage in light exercise 20 minutes a day</item>
+        <item>Engage in a rewarding activity (e.g., hobby) each day</item>
+        <item>Listen to uplifting music at least once a day</item>
+        <item>Watch a funny movie at least once a week</item>
+        <item>Reduce caffeine and sugar  intake each day</item>
+        <item>Avoid alcohol, cigarettes, and other recreational drug</item>
+        <item>Each day look for opportunities for self&#8211;discovery</item>
+        <item>Join a support group</item>
+        <item>Join a community group</item>
+        <item>Plan activities that I enjoy</item>
+    </string-array>
+    <string-array name="m_12_index_4">
+        <item>Organise a meeting with psychologist to discuss options</item>
+        <item>Organise a meeting with doctor to discuss options</item>
+        <item>Search for information on reducing psychological symptoms and try them out</item>
+        <item>Engage in relaxation techniques (e.g., deep breathing, progressive muscle relaxation) for at least 10 minutes each day </item>
+        <item>Plan ones day better</item>
+        <item>Write down concerns and identify practical ways to help reduce or resolve them</item>
+        <item>Spend more time with friends/family</item>
+        <item>Reward myself more each day</item>
+        <item>Go for a daily walk (minimum of 15 minutes per day)</item>
+        <item>Write a journal every day</item>
+        <item>Plan activities that I enjoy</item>
+        <item>Take a relaxing bath at least once a week</item>
+        <item>Engage in light exercise 20 minutes a day</item>
+        <item>Engage in a rewarding activity (e.g., hobby) each day</item>
+        <item>Listen to uplifting music at least once a day</item>
+        <item>Watch a funny movie at least once a week</item>
+        <item>Reduce caffeine and sugar  intake each day</item>
+        <item>Avoid alcohol, cigarettes, and other recreational drug</item>
+        <item>Each day look for opportunities for self&#8211;discovery</item>
+        <item>Join a support group</item>
+        <item>Join a community group</item>
+    </string-array>
+    <string-array name="m_12_index_5">
+        <item>Search for information on becoming more physically fit and try them out</item>
+        <item>Talk with a fitness instructor and start a plan to engage in more exercise</item>
+        <item>Go to the gym at least once a week</item>
+        <item>Engage in at least one physical activity (minimum of 15 minutes per day) (e.g., walking)</item>
+        <item>Take the stairs instead of the lift at least once a day</item>
+        <item>Use a pedometer and increase your daily walking patterns by 10%</item>
+        <item>Use a pedometer and increase your daily walking patterns by 20%</item>
+        <item>Swim or do water aerobics at least once a week</item>
+        <item>Take a class in martial arts, dance, or yoga class once a week</item>
+        <item>Engage in a community sporting activity (e.g., football, cricket)</item>
+    </string-array>
+    <string-array name="m_12_index_6">
+        <item>Organise a meeting with a dietician</item>
+        <item>Follow the diet recommended by my dietician</item>
+        <item>Reduce daily consumption of fatty foods from my diet</item>
+        <item>Reduce daily consumption of sugar/junk food from my diet</item>
+        <item>Increase daily consumption of fruit</item>
+        <item>Increase daily consumption of vegetables</item>
+        <item>Increase daily consumption of breads and cereals</item>
+        <item>Eat more regularly/smaller meals</item>
+    </string-array>
+    <string-array name="m_12_index_7">
+        <item>Increase water intake (1 cup per day)</item>
+        <item>Increase water intake (2 cup per day)</item>
+        <item>Increase water intake (3+ cup per day)</item>
+        <item>Reduce coffee/tea intake (0 per day)</item>
+        <item>Reduce coffee/tea intake (no more than 1 per day)</item>
+        <item>Reduce coffee/tea intake (no more than 2 per day)</item>
+        <item>Reduce coffee/tea intake (no more than 3 per day)</item>
+    </string-array>
+    <string-array name="m_12_index_8">
+        <item>Discuss ways to manage my medication with pharmacist</item>
+        <item>Purchase and use a Webster pack</item>
+        <item>Plan when to take medications and set a reminder using a watch alarm or smartphone application</item>
+    </string-array>
+    <string-array name="m_12_index_9">
+        <item>Organise a meeting with gastroenterologist to discuss gastroenterologist&#8211;related medication options</item>
+        <item>Organise a meeting with doctor to discuss medication options</item>
+        <item>Organise a meeting with psychiatrist to discuss mental health&#8211;related medication options</item>
+    </string-array>
+    <string-array name="m_12_index_10">
+        <item>Discuss options with gastroenterologist</item>
+        <item>Discuss options with doctor</item>
+        <item>Discuss options with pharmacist</item>
+        <item>Arrange a second option from another doctor/gastroenterologist</item>
+        <item>Discuss options with a dietician</item>
+    </string-array>
+    <string-array name="m_12_index_11">
+        <item>Discuss options with doctor</item>
+        <item>Discuss options with psychologist/psychiatrist</item>
+        <item>Find information about sleep hygiene techniques and try them</item>
+        <item>Set a regular time to go to bed </item>
+        <item>Engage in relaxation techniques (e.g., deep breathing, progressive muscle relaxation) for at least 10 minutes to help get to sleep</item>
+        <item>Set a regular time to go to sleep</item>
+        <item>Use a worry diary to write down concerns, and then engage in relaxation for at least 10 minutes prior to going to bed</item>
+        <item>Nap to make up for lost sleep</item>
+        <item>Wake up at the same time every day</item>
+        <item>Make my bedroom a better sleep environment (e.g., no TV, keep dark, quiet, cool, and comfortable)</item>
+    </string-array>
+    <string-array name="m_12_index_12">
+        <item>Organise a meeting with doctor to discuss medication options</item>
+        <item>Organise a meeting with psychologist to discuss hypnosis/habit reduction options</item>
+        <item>Start quit smoking program e.g., www.quitnow.gov.au</item>
+        <item>Engage in habit reduction techniques</item>
+        <item>Delay smoking by a few minutes/hours</item>
+        <item>Reduce smoking by 5%</item>
+        <item>Reduce smoking by 10%</item>
+        <item>Reduce smoking by 20%</item>
+        <item>Reduce smoking by 30%</item>
+        <item>Reduce smoking by 40%</item>
+        <item>Reduce smoking by 50%</item>
+        <item>Reduce smoking by 60%+</item>
+        <item>Reduce the number of cigarettes I have on me </item>
+    </string-array>
+    <string-array name="m_12_index_13">
+        <item>Organise a meeting with doctor to discuss medication options</item>
+        <item>Organise a meeting with psychologist to discuss hypnosis/habit reduction options</item>
+        <item>Start alcohol reduction program e.g.,  http://www.alcohol.gov.au/</item>
+        <item>Engage in habit reduction techniques</item>
+        <item>Delay drinking alcohol by a few minutes/hours</item>
+        <item>Reduce alcohol intake by 5%</item>
+        <item>Reduce alcohol intake by 10%</item>
+        <item>Reduce alcohol intake by 20%</item>
+        <item>Reduce alcohol intake by 30%</item>
+        <item>Reduce alcohol intake by 40%</item>
+        <item>Reduce alcohol intake by 50%</item>
+        <item>Reduce alcohol intake by 60%+</item>
+    </string-array>
+
+    <!-- module 13 setting goals -->
+    <string name="q_module_13_1">General area</string>
+    <string name="q_module_13_2">Specific goal</string>
+    <string name="q_module_13_3">How confident are you at completing this goal? </string>
+    <string name="q_module_13_4">General area</string>
+    <string name="q_module_13_5">Specific goal</string>
+    <string name="q_module_13_6">How confident are you at completing this goal? </string>
+    <string name="q_module_13_7">General area</string>
+    <string name="q_module_13_8">Specific goal</string>
+    <string name="q_module_13_9">How confident are you at completing this goal? </string>
+    <string name="goal_setting">Goal setting:</string>
+    <string name="setting_goals_to_better">Setting goals to better manage my IBD</string>
+    <string name="how_confident_are">How confident are you at completing this goal?</string>
+    <string name="no_confidence">No confidence</string>
+    <string name="complete_confidence">Complete  confidence</string>
+    <string name="i_would_like">I would like to set the following goals to attain between now and my next session:</string>
+
+    <!-- 14. Identifying problems/barriers I\'m currently facing in relation to managing my IBD -->
+    <string name="q_module_14_1">1st problem/barrier:</string>
+    <string name="q_module_14_2">How much impact does this problem/barrier have in your life?</string>
+    <string name="q_module_14_3">2nd problem/barrier:</string>
+    <string name="q_module_14_4">How much impact does this problem/barrier have in your life?</string>
+    <string name="q_module_14_5">3rd problem/barrier:</string>
+    <string name="q_module_14_6">How much impact does this problem/barrier have in your life?</string>
+    <string name="identifying_problems">Identifying problems/barriers</string>
+    <string name="identifying_problems_title">In this section, we would like you to identify up to 3 problems/barriers in relation to managing your IBD</string>
+    <string name="q_module_14_1_title">1st problem/barrier:</string>
+    <string name="q_module_14_2_title">2nd problem/barrier:</string>
+    <string name="q_module_14_3_title">3rd problem/barrier:</string>
+    <string name="q_module_14_all">How much impact does this problem/barrier have in your life? </string>
+    <string name="no_impact">No impact</string>
+    <string name="extreme_impact">Extreme impact</string>
+
+    <string-array name="arry_14_q">
+        <item>Pain</item>
+        <item>Fatigue/tiredness</item>
+        <item>Psychological distress</item>
+        <item>Poor diet</item>
+        <item>Smoking</item>
+        <item>Forget to take medications</item>
+        <item>Alcohol/drugs</item>
+        <item>Concentration problems</item>
+        <item>Forgetfulness</item>
+        <item>Lack of peer support</item>
+        <item>Financial problems</item>
+        <item>Difficulty moving</item>
+        <item>Work</item>
+        <item>Family</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- 15. Program evaluation (patient feedback) -->
+    <string name="program_evaluation">Program evaluation (patient feedback)</string>
+    <string name="program_evaluation_2">Program evaluation</string>
+    <string name="q_module_15_1">How easy was it to use this tablet&#8211;based program?</string>
+    <string name="q_module_15_2">How helpful was it to use this tablet&#8211;based program?</string>
+    <string name="q_module_15_3">Do you feel the information collected in this tablet&#8211;based program will help you and your gastroenterologist better manage your IBD in a collaborative way? </string>
+    <string name="q_module_15_4">Do you feel more motivated to manage your IBD after completing this tablet&#8211;based program? </string>
+
+    <!-- module 16 -->
+    <string name="thnaks_you_for">Thank you for your responses and feedback</string>
+    <string name="please_return_tablet">Please return this tablet to reception</string>
+    <string name="touch_here_to">Touch here to go back to start screen</string>
+
+    <!-- setting -->
+    <string name="app_setting">App</string>
+    <string name="clean_cb">&#160;Unchecked</string>
+    <string name="save">&#160;Save</string>
+    <string name="reset">&#160;Reset</string>
+    <string name="default_module">Default pre&#8211;set programs</string>
+    <string name="custom_module">Custom pre&#8211;set programs</string>
+    <string name="what_pre_set">What pre&#8211;set programs would you like to run?</string>
+    <string name="Run_all_modules">Run all modules</string>
+    <string name="s_r_1">Patient ID, Disease activity, Medications, and Pain symptoms</string>
+    <string name="s_r_2">Patient ID, Disease activity, Medications, Pain symptoms, and Mental health status (with feedback) CHOOSE THIS OPTION IF YOU WISH TO USE A BRIEF REPORT</string>
+    <string name="s_r_3">Patient ID, Disease activity, Medications, Medication adherence, Pain symptoms, Mental health status (with feedback), and Patient questions/concerns</string>
+    <string name="s_r_4">Demographic details, Disease activity, Medications, Medication adherence, Pain symptoms, Mental health status (with feedback), and Patient questions/concerns</string>
+    <string name="s_r_5">Patient ID, Disease activity, Medications, Medication adherence, Pain symptoms, Mental health status (with feedback), Diet, Patience confidence, Patient questions/concerns, Responses to past goals, Setting goals to better manage my IBD, and Setting problems/barriers I\'m currently facing in relation to managing my IBD</string>
+    <string name="s_r_6">All modules except program evaluation (patient feedback) and Mental health status (patient feedback)</string>
+    <string name="s_r_7">Demographic details, Mental health status (with feedback), and Mental health status (patient feedback)</string>
+    <string name="current_password">Current password</string>
+    <string name="password_changed">Password changed</string>
+
+    <!-- font -->
+    <string name="font_change">Font change</string>
+    <string name="font_changed">Font changed</string>
+    <string name="courgette">Courgette</string>
+    <string name="museo_sans">Museo sans</string>
+    <string name="system_default">System default</string>
+    <string name="font_is_already_used">This font is already used</string>
+    <string name="password_change">Password change</string>
+    <string name="enter_password">Enter password</string>
+    <string name="password">Password</string>
+    <string name="new_password">New password</string>
+    <string name="invalid_c_p">Invalid current password</string>
+    <string name="invalid_n_p">Invalid new password</string>
+    <string name="p_c_s">Password changed successfully</string>
+    <string name="error">Error</string>
+    <string name="passowrd_not_match">Password not match !</string>
+    <string name="invalid_p_length">Invalid Password length\npassword length at least 5.</string>
+    <string name="invalid_password">Invalid password !</string>
+    <string name="patient_data_saved_successfully">Patient data saved successfully</string>
+    <string name="patient_data_not_saved">Patient data not saved !</string>
+    <string name="default_pre_set_programs_not_save">Default pre&#8211;set programs not saved</string>
+    <string name="default_pre_set_programs_save">Default pre&#8211;set programs saved</string>
+    <string name="custom_pre_set_programs_save">Custom pre&#8211;set programs saved</string>
+    <string name="there_are_progame">There are no programs to set\n Default progame set auto.......</string>
+    <!-- patient log -->
+    <string name="patient_log_list">Patient List</string>
+    <string name="no_result_preview">No result preview</string>
+    <string name="invalid_input">Invalid input</string>
+
+    <!-- file save dialog -->
+    <string name="tag_fragment_FileSave">File Save</string>
+    <string name="file_extension_xml">.xls</string>
+    <string name="file_extension_pdf">.pdf</string>
+    <string name="alert_ok">OK</string>
+    <string name="alert_cancel">Cancel</string>
+    <string name="alert_file_save_as">Save File As</string>
+    <string name="hint_filename_unadorned">Enter file name</string>
+    <string name="check_all">Check all</string>
+    <string name="menu_delete">Delete</string>
+    <string name="deleting">Deleting......</string>
+    <string name="saving">Processing......</string>
+    <string name="there_no_new_patient_inforamtion_in_database">There no new patient inforamtion in database !</string>
+    <string name="there_no_patient_inforamtion_in_database">There no patient inforamtion in database !</string>
+    <!-- export -->
+    <string name="new_p_information">New patient information</string>
+    <string name="certain_p_information">Certain patient information</string>
+    <string name="all_p_information">All patient information</string>
+    <string name="export_patient_information">Export patient information</string>
+
+    <!-- print -->
+    <string name="print_title_string">IPAEPS Patient Result</string>
+    <string name="print_temp_file">ipaeps_patient_result.pdf</string>
+    <string name="ibd_note">/100 (Note: Higher scores indicate greater severity of symptoms)</string>
+    <string name="pain_note">/100 (Note: Higher scores indicate greater severity of symptoms)</string>
+    <!-- patirnt report -->
+    <string name="what_would_you_like_to_print">What would you like to print?</string>
+    <string name="what_would_you_like_to_save">What would you like to save?</string>
+    <string name="report_module_1">IBD ACTIVITY – CDAI/UCDAI </string>
+    <string name="report_module_2">IBD ACTIVITY – </string>
+    <string name="report_module_2_sub">HOW DO THEY COMPARE TO THE LAST APPOINTMENT</string>
+    <string name="report_module_3">MEDICATIONS </string>
+    <string name="report_module_4">PAIN SYMPTOMS </string>
+    <string name="report_module_5">Patient questions/concerns </string>
+    <string name="report_module_6"> MENTAL HEALTH</string>
+    <string name="report_footer">iPEAPS developed by Simon Knowles - MindOverGut&#169;</string>
+
+    <!-- K10 SCORE -->
+    <string name="k_10">K10 SCORE :&#160;&#160;</string>
+    <string name="K10_SCORE_INTERPRETATION">K10 SCORE INTERPRETATION :</string>
+    <string name="k_10_note">K10 score between 10&#8211;15 (Normal): Individuals tend to report minimal levels of psychological distress.\nK10 score between 16&#8211;30 (Mild&#8211;moderate distress): Individuals tend to report some symptoms which may be associated with psychological distress. These symptoms may be causing some distress in their life.\nK10 score between 31&#8211;50 (Severe distress): Individuals tend to report strong and frequent symptoms which may be associated with psychological distress.</string>
+
+    <string-array name="report_selected">
+        <item>BRIEF report</item>
+        <!--
+        (Incl. Patient ID, demographics, IBD status, medications, mental health status only)</item>
+        <item>BRIEF report with patient empowerment form </item>
+        <item>BRIEF report with IBDclinic.org.au flyer  </item>
+        <item>BRIEF report with IBDclinic.org.au flyer and patient empowerment form  </item>
+        <item>FULL report (all information collected) </item>
+        <item>FULL report with patient empowerment form  </item>
+        <item>FULL report with IBDclinic.org.au flyer  </item>
+        <item>FULL report with IBDclinic.org.au flyer and patient empowerment form </item>
+        -->
+    </string-array>
+    <!--  -->
+    <string name="BRIEF_REPORT">BRIEF REPORT</string>
+
+    <color name="table_1_color">#9bbb59</color>
+    <color name="table_2_color">#8db3e2</color>
+    <color name="green">#95b3d7</color>
+    <color name="tea">#9bbb59</color>
+    <color name="teal">#ff0e91a1</color>
+    <color name="teal_2">#10757C</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_1">#F4F4F4</color>
+    <color name="gray_2">#DCDCDC</color>
+    <color name="black">#000000</color>
+    <color name="disable_solid">#EDECEC</color>
+    <color name="disable_stroke">#E7E6E6</color>
+    <color name="setting_line_color">#BCBCBC</color>
+    <color name="text_disable_color">#A6A4A4</color>
+    <color name="tab_highlight">#ff9ecfbf</color>
+    <color name="level_all_layout_boder_color">#6A86A8</color>
+    <color name="level_green_layout_color">#00B050</color>
+    <color name="level_yellow_layout_color">#FFFF00</color>
+    <color name="level_red_layout_color">#FF0000</color>
+    <color name="help_text_color">#1F497D</color>
+    <color name="log_result_text_color">#00bfa5</color>
+
+</resources>

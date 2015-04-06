@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_2"
+    android:orientation="vertical"
+    android:padding="@dimen/widght_padding" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ver_plate_nova_autos"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/widght_margin"
+            android:layout_weight="1"
+            android:background="@drawable/btn_blue"
+            android:padding="@dimen/widght_padding_2"
+            android:text="Novo Auto"
+            android:textColor="@color/whight" />
+
+        <Button
+            android:id="@+id/ver_plate_auto"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/widght_margin"
+            android:layout_weight="1"
+            android:background="@drawable/btn_lobster"
+            android:padding="@dimen/widght_padding_2"
+            android:text="@string/autuar"
+            android:textColor="@color/whight" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/log_model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/widght_padding"
+        android:text="Model"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/indicator_height_1"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/log_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/widght_padding"
+        android:text="Color"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/indicator_height_1"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/log_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/widght_padding"
+        android:text="Type"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/indicator_height_1"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/log_license_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/widght_padding"
+        android:text="License year"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/indicator_height_1"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/log_license_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/widght_padding"
+        android:text="License date"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/indicator_height_1"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/log_ipva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/widght_padding"
+        android:text="IPVA"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/indicator_height_1"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/log_insurance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/widght_padding"
+        android:text="Insurance"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/indicator_height_1"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/log_infraction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/widght_padding"
+        android:text="Infraction"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/indicator_height_1"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/log_restriction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/widght_padding"
+        android:text="Restriction"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/black" />
+
+</LinearLayout>

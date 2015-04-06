@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="@color/manual_input_resulttext_bacground" />
+
+    <stroke android:color="@color/textview_show_result_boder_color" android:width="2dip"/>
+
+    <corners
+        android:bottomLeftRadius="5dp"
+        android:bottomRightRadius="5dp"
+        android:topLeftRadius="5dp"
+        android:topRightRadius="5dp" />
+    <padding android:left="0dip"
+        android:right="0dip"
+        android:bottom="0dip"
+        android:top="0dip"/>
+
+</shape>

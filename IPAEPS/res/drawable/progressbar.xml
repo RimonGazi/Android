@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle" >
+            <corners android:radius="@dimen/seek_bar_conner_radious" />
+
+            <stroke
+                android:width="@dimen/seek_bar_stroke_width"
+                android:color="@color/gray_2" />
+
+            <solid android:color="@color/white" />
+
+        </shape>
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape android:shape="rectangle" >
+                <corners android:radius="@dimen/seek_bar_conner_radious" />
+
+                <gradient
+                    android:angle="270"
+                    android:endColor="#00996a"
+                    android:startColor="#00d190" />
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle" >
+                <corners android:radius="@dimen/seek_bar_conner_radious" />
+
+                <stroke
+                    android:width="@dimen/seek_bar_stroke_width"
+                    android:color="@color/teal_2" />
+
+                <solid android:color="@color/teal" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

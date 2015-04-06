@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/log_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_2"
+    tools:context=".MainActivity" >
+
+    <ExpandableListView
+        android:id="@+id/expandableListView_log"
+        style="@android:style/Widget.Holo.Light.ExpandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:divider="@color/gray_2"
+        android:dividerHeight="@dimen/expendablelist_divider_height" >
+    </ExpandableListView>
+
+</RelativeLayout>

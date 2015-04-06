@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow"
+    android:orientation="vertical"
+    android:padding="@dimen/widght_padding" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="@dimen/widght_padding" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/recolhimento_de_documentos"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/widght_padding_3" >
+
+            <CheckBox
+                android:id="@+id/checkBox_autode_CLRV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/CLRV"
+                android:textColor="@color/whight" />
+
+            <CheckBox
+                android:id="@+id/checkBox_autode_CNH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/CNH"
+                android:textColor="@color/whight" />
+
+            <CheckBox
+                android:id="@+id/checkBox_autode_PPD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/PPD"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/procedimentos"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/widght_padding_3" >
+
+            <CheckBox
+                android:id="@+id/checkBox_autode_retencao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/retencao"
+                android:textColor="@color/whight" />
+
+            <CheckBox
+                android:id="@+id/checkBox_autode_remocao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/check_box_style_3"
+                android:text="@string/remocao"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/observacao"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_autode_observacao"
+            android:layout_width="match_parent"
+            android:layout_height="140dip"
+            android:background="@color/yellow_light"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="top"
+            android:inputType="textMultiLine|textCapSentences"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/identificacao_do_embarcador"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_autode_identificacao_embracador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="left|center_vertical"
+            android:inputType="textCapCharacters"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/CNPJ_CPF"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_autode_CNPJ_CPF_embracador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="left|center_vertical"
+            android:inputType="number"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/identificacao_do_transportador"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_autode_identificacao_do_transportadfor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="left|center_vertical"
+            android:inputType="textCapCharacters"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/CNPJ_CPF"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_autode_CNPJ_CPF_transportadfor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="left|center_vertical"
+            android:inputType="number"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding" >
+
+            <Button
+                android:id="@+id/btn_autode_conferir"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/indicator_width"
+                android:layout_weight="1"
+                android:background="@drawable/btn_yellow_2"
+                android:padding="@dimen/widght_padding"
+                android:text="@string/conferir"
+                android:textColor="@color/whight" />
+
+            <Button
+                android:id="@+id/btn_autode_gerar"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/indicator_width"
+                android:layout_weight="1"
+                android:background="@drawable/btn_yellow_2"
+                android:padding="@dimen/widght_padding"
+                android:text="@string/gerar"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

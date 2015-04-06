@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/log_list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/log_conditon_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/log_age_delete"
+        android:layout_alignBottom="@+id/log_age_delete"
+         android:layout_marginLeft="@dimen/log_view_matgin_left_condition"
+        android:layout_toRightOf="@+id/log_age_delete"
+        android:text="Condition :"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/text_size_log_sub_title" />
+
+    <TextView
+        android:id="@+id/log_age_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/log_gender_delete"
+        android:layout_below="@+id/log_gender_delete"
+        android:text="Age : 16"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#343434"
+        android:textSize="@dimen/text_size_log_sub_title" />
+
+    <TextView
+        android:id="@+id/log_time_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/log_conditon_delete"
+        android:layout_alignBottom="@+id/log_conditon_delete"
+        android:layout_alignParentRight="true"
+        android:text="time"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/abs__holo_blue_light"
+        android:textSize="@dimen/text_size_log_sub_title" />
+
+    <TextView
+        android:id="@+id/log_gender_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/log_d_gender_m_l"
+        android:layout_toRightOf="@+id/checkBox1"
+        android:text="Gender : Male"
+        android:textColor="#040404"
+        android:textSize="@dimen/text_size_log_title"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/log_date_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/log_gender_delete"
+        android:layout_alignBottom="@+id/log_gender_delete"
+        android:layout_alignRight="@+id/log_time_delete"
+        android:gravity="right"
+        android:text="Date"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/abs__holo_blue_light"
+        android:textSize="@dimen/text_size_log_title"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/log_age_delete"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/log_gender_delete"
+        android:background="@drawable/image_bg"
+        android:gravity="center"
+        android:paddingLeft="@dimen/log_d_cb_p_l_r"
+        android:paddingRight="@dimen/log_d_cb_p_l_r" >
+
+        <ImageView
+            android:id="@+id/imageView_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/unchecked_checkbox" />
+    </LinearLayout>
+
+</RelativeLayout>

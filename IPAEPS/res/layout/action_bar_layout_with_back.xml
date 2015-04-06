@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/teal"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/action_ber_icon_padding"
+    android:paddingLeft="@dimen/action_ber_icon_padding"
+    android:paddingTop="@dimen/action_ber_icon_padding" >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight=".50"
+        android:gravity="center|left"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/im_btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/teal"
+            android:contentDescription="@string/app_name"
+            android:paddingRight="@dimen/btn_text_padding_l_r"
+            android:src="@drawable/action_bar_back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|right"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/im_action_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center|left"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/actionbar_linear_layout_paddin_l" >
+
+        <com.rimon.rsa.ipaeps.textview.AnyTextView
+            android:id="@+id/tv_action_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_font_size" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/action_ber_lineview_height"
+            android:layout_marginBottom="@dimen/actionbar_view_m_t_b_2"
+            android:layout_marginTop="@dimen/actionbar_view_m_t_b_2"
+            android:background="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

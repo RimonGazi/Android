@@ -1,0 +1,737 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_1"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/action_bar_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/linear_layout_mental_health"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/start_page_padding_lefr_right"
+                android:paddingRight="@dimen/start_page_padding_lefr_right"
+                android:paddingTop="@dimen/start_page_content_padding_top" >
+
+                <com.rimon.rsa.ipaeps.textview.AnyTextView
+                    android:id="@+id/tv_q_module_8_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                    android:enabled="false"
+                    android:gravity="center|left"
+                    android:text="@string/q_module_8_1"
+                    android:textColor="@color/color_state_1"
+                    android:textSize="@dimen/btn_text_size" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/anyTextView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center|left"
+                        android:text="@string/not_at_all_helpful"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/hint_text_size" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/anyTextView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center|right"
+                        android:text="@string/extremely_helpful"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/hint_text_size" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioGroup
+                        android:id="@+id/rg_q_module_8_1"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q1_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_1"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q1_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_2"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q1_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_3"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q1_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_4"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q1_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_5"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q1_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_6"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q1_7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_7"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q1_8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_8"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q1_9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_9"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q1_10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_10"
+                            android:enabled="false" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/start_page_padding_lefr_right"
+                android:paddingRight="@dimen/start_page_padding_lefr_right"
+                android:paddingTop="@dimen/start_btn_mrgin_l_r_t" >
+
+                <com.rimon.rsa.ipaeps.textview.AnyTextView
+                    android:id="@+id/tv_q_module_8_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                    android:enabled="false"
+                    android:gravity="center|left"
+                    android:text="@string/q_module_8_2"
+                    android:textColor="@color/color_state_1"
+                    android:textSize="@dimen/btn_text_size" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/anyTextView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center|left"
+                        android:text="@string/not_at_all_likely"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/hint_text_size" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/anyTextView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center|right"
+                        android:text="@string/extremely_likely"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/hint_text_size" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioGroup
+                        android:id="@+id/rg_q_module_8_2"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q2_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_1"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q2_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_2"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q2_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_3"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q2_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_4"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q2_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_5"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q2_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_6"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q2_7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_7"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q2_8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_8"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q2_9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_9"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q2_10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_10"
+                            android:enabled="false" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/start_page_padding_lefr_right"
+                android:paddingRight="@dimen/start_page_padding_lefr_right"
+                android:paddingTop="@dimen/start_btn_mrgin_l_r_t" >
+
+                <com.rimon.rsa.ipaeps.textview.AnyTextView
+                    android:id="@+id/tv_q_module_8_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                    android:enabled="false"
+                    android:gravity="center|left"
+                    android:text="@string/q_module_8_3"
+                    android:textColor="@color/color_state_1"
+                    android:textSize="@dimen/btn_text_size" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/anyTextView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center|left"
+                        android:text="@string/none_at_all"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/hint_text_size" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/anyTextView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center|right"
+                        android:text="@string/extremly_distress"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/hint_text_size" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioGroup
+                        android:id="@+id/rg_q_module_8_3"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q3_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_1"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q3_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_2"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q3_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_3"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q3_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_4"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q3_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_5"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q3_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_6"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q3_7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_7"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q3_8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_8"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q3_9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_9"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q3_10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_10"
+                            android:enabled="false" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/start_page_padding_lefr_right"
+                android:paddingRight="@dimen/start_page_padding_lefr_right"
+                android:paddingTop="@dimen/start_btn_mrgin_l_r_t" >
+
+                <com.rimon.rsa.ipaeps.textview.AnyTextView
+                    android:id="@+id/tv_q_module_8_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                    android:enabled="false"
+                    android:gravity="center|left"
+                    android:text="@string/q_module_8_4"
+                    android:textColor="@color/color_state_1"
+                    android:textSize="@dimen/btn_text_size" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/anyTextView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center|left"
+                        android:text="@string/not_at_all"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/hint_text_size" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/anyTextView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center|right"
+                        android:text="@string/very_much_so"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/hint_text_size" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioGroup
+                        android:id="@+id/rg_q_module_8_4"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q4_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_1"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q4_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_2"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q4_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_3"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q4_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_4"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q4_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_5"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q4_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_6"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q4_7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_7"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q4_8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_8"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q4_9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_9"
+                            android:enabled="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio_8_q4_10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/radio_btn_matgin_l_r_t_b"
+                            android:layout_weight="1"
+                            android:background="@drawable/check_box_style"
+                            android:button="@null"
+                            android:contentDescription="@string/_10"
+                            android:enabled="false" />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                    layout="@layout/btn_next" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

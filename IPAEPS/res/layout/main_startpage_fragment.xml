@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_1"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/action_bar_layout" />
+
+    <RelativeLayout
+        android:id="@+id/rt_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include1"
+        android:layout_marginTop="@dimen/start_page_content_mrgin_top"
+        android:paddingLeft="@dimen/start_page_padding_lefr_right"
+        android:paddingRight="@dimen/start_page_padding_lefr_right" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_start"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:background="@drawable/btn_bacground"
+                android:drawableLeft="@drawable/btn_start_backgrount_left"
+                android:enabled="false"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/start_btn_padding_top_buttom"
+                android:paddingLeft="@dimen/start_btn_padding_l_r"
+                android:paddingTop="@dimen/start_btn_padding_top_buttom"
+                android:text="@string/start"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/start_page_text_size" />
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_log"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:background="@drawable/btn_bacground"
+                android:drawableLeft="@drawable/btn_log_backgrount_left"
+                android:enabled="false"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/start_btn_padding_top_buttom"
+                android:paddingLeft="@dimen/start_btn_padding_l_r"
+                android:paddingTop="@dimen/start_btn_padding_top_buttom"
+                android:text="@string/log"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/start_page_text_size" />
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_setting"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:background="@drawable/btn_bacground"
+                android:drawableLeft="@drawable/btn_setting_backgrount_left"
+                android:enabled="false"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/start_btn_padding_top_buttom"
+                android:paddingLeft="@dimen/start_btn_padding_l_r"
+                android:paddingTop="@dimen/start_btn_padding_top_buttom"
+                android:text="@string/setting"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/start_page_text_size" />
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_print"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:background="@drawable/btn_bacground"
+                android:drawableLeft="@drawable/btn_report_backgrount_left"
+                android:enabled="false"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/start_btn_padding_top_buttom"
+                android:paddingLeft="@dimen/start_btn_padding_l_r"
+                android:paddingTop="@dimen/start_btn_padding_top_buttom"
+                android:text="@string/patient_report"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/start_page_text_size" />
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_export"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:background="@drawable/btn_bacground"
+                android:drawableLeft="@drawable/btn_export_backgrount_left"
+                android:enabled="false"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/start_btn_padding_top_buttom"
+                android:paddingLeft="@dimen/start_btn_padding_l_r"
+                android:paddingTop="@dimen/start_btn_padding_top_buttom"
+                android:text="@string/export"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/start_page_text_size" />
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_delete"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:background="@drawable/btn_bacground"
+                android:drawableLeft="@drawable/btn_delete_backgrount_left"
+                android:enabled="false"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/start_btn_padding_top_buttom"
+                android:paddingLeft="@dimen/start_btn_padding_l_r"
+                android:paddingTop="@dimen/start_btn_padding_top_buttom"
+                android:text="@string/delete"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/start_page_text_size" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

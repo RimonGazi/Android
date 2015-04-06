@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_2"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/layout_margin_buttom"
+    android:paddingLeft="@dimen/layout_margin_left_right"
+    android:paddingRight="@dimen/layout_margin_left_right"
+    android:paddingTop="@dimen/layout_margin_top" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_parent_rsult_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/resutl_layout_background"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ll_child_reult_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/resutl_layout_background"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_result_show"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/widght_margin"
+                    android:padding="@dimen/widght_padding"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/btn_autuar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/widght_margin"
+                    android:background="@drawable/btn_blue"
+                    android:drawableLeft="@drawable/ic_autor"
+                    android:drawablePadding="@dimen/widght_padding"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="@dimen/widght_padding_2"
+                    android:text="@string/autuar"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/pink" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widght_margin_top_2"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/et_input_chracter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/widght_margin_top"
+                android:layout_marginTop="@dimen/widght_margin_top"
+                android:background="@drawable/edittext_bacground"
+                android:drawableLeft="@drawable/ic_character"
+                android:drawablePadding="@dimen/widght_padding"
+                android:ems="3"
+                android:hint="@string/first_three_letter"
+                android:inputType="textCapCharacters"
+                android:maxLength="3"
+                android:padding="@dimen/widght_padding"
+                android:textColor="@color/whight"
+                android:textColorHint="@color/whight"
+                android:textCursorDrawable="@null" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_input_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/widght_margin_top"
+                android:background="@drawable/edittext_bacground"
+                android:drawableLeft="@drawable/ic_number"
+                android:drawablePadding="@dimen/widght_padding"
+                android:ems="3"
+                android:hint="@string/last_four_number"
+                android:inputType="number"
+                android:maxLength="4"
+                android:padding="@dimen/widght_padding"
+                android:textColor="@color/whight"
+                android:textColorHint="@color/whight"
+                android:textCursorDrawable="@null" />
+
+            <CheckBox
+                android:id="@+id/cb_offline_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/widght_margin_top"
+                android:button="@null"
+                android:drawableLeft="@drawable/check_box_style_2"
+                android:padding="0dip"
+                android:text="@string/consulta_off_line"
+                android:textColor="@color/color_state_3" />
+
+            <Button
+                android:id="@+id/btn_consultar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_green"
+                android:drawableLeft="@drawable/ic_send"
+                android:drawablePadding="@dimen/widght_padding"
+                android:gravity="left|center_vertical"
+                android:padding="@dimen/widght_padding"
+                android:text="@string/input"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item><layer-list>
+            <item><shape>
+
+                    <!-- this is to give gradient effect -->
+                    <solid android:color="@color/teal" />
+                    <!-- this is make corners of button rounded -->
+                    <stroke android:width="@dimen/btn_bg_stroke_width" android:color="@color/teal_2" />
+                </shape></item>
+            <item android:bottom="@dimen/start_btn_padding_top_buttom" android:left="@dimen/start_btn_padding_top_buttom" android:right="@dimen/start_btn_padding_top_buttom" android:top="@dimen/start_btn_padding_top_buttom"><bitmap android:filter="true" android:gravity="right|center" android:src="@drawable/ic_sp_pressed" />
+            </item>
+        </layer-list></item>
+
+</selector>

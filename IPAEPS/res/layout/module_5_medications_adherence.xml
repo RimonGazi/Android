@@ -1,0 +1,261 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_1"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/action_bar_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/linear_layout_medical_adherence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/start_page_padding_lefr_right"
+            android:paddingRight="@dimen/start_page_padding_lefr_right"
+            android:paddingTop="@dimen/start_page_content_padding_top" >
+
+            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                android:id="@+id/tv_q_module_5_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:enabled="false"
+                android:gravity="center|left"
+                android:text="@string/q_module_5_1"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <RadioGroup
+                android:id="@+id/rg_q_module_5_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:orientation="horizontal" >
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/start_btn_mrgin_l_r_t"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:enabled="false"
+                    android:text="@string/agree"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/start_btn_mrgin_l_r_t"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:enabled="false"
+                    android:text="@string/disagree"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+            </RadioGroup>
+
+            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                android:id="@+id/tv_q_module_5_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:enabled="false"
+                android:gravity="center|left"
+                android:text="@string/q_module_5_2"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <RadioGroup
+                android:id="@+id/rg_q_module_5_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:orientation="horizontal" >
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/start_btn_mrgin_l_r_t"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:enabled="false"
+                    android:text="@string/agree"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/radio4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/start_btn_mrgin_l_r_t"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:enabled="false"
+                    android:text="@string/disagree"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+            </RadioGroup>
+
+            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                android:id="@+id/tv_q_module_5_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:enabled="false"
+                android:gravity="center|left"
+                android:text="@string/q_module_5_3"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <RadioGroup
+                android:id="@+id/rg_q_module_5_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:orientation="horizontal" >
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/radio5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/start_btn_mrgin_l_r_t"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:enabled="false"
+                    android:text="@string/agree"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/radio6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/start_btn_mrgin_l_r_t"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:enabled="false"
+                    android:text="@string/disagree"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+            </RadioGroup>
+
+            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                android:id="@+id/tv_q_module_5_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:enabled="false"
+                android:gravity="center|left"
+                android:text="@string/q_module_5_4"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <RadioGroup
+                android:id="@+id/rg_q_module_5_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:orientation="horizontal" >
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/radio7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/start_btn_mrgin_l_r_t"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:enabled="false"
+                    android:text="@string/agree"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/radio8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/start_btn_mrgin_l_r_t"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:enabled="false"
+                    android:text="@string/disagree"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+            </RadioGroup>
+
+            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                android:id="@+id/tv_q_module_5_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:enabled="false"
+                android:gravity="center|left"
+                android:text="@string/q_module_5_5"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <RadioGroup
+                android:id="@+id/rg_q_module_5_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:orientation="horizontal" >
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/radio9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/start_btn_mrgin_l_r_t"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:enabled="false"
+                    android:text="@string/agree"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/radio10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/start_btn_mrgin_l_r_t"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:enabled="false"
+                    android:text="@string/disagree"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+            </RadioGroup>
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                layout="@layout/btn_next" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

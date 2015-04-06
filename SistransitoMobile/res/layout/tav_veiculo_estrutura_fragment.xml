@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow"
+    android:orientation="vertical"
+    android:padding="@dimen/widght_padding" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/widght_padding_3"
+        android:text="@string/t_v_danos"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/whight" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/indicator_height"
+        android:background="@color/yellow_deep_2" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dip"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/widght_padding_3" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding_3" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/t_v_cabeca_de_alavanca"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tav_estrutura_0"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/widght_padding"
+                    android:textAlignment="textStart"
+                    android:textDirection="firstStrong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding_3" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/t_v_carroceria"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tav_estrutura_1"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/widght_padding"
+                    android:textAlignment="textStart"
+                    android:textDirection="firstStrong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding_3" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/t_v_forro"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tav_estrutura_2"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:textDirection="firstStrong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding_3" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/t_v_lataria_capo"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tav_estrutura_3"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/widght_padding"
+                    android:textAlignment="textStart"
+                    android:textDirection="firstStrong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding_3" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/t_v_lataria_lado_direito"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tav_estrutura_4"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/widght_padding"
+                    android:textAlignment="textStart"
+                    android:textDirection="firstStrong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding_3" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/t_v_lataria_lado_esquerdo"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tav_estrutura_5"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/widght_padding"
+                    android:textAlignment="textStart"
+                    android:textDirection="firstStrong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding_3" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/t_v_lataria_tapa_porta_mala"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tav_estrutura_6"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/widght_padding"
+                    android:textAlignment="textStart"
+                    android:textDirection="firstStrong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding_3" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/t_v_lataria_teto"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tav_estrutura_7"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/widght_padding"
+                    android:textAlignment="textStart"
+                    android:textDirection="firstStrong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding_3" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/t_v_motor"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tav_estrutura_8"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/widght_padding"
+                    android:textAlignment="textStart"
+                    android:textDirection="firstStrong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding_3" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/t_v_painel"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tav_estrutura_9"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/widght_padding"
+                    android:textAlignment="textStart"
+                    android:textDirection="firstStrong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding_3" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/t_v_pintura_capo"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tav_estrutura_10"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/widght_padding"
+                    android:textAlignment="textStart"
+                    android:textDirection="firstStrong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding_3" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/t_v_pintura_lado_direito"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tav_estrutura_11"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/widght_padding"
+                    android:textAlignment="textStart"
+                    android:textDirection="firstStrong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding_3" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/t_v_pintura_lado_esquerdo"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tav_estrutura_12"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/widght_padding"
+                    android:textAlignment="textStart"
+                    android:textDirection="firstStrong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding_3" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/t_v_pintura_porta_mala"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tav_estrutura_13"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/widght_padding"
+                    android:textAlignment="textStart"
+                    android:textDirection="firstStrong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding_3" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/t_v_pintura_teto"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tav_estrutura_14"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/widght_padding"
+                    android:textAlignment="textStart"
+                    android:textDirection="firstStrong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding_3" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/t_v_radiador"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tav_estrutura_15"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/widght_padding"
+                    android:textAlignment="textStart"
+                    android:textDirection="firstStrong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding_3" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/t_v_vidros_laterais"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tav_estrutura_16"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/widght_padding"
+                    android:textAlignment="textStart"
+                    android:textDirection="firstStrong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding_3" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/t_v_vidro_para_brisa"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tav_estrutura_17"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/widght_padding"
+                    android:textAlignment="textStart"
+                    android:textDirection="firstStrong" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding_3" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/t_v_vidro_traseiro"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tav_estrutura_18"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/widght_padding"
+                    android:textAlignment="textStart"
+                    android:textDirection="firstStrong" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/indicator_height"
+                android:background="@color/yellow_deep_2" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

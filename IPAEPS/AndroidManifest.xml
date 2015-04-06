@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rimon.rsa.ipaeps"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.rimon.rsa.ipaeps.main.Main"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:showOnLockScreen="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".module_1_patient_id.Module1PatientID" >
+        </activity>
+        <activity android:name=".module_2_demographic_details.Module2DemographicDetails" >
+        </activity>
+        <activity android:name=".module_3_ibd.Module3Ibd" >
+        </activity>
+        <activity android:name="com.rimon.rsa.ipaeps.module_8_mental_health_status_feedback.Module8MentalHealthStatusFeedBacck" >
+        </activity>
+        <activity android:name=".module_10_patient_confidence.Module10MentalHealthStatus" >
+        </activity>
+        <activity android:name=".module_11_patient_questions_concerns.Module11PatientQuestionsConcerns" >
+        </activity>
+        <activity android:name=".module_5_medication_adherence.Module5MedicalAdherence" >
+        </activity>
+        <activity android:name=".module_15_program_evaluation.Module15ProgramEvaluation" >
+        </activity>
+        <activity android:name=".module_9_diet.Module9Diet" >
+        </activity>
+        <activity android:name=".module_14_identify_problems.Module14IdentifyProblems" >
+        </activity>
+        <activity android:name=".module_4.medications.Module4Medications" >
+        </activity>
+        <activity android:name=".module_7_mental_health_status.Module7MentalHealth" >
+        </activity>
+        <activity android:name=".module_16_last_screen.Module16LastScreen" >
+        </activity>
+        <activity android:name=".module_6_pain.Module6Pain" >
+        </activity>
+        <activity android:name=".module_12_goals.Module12Goals" >
+        </activity>
+        <activity android:name="com.rimon.rsa.ipaeps.module_13_settign_goals.Module13SettingGoals" >
+        </activity>
+        <activity
+            android:name="com.rimon.rsa.ipaes.setting.SettingActivity"
+            android:theme="@style/FindMyTrain" >
+        </activity>
+        <activity
+            android:name="com.rimon.rsa.ipaeps.patientlog.PatientLog"
+            android:theme="@style/FindMyTrain" >
+        </activity>
+        <activity
+            android:name=".patientlogdelete.PatientLogDelete"
+            android:theme="@style/FindMyTrain" >
+        </activity>
+        <activity
+            android:name="com.rimon.rsa.ipaeps.export.Export"
+            android:theme="@style/FindMyTrain" >
+        </activity>
+        <activity
+            android:name=".googleCoudePrint.PrintDialogActivity"
+            android:theme="@style/FindMyTrain" >
+        </activity>
+        <activity
+            android:name=".patientreport.PatientReport"
+            android:theme="@style/FindMyTrain" >
+        </activity>
+    </application>
+
+</manifest>

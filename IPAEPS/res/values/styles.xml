@@ -1,0 +1,70 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="FindMyTrain" parent="Theme.Sherlock">
+        <item name="android:actionBarTabStyle">@style/FindMyTrain.ActionBar.Tab</item>
+        <item name="actionBarTabStyle">@style/FindMyTrain.ActionBar.Tab</item>
+        <item name="android:textColor">@color/color_state_2</item>
+        <item name="actionBarTabTextStyle">@style/My.TabText.Style</item>
+        <item name="android:actionBarTabTextStyle">@style/My.TabText.Style</item>
+        <item name="android:actionBarTabBarStyle">@style/customTabBar</item>
+        <item name="actionBarTabBarStyle">@style/customTabBar</item>
+        <item name="android:spinnerMode">dropdown</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="My.TabText.Style" parent="@style/Widget.Sherlock.ActionBar.TabText">
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="android:textSize">@dimen/btn_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tab_color_state_1</item>
+        <!-- <item name="android:ellipsize">none</item> -->
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="customTabBar" parent="@style/Sherlock.__Widget.ActionBar">
+        <item name="android:showDividers">none</item>
+        <item name="android:background">@color/gray_1</item>
+    </style>
+
+    <style name="FindMyTrain.ActionBar.Tab" parent="Theme.Sherlock.Light">
+        <item name="android:background">@drawable/tab_bar_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:tabStripEnabled">false</item>
+        <item name="android:showDividers">none</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="NoActionber">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="NoActionber" parent="@android:style/Theme.Black.NoTitleBar"></style>
+
+    <style name="Theam.Spinner_theam" parent="android:Theme.Light">
+        <item name="android:background">@drawable/spinner_start_state</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textColor">@color/tab_color_state_1</item>
+    </style>
+
+    <style name="PauseDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowTitleStyle">@style/PauseDialogTitle</item>
+    </style>
+
+    <style name="PauseDialogTitle" parent="@android:style/TextAppearance.DialogWindowTitle">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="DialogWindowTitle">
+        <item name="android:maxLines">5</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DialogWindowTitle</item>
+    </style>
+
+    <style name="popup_theme" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:textColor">@color/teal</item>
+    </style>
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView_manualInput"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/manual_input_bacground"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/export_mid_layout_margin_top"
+        android:background="@drawable/manual_input_layout_shape"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/export_title_height"
+            android:background="@drawable/manual_input_title_text_style"
+            android:gravity="center"
+            android:text="@string/export_patient_info"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/manual_input_title_text"
+            android:textSize="@dimen/export_title_text_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/export_mid_view_ma_b"
+            android:layout_marginLeft="@dimen/export_mid_view_ma_l"
+            android:layout_marginRight="@dimen/export_mid_view_ma_r"
+            android:layout_marginTop="@dimen/export_mid_view_ma_t"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_new_p_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/export_cb_m_t"
+                android:button="@drawable/check_box_style_2"
+                android:text="@string/export_new_patient_information"
+                android:textColor="@color/black"
+                android:textSize="@dimen/export_cb_text_size" />
+
+            <CheckBox
+                android:id="@+id/cb_certain_p_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/export_cb_m_t"
+                android:button="@drawable/check_box_style_2"
+                android:text="@string/export_certain_patient_information"
+                android:textColor="@color/black"
+                android:textSize="@dimen/export_cb_text_size" />
+
+            <CheckBox
+                android:id="@+id/cb_all_p_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/export_cb_m_t"
+                android:button="@drawable/check_box_style_2"
+                android:text="@string/export_all_patient_information"
+                android:textColor="@color/black"
+                android:textSize="@dimen/export_cb_text_size" />
+
+            <Button
+                android:padding="@dimen/export_btn_p"
+                android:id="@+id/btn_export"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/export_btn_m_t"
+                android:background="@drawable/login_selector"
+                android:text="@string/export"
+                android:textColor="@color/white"
+                android:textSize="@dimen/export_btn_text_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

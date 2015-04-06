@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow"
+    android:orientation="vertical"
+    android:padding="@dimen/widght_padding" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="@dimen/widght_padding" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/infraco_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/widght_padding_3"
+                android:text="@string/infracao"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/whight" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autode_autocomplete_incracao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow_light"
+                android:completionThreshold="3"
+                android:gravity="left|center_vertical"
+                android:inputType="textCapSentences"
+                android:maxLines="10"
+                android:padding="@dimen/widght_padding"
+                android:singleLine="false"
+                android:textColor="@color/whight"
+                android:textCursorDrawable="@null" >
+            </AutoCompleteTextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:orientation="vertical"
+                android:paddingRight="@dimen/indicator_width" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/widght_padding_3"
+                    android:text="@string/enquadra"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <EditText
+                    android:id="@+id/et_autode_enquadra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/yellow_light"
+                    android:gravity="center"
+                    android:inputType="textCapSentences"
+                    android:padding="@dimen/widght_padding"
+                    android:textColor="@color/whight"
+                    android:textCursorDrawable="@null" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/indicator_width"
+                android:paddingRight="@dimen/indicator_width" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/widght_padding_3"
+                    android:text="@string/desdob"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <EditText
+                    android:id="@+id/et_autode_desdob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/yellow_light"
+                    android:gravity="center"
+                    android:inputType="textCapSentences"
+                    android:padding="@dimen/widght_padding"
+                    android:textColor="@color/whight"
+                    android:textCursorDrawable="@null" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".6"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/indicator_width" >
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/widght_padding_3"
+                    android:text="@string/art"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <EditText
+                    android:id="@+id/et_autode_art"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/yellow_light"
+                    android:gravity="center"
+                    android:inputType="text"
+                    android:padding="@dimen/widght_padding"
+                    android:singleLine="false"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight"
+                    android:textCursorDrawable="@null" >
+                </EditText>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/auto_de_muni"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <AutoCompleteTextView
+            android:id="@+id/auto_autode_Muni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:completionThreshold="3"
+            android:gravity="left|center_vertical"
+            android:inputType="textCapSentences"
+            android:maxLines="10"
+            android:padding="@dimen/widght_padding"
+            android:singleLine="false"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" >
+        </AutoCompleteTextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/auto_de_codigo_do_municipio"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_autode_de_codigo_do_municipio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="center"
+            android:inputType="number"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" >
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/auto_de_UF"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/auto_de_UF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="center"
+            android:inputType="number"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" >
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/local"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_autode_local"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="left|center_vertical"
+            android:inputType="textCapSentences"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widght_margin"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/widght_padding_3" >
+
+            <Button
+                android:id="@+id/btn_autode_date_picker"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/indicator_width"
+                android:layout_weight="1"
+                android:background="@drawable/btn_yellow_2"
+                android:padding="@dimen/widght_padding"
+                android:text="@string/data"
+                android:textColor="@color/whight" />
+
+            <Button
+                android:id="@+id/btn_autode_time_picker"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/indicator_width"
+                android:layout_weight="1"
+                android:background="@drawable/btn_yellow_2"
+                android:padding="@dimen/widght_padding"
+                android:text="@string/hora"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/equipamento_de_aferica_utilizado"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <TextView
+            android:id="@+id/TextView026"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/descricao_da_infracao"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <Spinner
+            android:id="@+id/spinner_autode_descricao"
+            style="@style/Theam.Spinner_theam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/widght_padding" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/auto_de_marca"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_autode_marca"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="left|center_vertical"
+            android:inputType="number"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/auto_de_modelo"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_autode_modelo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="left|center_vertical"
+            android:inputType="number"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/auto_de_numero_de_serie"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_autode_numero_de_serie"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="left|center_vertical"
+            android:inputType="number"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/medicao_realizada"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_autode_medicao_realizada"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="left|center_vertical"
+            android:inputType="textCapSentences"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/auto_de_valor_considerado"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_autode_valor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="left|center_vertical"
+            android:inputType="number"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/auto_de_n_da_amostra"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_autode_n_da_amostra"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="left|center_vertical"
+            android:inputType="number"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" />
+    </LinearLayout>
+
+</ScrollView>

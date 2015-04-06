@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout_ibd_2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_1"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/start_page_padding_lefr_right"
+    android:paddingRight="@dimen/start_page_padding_lefr_right"
+    android:paddingTop="@dimen/start_page_content_padding_top" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:gravity="center|left"
+                android:text="@string/q_7_1_headline"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textSize="@dimen/btn_text_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:baselineAligned="false"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:gravity="center" >
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/not_at_all_depressed"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/radio_text_size_2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight=".6"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/start_btn_mrgin_l_r_t"
+                        android:layout_marginRight="@dimen/start_btn_mrgin_l_r_t"
+                        android:gravity="center_horizontal" >
+
+                        <com.rimon.rsa.ipaeps.textview.AnyTextView
+                            android:id="@+id/tv_score_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:text="@string/score"
+                            android:textColor="@color/color_state_1"
+                            android:textSize="@dimen/seek_bar_text_size" />
+
+                        <com.rimon.rsa.ipaeps.textview.AnyTextView
+                            android:id="@+id/tv_score_q_module_7_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/tv_score_1"
+                            android:text="@string/zero"
+                            android:textColor="@color/color_state_1"
+                            android:textSize="@dimen/seek_bar_text_size" />
+
+                        <com.rimon.rsa.ipaeps.textview.AnyTextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/tv_score_q_module_7_1"
+                            android:text="@string/score_2"
+                            android:textColor="@color/color_state_1"
+                            android:textSize="@dimen/seek_bar_text_size" />
+                    </RelativeLayout>
+
+                    <SeekBar
+                        android:id="@+id/skb_q_module_7_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:max="100"
+                        android:progress="0"
+                        android:progressDrawable="@drawable/progressbar" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:gravity="center" >
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/extremely_depressed"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/radio_text_size_2" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".2"
+                        android:gravity="center" >
+
+                        <com.rimon.rsa.ipaeps.textview.AnyTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/not_at_all_anxious"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/radio_text_size_2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight=".6"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/start_btn_mrgin_l_r_t"
+                            android:layout_marginRight="@dimen/start_btn_mrgin_l_r_t"
+                            android:gravity="center_horizontal" >
+
+                            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                                android:id="@+id/tv_score_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:text="@string/score"
+                                android:textColor="@color/color_state_1"
+                                android:textSize="@dimen/seek_bar_text_size" />
+
+                            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                                android:id="@+id/tv_score_q_module_7_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_toRightOf="@+id/tv_score_2"
+                                android:text="@string/zero"
+                                android:textColor="@color/color_state_1"
+                                android:textSize="@dimen/seek_bar_text_size" />
+
+                            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                                android:id="@+id/textView3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_toRightOf="@+id/tv_score_q_module_7_2"
+                                android:text="@string/score_2"
+                                android:textColor="@color/color_state_1"
+                                android:textSize="@dimen/seek_bar_text_size" />
+                        </RelativeLayout>
+
+                        <SeekBar
+                            android:id="@+id/skb_q_module_7_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                            android:max="100"
+                            android:progress="0"
+                            android:progressDrawable="@drawable/progressbar" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".2"
+                        android:gravity="center" >
+
+                        <com.rimon.rsa.ipaeps.textview.AnyTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/extremely_anxious"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/radio_text_size_2" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:baselineAligned="false"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".2"
+                            android:gravity="center" >
+
+                            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/not_at_all_stressed"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/radio_text_size_2" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight=".6"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/start_btn_mrgin_l_r_t"
+                                android:layout_marginRight="@dimen/start_btn_mrgin_l_r_t"
+                                android:gravity="center_horizontal" >
+
+                                <com.rimon.rsa.ipaeps.textview.AnyTextView
+                                    android:id="@+id/tv_score_4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_alignParentTop="true"
+                                    android:text="@string/score"
+                                    android:textColor="@color/color_state_1"
+                                    android:textSize="@dimen/seek_bar_text_size" />
+
+                                <com.rimon.rsa.ipaeps.textview.AnyTextView
+                                    android:id="@+id/tv_score_q_module_7_3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_toRightOf="@+id/tv_score_4"
+                                    android:text="@string/zero"
+                                    android:textColor="@color/color_state_1"
+                                    android:textSize="@dimen/seek_bar_text_size" />
+
+                                <com.rimon.rsa.ipaeps.textview.AnyTextView
+                                    android:id="@+id/textView5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_toRightOf="@+id/tv_score_q_module_7_3"
+                                    android:text="@string/score_2"
+                                    android:textColor="@color/color_state_1"
+                                    android:textSize="@dimen/seek_bar_text_size" />
+                            </RelativeLayout>
+
+                            <SeekBar
+                                android:id="@+id/skb_q_module_7_3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                                android:max="100"
+                                android:progress="0"
+                                android:progressDrawable="@drawable/progressbar" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".2"
+                            android:gravity="center" >
+
+                            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/extremely_stressed"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/radio_text_size_2" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:baselineAligned="false"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".2"
+                            android:gravity="center" >
+
+                            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/no_fatigue"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/radio_text_size_2" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight=".6"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/start_btn_mrgin_l_r_t"
+                                android:layout_marginRight="@dimen/start_btn_mrgin_l_r_t"
+                                android:gravity="center_horizontal" >
+
+                                <com.rimon.rsa.ipaeps.textview.AnyTextView
+                                    android:id="@+id/tv_score_4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_alignParentTop="true"
+                                    android:text="@string/score"
+                                    android:textColor="@color/color_state_1"
+                                    android:textSize="@dimen/seek_bar_text_size" />
+
+                                <com.rimon.rsa.ipaeps.textview.AnyTextView
+                                    android:id="@+id/tv_score_q_module_7_4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_toRightOf="@+id/tv_score_4"
+                                    android:text="@string/zero"
+                                    android:textColor="@color/color_state_1"
+                                    android:textSize="@dimen/seek_bar_text_size" />
+
+                                <com.rimon.rsa.ipaeps.textview.AnyTextView
+                                    android:id="@+id/textView5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_toRightOf="@+id/tv_score_q_module_7_4"
+                                    android:text="@string/score_2"
+                                    android:textColor="@color/color_state_1"
+                                    android:textSize="@dimen/seek_bar_text_size" />
+                            </RelativeLayout>
+
+                            <SeekBar
+                                android:id="@+id/skb_q_module_7_4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                                android:max="100"
+                                android:progress="0"
+                                android:progressDrawable="@drawable/progressbar" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".2"
+                            android:gravity="center" >
+
+                            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/very_severe_fatigue"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/radio_text_size_2" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <include
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        layout="@layout/btn_previous" />
+
+                    <include
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        layout="@layout/btn_next" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

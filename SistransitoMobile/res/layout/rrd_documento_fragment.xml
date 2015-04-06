@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow"
+    android:orientation="vertical"
+    android:padding="@dimen/widght_padding" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="@dimen/widght_padding" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/widght_padding_3"
+                android:text="@string/rrd_n_auto_de_infracao"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/et_rrd_n_auto_de_infracao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow_light"
+                android:gravity="center"
+                android:inputType="number"
+                android:padding="@dimen/widght_padding"
+                android:textColor="@color/whight"
+                android:textCursorDrawable="@null" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/widght_padding_3"
+                android:text="@string/rrd_recebemos_de"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/whight" />
+
+            <EditText
+                android:id="@+id/et_rrd_recebemos_de"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow_light"
+                android:gravity="center"
+                android:inputType="number"
+                android:padding="@dimen/widght_padding"
+                android:textColor="@color/whight"
+                android:textCursorDrawable="@null" >
+            </EditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/widght_padding_3"
+                android:text="@string/rrd_documento"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/whight" />
+
+            <Spinner
+                android:id="@+id/spinner_rrd_documento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow_light"
+                android:gravity="center"
+                android:inputType="number"
+                android:padding="@dimen/widght_padding"
+                android:textColor="@color/whight"
+                android:textCursorDrawable="@null" />
+
+            <LinearLayout
+                android:id="@+id/layout_remove_n_crlv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/widght_padding_3"
+                    android:text="@string/rrd_n_crlv"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <EditText
+                    android:id="@+id/et_rrd_n_crlv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/yellow_light"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:padding="@dimen/widght_padding"
+                    android:textColor="@color/whight"
+                    android:textCursorDrawable="@null" >
+                </EditText>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_remove_placa_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/layout_remove_placa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="4dip"
+                    android:layout_weight=".2"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/widght_padding_3"
+                        android:text="@string/rrd_placa"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/whight" />
+
+                    <Button
+                        android:id="@+id/et_rrd_place"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/indicator_width"
+                        android:background="@drawable/btn_yellow_2"
+                        android:padding="@dimen/widght_padding"
+                        android:textColor="@color/whight" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="4dip"
+                    android:layout_weight=".15"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/widght_padding_3"
+                        android:text="@string/rrd_uf"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/whight" />
+
+                    <EditText
+                        android:id="@+id/et_rrd_uf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/yellow_light"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:padding="@dimen/widght_padding"
+                        android:textColor="@color/whight"
+                        android:textCursorDrawable="@null" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

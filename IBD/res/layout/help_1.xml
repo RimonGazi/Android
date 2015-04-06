@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout_03"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/manual_input_bacground"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/main_fragment_layout_padding_bottom"
+    android:paddingLeft="@dimen/main_fragment_layout_padding_left"
+    android:paddingRight="@dimen/main_fragment_layout_padding_right"
+    android:paddingTop="@dimen/main_fragment_layout_padding_top" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/manual_input_layout_shape"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/manual_input_title_text_style"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/strt_title_padding"
+                android:text="@string/please_note"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/text_title"
+                android:textSize="@dimen/strt_title_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/help_1_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/btn_start_margin_buttom"
+                android:layout_marginTop="@dimen/btn_start_margin_buttom"
+                android:background="@drawable/login_selector"
+                android:paddingBottom="@dimen/bnt_start_pading_t_b"
+                android:paddingLeft="@dimen/strt_btn"
+                android:paddingRight="@dimen/strt_btn"
+                android:paddingTop="@dimen/bnt_start_pading_t_b"
+                android:text="@string/next"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:textSize="@dimen/strt_title_text_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/linearLayout1" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/strt_layout_margin"
+                        android:gravity="center"
+                        android:text="@string/help_1_note"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/strt_cntr_text_size" />
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

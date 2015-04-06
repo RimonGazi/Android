@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@string/actionbar_edit_id"
+        android:icon="@drawable/ic_action_edit"
+        android:showAsAction="ifRoom"
+        android:title="@string/actionbar_edit_titile">
+        <menu>
+            <item
+                android:id="@string/actionbar_show_only_mantinada"
+                android:showAsAction="never"
+                android:title="@string/actionbar_show_only_mantinada_title"/>
+            <item
+                android:id="@string/actionbar_showfull_description_id"
+                android:showAsAction="never"
+                android:title="@string/actionber_showfull_description_title"/>
+        </menu>
+    </item>
+    	<item
+        android:id="@string/actionbar_save_id"
+        android:enabled="true"
+        android:showAsAction="ifRoom"
+        android:title="@string/actionbar_save_title"
+        android:visible="true">
+        <menu>
+            <item
+                android:id="@string/actionbar_show_only_mantinada"
+                android:showAsAction="never"
+                android:title="@string/actionbar_show_only_mantinada_title"/>
+            <item
+                android:id="@string/actionbar_showfull_description_id"
+                android:showAsAction="never"
+                android:title="@string/actionber_showfull_description_title"/>
+        </menu>
+    </item>
+    
+    <item
+        android:id="@string/action_settings"
+        android:title="@string/action_settings">
+        <menu>
+            <item
+                android:id="@string/actionbar_show_only_mantinada"
+                android:showAsAction="never"
+                android:title="@string/actionbar_show_only_mantinada_title"/>
+            <item
+                android:id="@string/actionbar_showfull_description_id"
+                android:showAsAction="never"
+                android:title="@string/actionber_showfull_description_title"/>
+        </menu>
+    </item>
+
+</menu>

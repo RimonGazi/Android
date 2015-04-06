@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_1"
+    android:fillViewport="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linear_layout_identify_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/start_page_padding_lefr_right"
+        android:paddingRight="@dimen/start_page_padding_lefr_right"
+        android:paddingTop="@dimen/start_page_content_padding_top" >
+
+        <com.rimon.rsa.ipaeps.textview.AnyTextView
+            android:id="@+id/q_module_14_main_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:enabled="false"
+            android:gravity="center|left"
+            android:text="@string/identifying_problems_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/color_state_1"
+            android:textSize="@dimen/btn_text_size" />
+
+        <com.rimon.rsa.ipaeps.textview.AnyTextView
+            android:id="@+id/q_module_14_1_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="@string/q_module_14_1_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/color_state_1"
+            android:textSize="@dimen/btn_text_size" />
+
+        <com.rimon.rsa.ipaeps.button.AnyButton
+            android:id="@+id/btn_q_module_14_1"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:background="@drawable/btn_left_start_state"
+            android:drawableRight="@drawable/btn_right_start_state"
+            android:enabled="false"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="@dimen/btn_text_padding_t_b"
+            android:paddingLeft="@dimen/btn_text_padding_l_r"
+            android:paddingTop="@dimen/btn_text_padding_t_b"
+            android:text="@string/q_module_3_14"
+            android:textColor="@color/color_state_1"
+            android:textSize="@dimen/btn_text_size" />
+
+        <com.rimon.rsa.ipaeps.edittext.AnyEditText
+            android:id="@+id/et_q_module_14_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:background="@drawable/btn_bacground"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="left|center_vertical"
+            android:inputType="text"
+            android:paddingBottom="@dimen/start_btn_padding_top_buttom"
+            android:paddingLeft="@dimen/start_btn_padding_l_r"
+            android:paddingTop="@dimen/start_btn_padding_top_buttom"
+            android:textSize="@dimen/start_page_text_size" >
+        </com.rimon.rsa.ipaeps.edittext.AnyEditText>
+
+        <com.rimon.rsa.ipaeps.textview.AnyTextView
+            android:id="@+id/q_module_14_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:enabled="false"
+            android:gravity="center|left"
+            android:text="@string/q_module_14_all"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/color_state_1"
+            android:textSize="@dimen/btn_text_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:gravity="center" >
+
+                <com.rimon.rsa.ipaeps.textview.AnyTextView
+                    android:id="@+id/tv_l_r_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="@string/no_impact"
+                    android:textColor="@color/color_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight=".6"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/start_btn_mrgin_l_r_t"
+                    android:layout_marginRight="@dimen/start_btn_mrgin_l_r_t"
+                    android:gravity="center_horizontal" >
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_score_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:enabled="false"
+                        android:text="@string/score"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/seek_bar_text_size" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_q_module_14_score_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/tv_score_1"
+                        android:enabled="false"
+                        android:text="@string/zero"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/seek_bar_text_size" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_score_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/tv_q_module_14_score_2"
+                        android:enabled="false"
+                        android:text="@string/score_2"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/seek_bar_text_size" />
+                </RelativeLayout>
+
+                <SeekBar
+                    android:id="@+id/skb__q_module_14_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                    android:enabled="false"
+                    android:max="100"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/progressbar" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:gravity="center" >
+
+                <com.rimon.rsa.ipaeps.textview.AnyTextView
+                    android:id="@+id/tv_l_r_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="@string/extreme_impact"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/color_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                android:id="@+id/q_module_14_2_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="@string/q_module_14_2_title"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_q_module_14_3"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:background="@drawable/btn_left_start_state"
+                android:drawableRight="@drawable/btn_right_start_state"
+                android:enabled="false"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/btn_text_padding_t_b"
+                android:paddingLeft="@dimen/btn_text_padding_l_r"
+                android:paddingTop="@dimen/btn_text_padding_t_b"
+                android:text="@string/q_module_3_14"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <com.rimon.rsa.ipaeps.edittext.AnyEditText
+                android:id="@+id/et_q_module_14_3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:background="@drawable/btn_bacground"
+                android:ems="10"
+                android:enabled="false"
+                android:gravity="left|center_vertical"
+                android:inputType="text"
+                android:paddingBottom="@dimen/start_btn_padding_top_buttom"
+                android:paddingLeft="@dimen/start_btn_padding_l_r"
+                android:paddingTop="@dimen/start_btn_padding_top_buttom"
+                android:textSize="@dimen/start_page_text_size" >
+            </com.rimon.rsa.ipaeps.edittext.AnyEditText>
+
+            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                android:id="@+id/q_module_14_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:enabled="false"
+                android:gravity="center|left"
+                android:text="@string/q_module_14_all"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:baselineAligned="false"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:gravity="center" >
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_l_r_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:text="@string/no_impact"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/radio_text_size_2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight=".6"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/start_btn_mrgin_l_r_t"
+                        android:layout_marginRight="@dimen/start_btn_mrgin_l_r_t"
+                        android:gravity="center_horizontal" >
+
+                        <com.rimon.rsa.ipaeps.textview.AnyTextView
+                            android:id="@+id/tv_score_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:enabled="false"
+                            android:text="@string/score"
+                            android:textColor="@color/color_state_1"
+                            android:textSize="@dimen/seek_bar_text_size" />
+
+                        <com.rimon.rsa.ipaeps.textview.AnyTextView
+                            android:id="@+id/tv_q_module_14_score_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/tv_score_3"
+                            android:enabled="false"
+                            android:text="@string/zero"
+                            android:textColor="@color/color_state_1"
+                            android:textSize="@dimen/seek_bar_text_size" />
+
+                        <com.rimon.rsa.ipaeps.textview.AnyTextView
+                            android:id="@+id/tv_score_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/tv_q_module_14_score_4"
+                            android:enabled="false"
+                            android:text="@string/score_2"
+                            android:textColor="@color/color_state_1"
+                            android:textSize="@dimen/seek_bar_text_size" />
+                    </RelativeLayout>
+
+                    <SeekBar
+                        android:id="@+id/skb__q_module_14_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:max="100"
+                        android:progress="0"
+                        android:progressDrawable="@drawable/progressbar" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:gravity="center" >
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_l_r_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:text="@string/extreme_impact"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/radio_text_size_2" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                layout="@layout/btn_next" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

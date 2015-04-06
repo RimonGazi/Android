@@ -1,0 +1,179 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Followup" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+        <CheckBox
+            android:id="@+id/h11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="เงินช่วยเหลือ " />
+
+        <CheckBox
+            android:id="@+id/h12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="อาหาร/นมผงเด็ก" />
+
+        <CheckBox
+            android:id="@+id/h13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ให้คำแนะนำจากเจ้าหน้าที่สาธารณสุข" />
+
+        <CheckBox
+            android:id="@+id/h14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="อื่นๆ" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2" />
+
+        <CheckBox
+            android:id="@+id/h21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="เงินช่วยเหลือ " />
+
+        <CheckBox
+            android:id="@+id/h22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="อุปกรณ์ซ่อมแซมที่อยู่อาศัย/เครื่องใช้" />
+
+        <CheckBox
+            android:id="@+id/h23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ส่งต่อ (แล้วแต่กรณี) " />
+
+        <CheckBox
+            android:id="@+id/h24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ให้คำปรึกษาแก่ผู้ดูแลในการเลี้ยงดูเด็ก" />
+
+        <CheckBox
+            android:id="@+id/h25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ส่งต่อ พมจ./ศพส. เพื่อจัดหาครอบครัวทดแทน" />
+
+        <CheckBox
+            android:id="@+id/h26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="อื่นๆ เช่นติดตามญาติ" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3" />
+
+        <CheckBox
+            android:id="@+id/h31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="แจ้งเหตุ OSCC หรือหน่วยงานที่เกี่ยวข้อง" />
+
+        <CheckBox
+            android:id="@+id/h32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="แยกเด็กออกจากสถานการณ์ความรุนแรง" />
+
+        <CheckBox
+            android:id="@+id/h33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="อื่นๆ เช่น ให้คำปรึกษาในการเลี้ยงดูเด็ก" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4" />
+
+        <CheckBox
+            android:id="@+id/h41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="เงินช่วยเหลือ " />
+
+        <CheckBox
+            android:id="@+id/h42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ประสานงานกับหน่วยงานที่เกี่ยวข้องเพื่อให้ได้รับสิทธิเรื่องสุขภาพ" />
+
+        <CheckBox
+            android:id="@+id/h43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="อื่นๆ เช่น ขอคำแนะนำจากสาธารณสุข" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5" />
+
+        <CheckBox
+            android:id="@+id/h51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ขอคำแนะนำจากเจ้าหน้าที่สาธารณสุข" />
+
+        <CheckBox
+            android:id="@+id/h52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="อื่นๆ" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6" />
+
+        <CheckBox
+            android:id="@+id/h61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ขอคำแนะนำจากโรงเรียน/ฝ่ายการศึกษา/สาธารณสุข" />
+
+        <CheckBox
+            android:id="@+id/h62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="อื่นๆ เช่น ประสานงานกับหน่วยงานอื่นๆ" />
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="เริ่มประเมิน" />
+    </LinearLayout>
+
+</ScrollView>

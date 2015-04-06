@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/log_list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/log_condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/log_age"
+        android:layout_alignBottom="@+id/log_age"
+         android:layout_marginLeft="@dimen/log_view_matgin_left_condition"
+        android:layout_toRightOf="@+id/log_age"
+        android:text="Condition :"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/text_size_log_sub_title" />
+
+    <TextView
+        android:id="@+id/log_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/log_gender"
+        android:layout_below="@+id/log_gender"
+        android:text="Age : 16"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#343434"
+        android:textSize="@dimen/text_size_log_sub_title" />
+
+    <TextView
+        android:id="@+id/log_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/log_condition"
+        android:layout_alignBottom="@+id/log_condition"
+        android:layout_alignParentRight="true"
+        android:text="time"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/abs__holo_blue_light"
+        android:textSize="@dimen/text_size_log_sub_title" />
+
+    <TextView
+        android:id="@+id/log_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/log_time"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:text="Date"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/abs__holo_blue_light"
+        android:textSize="@dimen/text_size_log_title"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/log_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:text="Gender : Male"
+        android:textColor="#040404"
+        android:textSize="@dimen/text_size_log_title"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+</RelativeLayout>

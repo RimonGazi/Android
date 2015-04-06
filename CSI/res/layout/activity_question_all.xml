@@ -1,0 +1,104 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".QuestionAll" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/dataf"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="คำถาม" />
+
+            <Button
+                android:id="@+id/cc"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="สรุปผล" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/qname"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:text="Name" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/detailQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ประเมินสภาพครอบครัว" />
+
+        <Button
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. อาหารและโภชนาการ" />
+
+        <Button
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. ที่อยู่อาศัยและการเลี้ยงดู" />
+
+        <Button
+            android:id="@+id/q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. การปกป้องคุ้มครอง" />
+
+        <Button
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. สุขภาพและการเข้าถึงบริการสุขภาพ" />
+
+        <Button
+            android:id="@+id/q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. พัฒนาการด้านอารมณ์ จิตใจ และสังคม" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="(กรอกข้อมูลเฉพาะเด็กที่มีอายุ 3 ปีขึ้นไป)"
+            android:textColor="#FF0000" />
+
+        <Button
+            android:id="@+id/q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. การเรียนรู้และการศึกษา" />
+
+        <Button
+            android:id="@+id/help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ระบุความช่วยเหลือ" />
+    </LinearLayout>
+
+</ScrollView>

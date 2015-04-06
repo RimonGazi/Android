@@ -1,0 +1,263 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/patient_q_1_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingBottom="@dimen/main_fragment_layout_padding_bottom"
+    android:paddingLeft="@dimen/main_fragment_layout_padding_left"
+    android:paddingRight="@dimen/main_fragment_layout_padding_right"
+    android:paddingTop="@dimen/main_fragment_layout_padding_top" >
+
+    <RelativeLayout
+           android:layout_marginBottom="@dimen/view_pager_padding_buttom"
+        android:layout_marginTop="@dimen/view_pager_padding_top"
+        
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/text_show_list_shape"
+        android:padding="@dimen/title_text_padding" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/p_q"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/off_white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/layout_view_margin_top" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/text_margin_left"
+                    android:paddingBottom="@dimen/text_padding_bottom"
+                    android:paddingLeft="@dimen/text_padding_left"
+                    android:paddingRight="@dimen/text_padding_right"
+                    android:paddingTop="@dimen/text_padding_top"
+                    android:text="@string/patient_q_1"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/off_white"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <com.rimon.rsa.ibd.questionpatient.fragments.CustomSpinner
+                android:id="@+id/sp_pq_1"
+                style="@style/Theam.Spinner_theam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout2"
+                android:layout_marginTop="@dimen/layout_view_margin_top"
+                android:paddingBottom="@dimen/spinner_padding_buttom"
+                android:paddingRight="@dimen/spinner_padding_right"
+                android:prompt="@string/spinner_prompt"
+                android:spinnerMode="dialog" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/sp_pq_1"
+                android:layout_marginTop="@dimen/layout_view_margin_top" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/text_margin_left"
+                    android:paddingBottom="@dimen/text_padding_bottom"
+                    android:paddingLeft="@dimen/text_padding_left"
+                    android:paddingRight="@dimen/text_padding_right"
+                    android:paddingTop="@dimen/text_padding_top"
+                    android:text="@string/patient_q_2"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/off_white"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <com.rimon.rsa.ibd.questionpatient.fragments.CustomSpinner
+                android:id="@+id/sp_pq_2"
+                style="@style/Theam.Spinner_theam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout3"
+                android:layout_marginTop="@dimen/spinner_margin_top"
+                android:paddingBottom="@dimen/spinner_padding_buttom"
+                android:paddingRight="@dimen/spinner_padding_right"
+                android:prompt="@string/spinner_prompt"
+                android:spinnerMode="dialog" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/sp_pq_2"
+                android:layout_marginTop="@dimen/layout_view_margin_top" >
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/text_margin_left"
+                    android:paddingBottom="@dimen/text_padding_bottom"
+                    android:paddingLeft="@dimen/text_padding_left"
+                    android:paddingRight="@dimen/text_padding_right"
+                    android:paddingTop="@dimen/text_padding_top"
+                    android:text="@string/patient_q_3"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/off_white"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <com.rimon.rsa.ibd.questionpatient.fragments.CustomSpinner
+                android:id="@+id/sp_pq_3"
+                style="@style/Theam.Spinner_theam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout4"
+                android:layout_marginTop="@dimen/spinner_margin_top"
+                android:paddingBottom="@dimen/spinner_padding_buttom"
+                android:paddingRight="@dimen/spinner_padding_right"
+                android:prompt="@string/spinner_prompt"
+                android:spinnerMode="dialog" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/sp_pq_3"
+                android:layout_marginTop="@dimen/layout_view_margin_top" >
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/text_margin_left"
+                    android:paddingBottom="@dimen/text_padding_bottom"
+                    android:paddingLeft="@dimen/text_padding_left"
+                    android:paddingRight="@dimen/text_padding_right"
+                    android:paddingTop="@dimen/text_padding_top"
+                    android:text="@string/patient_q_4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/off_white"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <com.rimon.rsa.ibd.questionpatient.fragments.CustomSpinner
+                android:id="@+id/sp_pq_4"
+                style="@style/Theam.Spinner_theam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout5"
+                android:layout_marginTop="@dimen/spinner_margin_top"
+                android:paddingBottom="@dimen/spinner_padding_buttom"
+                android:paddingRight="@dimen/spinner_padding_right"
+                android:prompt="@string/spinner_prompt"
+                android:spinnerMode="dialog" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/sp_pq_4"
+                android:layout_marginTop="@dimen/layout_view_margin_top" >
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/text_margin_left"
+                    android:paddingBottom="@dimen/text_padding_bottom"
+                    android:paddingLeft="@dimen/text_padding_left"
+                    android:paddingRight="@dimen/text_padding_right"
+                    android:paddingTop="@dimen/text_padding_top"
+                    android:text="@string/patient_q_5"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/off_white"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <com.rimon.rsa.ibd.questionpatient.fragments.CustomSpinner
+                android:id="@+id/sp_pq_5"
+                style="@style/Theam.Spinner_theam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout6"
+                android:layout_marginTop="@dimen/spinner_margin_top"
+                android:paddingBottom="@dimen/spinner_padding_buttom"
+                android:paddingRight="@dimen/spinner_padding_right"
+                android:prompt="@string/spinner_prompt"
+                android:spinnerMode="dialog" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_first_next"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/scrollView1"
+        android:layout_below="@+id/scrollView1"
+        android:background="@drawable/btn_next" />
+
+    <Button
+        android:id="@+id/btn_first_right"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_first_next"
+        android:layout_alignBottom="@+id/btn_first_next"
+        android:layout_alignLeft="@+id/scrollView1"
+        android:background="@drawable/right_button_icon" />
+
+</RelativeLayout>

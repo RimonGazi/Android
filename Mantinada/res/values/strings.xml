@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mantinada</string>
+    <string name="action_settings">Settings Mantinada</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_tab_register">Register</string>
+    <string name="title_tab_search">Search</string>
+    <string name="register_first_name">First name</string>
+    <string name="register_last_name">Last name</string>
+    <string name="register_chapter">Chapter</string>
+    <string name="register_category">Category</string>
+    <string name="register_email">Email</string>
+    <string name="register_mantinada">Mantinada</string>
+    <string name="register_submint_btn">Submit</string>
+    <string name="register_title">You can submit a mantinada easily</string>
+
+    <color name="honeycombish_blue">#8AE6FF</color>
+
+    <string name="file_save_alert_ok">OK</string>
+    <string name="file_save_alert_cancel">Cancel</string>
+    <string name="file_save_title">Save File As</string>
+    <string name="file_save_hint">Type file name</string>
+    <string name="file_save_extention_doc">doc</string>
+    <string name="file_save_tag_fragment">Fragment</string>
+    <string name="file_save_invalid_path">Invalid path</string>
+    <string name="file_save_duplicate_file">Duplicate file fame</string>
+    <string name="file_save_invalid_name">Invalid file name</string>
+    <string name="file_save_exit_name">No overwrite of an existing file</string>
+    <string name="actionbar_save_id">save</string>
+    <string name="actionbar_edit_id">edit</string>
+    <string name="actionbar_save_title">Save</string>
+    <string name="actionbar_edit_titile">Edit</string>
+    <string name="actionber_setting_id">setting_mantinada</string>
+    <string name="actionbar_show_only_mantinada">show_only_mantinada</string>
+    <string name="actionbar_show_only_mantinada_title">Show only mantinada</string>
+    <string name="actionbar_showfull_description_id">show_full_description</string>
+    <string name="actionber_showfull_description_title">Show full description</string>
+    <string name="actionbar_edit_enabel_id">enable</string>
+    <string name="actionbar_edit_enabel_title">Enable</string>
+    <string name="actionbar_edit_disable_id">disable</string>
+    <string name="actionbar_edit_disable_title">Disable</string>
+
+</resources>

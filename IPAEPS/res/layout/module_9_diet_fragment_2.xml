@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_1"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/start_page_padding_lefr_right"
+    android:paddingRight="@dimen/start_page_padding_lefr_right"
+    android:paddingTop="@dimen/start_page_content_padding_top" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/gray_1"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:id="@+id/linear_layout_diet_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                android:id="@+id/tv_q_module_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:gravity="center|left"
+                android:text="@string/q_module_9_3"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:orientation="vertical"
+                android:padding="0dip" >
+
+                <CheckBox
+                    android:id="@+id/cb_9_3_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/checkbox_margin_top_button"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:text="@string/small_frequent_meals"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <CheckBox
+                    android:id="@+id/cb_9_3_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/checkbox_margin_top_button"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:text="@string/low_fat_fibre"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <CheckBox
+                    android:id="@+id/cb_9_3_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/checkbox_margin_top_button"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:text="@string/texture_modified"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <CheckBox
+                    android:id="@+id/cb_9_3_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/checkbox_margin_top_button"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:text="@string/high_fibre"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <CheckBox
+                    android:id="@+id/cb_9_3_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/checkbox_margin_top_button"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:text="@string/low_fodmap"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <CheckBox
+                    android:id="@+id/cb_9_3_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/checkbox_margin_top_button"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:text="@string/low_food_chemical"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <CheckBox
+                    android:id="@+id/cb_9_3_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/checkbox_margin_top_button"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:text="@string/elimination"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <CheckBox
+                    android:id="@+id/cb_9_3_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/checkbox_margin_top_button"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:text="@string/other_please_specify"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+            </LinearLayout>
+
+            <com.rimon.rsa.ipaeps.edittext.AnyEditText
+                android:id="@+id/et_q_module_9_3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:background="@drawable/btn_bacground"
+                android:ems="10"
+                android:enabled="false"
+                android:gravity="left|center_vertical"
+                android:hint="@string/other"
+                android:inputType="text"
+                android:paddingBottom="@dimen/start_btn_padding_top_buttom"
+                android:paddingLeft="@dimen/start_btn_padding_l_r"
+                android:paddingTop="@dimen/start_btn_padding_top_buttom"
+                android:textSize="@dimen/start_page_text_size" >
+            </com.rimon.rsa.ipaeps.edittext.AnyEditText>
+
+            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                android:id="@+id/tv_q_module_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:gravity="center|left"
+                android:text="@string/q_module_9_4"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <RadioGroup
+                android:id="@+id/rg_q_module_9_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:gravity="center|left"
+                android:orientation="vertical" >
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:text="@string/no"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/checkbox_margin_top_button"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:text="@string/yes_a_little"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/checkbox_margin_top_button"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:text="@string/yes_a_lot"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+            </RadioGroup>
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                layout="@layout/btn_previous" />
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                layout="@layout/btn_next" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

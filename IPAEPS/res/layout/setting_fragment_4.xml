@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_1"
+    android:fillViewport="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:paddingLeft="@dimen/start_page_padding_lefr_right"
+    android:paddingRight="@dimen/start_page_padding_lefr_right"
+    android:paddingTop="@dimen/start_page_content_padding_top" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/start_btn_mrgin_l_r_t"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/start_btn_mrgin_l_r_t"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/start_btn_padding_l_r"
+                android:paddingRight="@dimen/start_btn_padding_l_r"
+                android:paddingTop="@dimen/start_btn_padding_l_r"
+                android:text="@string/password_change"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/start_page_text_size"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height_double"
+                android:background="@color/setting_line_color" />
+
+            <com.rimon.rsa.ipaeps.edittext.AnyEditText
+                android:id="@+id/et_current_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_marginBottom="@dimen/start_btn_mrgin_l_r_t"
+                android:layout_marginTop="@dimen/patient_id_compnent_margint_top"
+                android:background="@drawable/btn_bacground"
+                android:ems="10"
+                android:enabled="true"
+                android:gravity="left|center"
+                android:hint="@string/current_password"
+                android:inputType="textPassword"
+                android:paddingBottom="@dimen/start_btn_padding_top_buttom"
+                android:paddingLeft="@dimen/start_btn_padding_l_r"
+                android:paddingTop="@dimen/start_btn_padding_top_buttom"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/start_page_text_size" >
+            </com.rimon.rsa.ipaeps.edittext.AnyEditText>
+
+            <com.rimon.rsa.ipaeps.edittext.AnyEditText
+                android:id="@+id/et_new_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_marginBottom="@dimen/start_btn_mrgin_l_r_t"
+                android:layout_marginTop="@dimen/patient_id_compnent_margint_top"
+                android:background="@drawable/btn_bacground"
+                android:ems="10"
+                android:enabled="true"
+                android:gravity="left|center"
+                android:hint="@string/new_password"
+                android:inputType="textPassword"
+                android:paddingBottom="@dimen/start_btn_padding_top_buttom"
+                android:paddingLeft="@dimen/start_btn_padding_l_r"
+                android:paddingTop="@dimen/start_btn_padding_top_buttom"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/start_page_text_size" >
+            </com.rimon.rsa.ipaeps.edittext.AnyEditText>
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_password_cahnge"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/start_btn_mrgin_l_r_t"
+                android:layout_marginTop="@dimen/start_btn_mrgin_l_r_t"
+                android:background="@drawable/btn_left_start_state"
+                android:drawableLeft="@drawable/btn_passowrd_2_backgrount_left"
+                android:enabled="true"
+                android:gravity="left|center_vertical"
+                android:padding="@dimen/start_btn_padding_l_r"
+                android:paddingLeft="@dimen/btn_text_padding_l_r"
+                android:text="@string/password_changed"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/start_btn_mrgin_l_r_t"
+            android:orientation="vertical" >
+
+            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/start_btn_padding_l_r"
+                android:paddingRight="@dimen/start_btn_padding_l_r"
+                android:paddingTop="@dimen/start_btn_padding_l_r"
+                android:text="@string/font_change"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/start_page_text_size"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height_double"
+                android:background="@color/setting_line_color" />
+
+            <RadioGroup
+                android:id="@+id/rg_font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/start_btn_mrgin_l_r_t"
+                android:gravity="center|left"
+                android:orientation="vertical" >
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButtonWithTitleText
+                    android:id="@+id/rb_f_courgette"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/start_btn_mrgin_l_r_t"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:text="@string/courgette"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButtonWithTitleText
+                    android:id="@+id/rb_f_museo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/checkbox_margin_top_button"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:text="@string/museo_sans"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButtonWithTitleText
+                    android:id="@+id/rb_f_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/start_btn_mrgin_l_r_t"
+                    android:layout_marginTop="@dimen/checkbox_margin_top_button"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/check_box_style"
+                    android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                    android:text="@string/system_default"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+            </RadioGroup>
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_font_cahnge"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/start_btn_mrgin_l_r_t"
+                android:layout_marginTop="@dimen/start_btn_mrgin_l_r_t"
+                android:background="@drawable/btn_bacground"
+                android:drawableLeft="@drawable/btn_font_change_backgrount_left"
+                android:gravity="left|center_vertical"
+                android:padding="@dimen/start_btn_padding_l_r"
+                android:paddingLeft="@dimen/btn_text_padding_l_r"
+                android:text="@string/font_change"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/start_page_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

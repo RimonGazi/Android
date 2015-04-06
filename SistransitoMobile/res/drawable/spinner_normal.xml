@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item><layer-list>
+            <item><shape>
+                    <solid android:color="@color/yellow_light" />
+                 
+                </shape></item>
+            <item><bitmap android:filter="true" android:gravity="right|center" android:src="@drawable/ic_sp_normal" />
+            </item>
+        </layer-list></item>
+
+<!--    <stroke android:width="1dip" android:color="@color/whight" /> -->
+</selector>

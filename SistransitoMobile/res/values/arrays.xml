@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="autode_categoria">
+        <item>OFICIAL</item>
+        <item>PARTICULAR</item>
+        <item>DE ALUGUEL</item>
+        <item>DE APRENDIZAGEM</item>
+        <item>DE REPRESENTAÇÃO DIPLOMÁTICA</item>
+        <item>DE REPARTIÇÕES CONSULARES DE CARREIRA</item>
+        <item>DE ORGANISMOS INTERNACIONAIS ACREDITADOS JUNTO AO</item>
+        <item>GOVERNO BRASILEIRO</item>
+    </string-array>
+    <string-array name="autode_especie">
+        <item>PASSAGEIRO</item>
+        <item>CARGA</item>
+        <item>MISTO</item>
+        <item>COMPETIÇÃO</item>
+        <item>TRAÇÃO</item>
+        <item>ESPECIAL</item>
+        <item>COLEÇÃO</item>
+    </string-array>
+   
+
+</resources><!--
+
+ <string-array name="autode_descricao">
+        <item>ALTO SENSOR IV</item>
+        <item>ALCOOL LIMITED 343</item>
+        <item>BFD-60</item>
+        <item>PAQUIMETRO DIGITAL</item>
+        <item>PAQUIMETRO MANUAL</item>
+    </string-array>
+    <string-array name="autode_cpf">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+        <item>"8"</item>
+        <item>"9"</item>
+        <item>"10"</item>
+        <item>"11"</item>
+    </string-array>
+-->

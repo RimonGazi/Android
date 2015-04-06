@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item><layer-list>
+            <item><shape>
+                    <solid android:color="@color/yellow_deep_2" />
+                </shape></item>
+            <item><bitmap android:filter="true" android:gravity="right|center" android:src="@drawable/ic_sp_pressed" />
+            </item>
+        </layer-list></item>
+
+</selector>

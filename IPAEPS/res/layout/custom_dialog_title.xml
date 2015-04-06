@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/im_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"
+        android:padding="@dimen/start_btn_padding_l_r"
+        android:src="@drawable/password_icon" />
+
+    <com.rimon.rsa.ipaeps.textview.AnyTextView
+        android:id="@+id/tv_title_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/im_dialog"
+        android:padding="@dimen/start_btn_padding_l_r"
+        android:text="@string/password"
+        android:textColor="@color/teal"
+        android:textSize="@dimen/title_font_size" />
+
+</RelativeLayout>

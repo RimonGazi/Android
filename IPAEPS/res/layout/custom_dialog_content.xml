@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_2"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/start_btn_mrgin_l_r_t"
+    android:paddingTop="@dimen/start_btn_mrgin_l_r_t" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+        android:background="@color/gray_2"
+        android:orientation="vertical" >
+
+        <com.rimon.rsa.ipaeps.textview.AnyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:enabled="true"
+            android:gravity="center"
+            android:padding="@dimen/start_btn_padding_l_r"
+            android:singleLine="false"
+            android:text="@string/enter_password"
+            android:textColor="@color/teal" />
+
+        <com.rimon.rsa.ipaeps.edittext.AnyEditText
+            android:id="@+id/et_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:background="@drawable/btn_bacground_2"
+            android:enabled="true"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:padding="@dimen/start_btn_padding_l_r"
+            android:textColor="@color/color_state_1"
+            android:textCursorDrawable="@null" >
+        </com.rimon.rsa.ipaeps.edittext.AnyEditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/start_btn_mrgin_l_r_t" >
+
+        <com.rimon.rsa.ipaeps.button.AnyButton
+            android:id="@+id/btn_cencel"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bacground"
+            android:gravity="center"
+            android:padding="@dimen/dialog_btn_padding"
+            android:text="@android:string/cancel"
+            android:textColor="@color/color_state_r_3" />
+
+        <com.rimon.rsa.ipaeps.button.AnyButton
+            android:id="@+id/btn_ok"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bacground"
+            android:gravity="center"
+            android:padding="@dimen/dialog_btn_padding"
+            android:text="@android:string/ok"
+            android:textColor="@color/color_state_r_3" />
+    </LinearLayout>
+
+</LinearLayout>

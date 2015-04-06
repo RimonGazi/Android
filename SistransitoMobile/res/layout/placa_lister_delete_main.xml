@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/placa_lister_layout_remove"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_2"
+    tools:context=".MainActivity" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/action_bar_back_login" />
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/yellow_deep_2"
+        android:padding="@dimen/widght_padding" >
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/widght_margin"
+            android:background="@null"
+            android:drawableRight="@drawable/btn_delete"
+            android:padding="@dimen/widght_margin"
+            android:text="@string/menu_delete"
+            android:textColor="@color/color_state_4"
+            android:textSize="@dimen/radio_text_size_2" />
+
+        <CheckBox
+            android:id="@+id/cb_check_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/widght_margin"
+            android:button="@null"
+            android:drawableLeft="@drawable/menu_check_box"
+            android:gravity="center|left"
+            android:text="@string/check_all"
+            android:textColor="@color/color_state_4"
+            android:textSize="@dimen/radio_text_size_2" />
+    </RelativeLayout>
+
+    <ExpandableListView
+        android:id="@+id/remove_expandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relative_layout_menu"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include1"
+        android:groupIndicator="@null" >
+    </ExpandableListView>
+
+</RelativeLayout>

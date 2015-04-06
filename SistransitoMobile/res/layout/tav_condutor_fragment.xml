@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow"
+    android:orientation="vertical"
+    android:padding="@dimen/widght_padding" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="@dimen/widght_padding" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tav_numero_do_auto"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_tav_numero_do_auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="left|center_vertical"
+            android:inputType="textCapCharacters"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tav_nome_do_proprietario"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_tav_nome_do_proprietario"
+         android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="left|center_vertical"
+            android:inputType="textCapCharacters"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null"  />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tav_CPF_CNPJ"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_tav_CPF_CNPJ"
+              android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="left|center_vertical"
+            android:inputType="textCapCharacters"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null"  />
+
+        <TextView
+            android:id="@+id/rrd_n_crlv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tav_numero_do_Renavam"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_tav_numero_do_Renavam"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="left|center_vertical"
+            android:inputType="textCapCharacters"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tav_numero_do_chassi"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_tav_numero_do_chassi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="left|center_vertical"
+            android:inputType="textCapCharacters"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null"  />
+    </LinearLayout>
+
+</ScrollView>

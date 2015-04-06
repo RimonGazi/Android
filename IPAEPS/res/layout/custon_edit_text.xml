@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rimon.rsa.ipaeps.edittext.AnyEditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_bacground"
+    android:inputType="text"
+    android:paddingBottom="@dimen/start_btn_padding_top_buttom"
+    android:paddingLeft="@dimen/start_btn_padding_l_r"
+    android:paddingRight="@dimen/start_btn_padding_l_r"
+    android:paddingTop="@dimen/start_btn_padding_top_buttom"
+    android:textColor="@color/black"
+    android:textCursorDrawable="@null" >
+
+</com.rimon.rsa.ipaeps.edittext.AnyEditText>

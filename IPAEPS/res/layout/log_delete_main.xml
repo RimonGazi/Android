@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/log_delete_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_2"
+    tools:context=".MainActivity" >
+
+    <ExpandableListView
+        android:id="@+id/expandableListView_log"
+        style="@android:style/Widget.Holo.Light.ExpandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relative_layout_menu"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:divider="@color/gray_2"
+        android:dividerHeight="@dimen/expendablelist_divider_height"
+        android:groupIndicator="@null" >
+    </ExpandableListView>
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/teal"
+        android:padding="@dimen/log_delete_fotter_margin" >
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/log_delete_fotter_view_margin"
+            android:background="@null"
+            android:drawableRight="@drawable/menu_btn_delete"
+            android:padding="@dimen/start_btn_mrgin_l_r_t"
+            android:text="@string/menu_delete"
+            android:textColor="@color/color_state_3"
+            android:textSize="@dimen/radio_text_size_2" />
+
+        <CheckBox
+            android:id="@+id/cb_check_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:button="@null"
+            android:drawableLeft="@drawable/menu_check_box"
+            android:gravity="center|left"
+            android:text="@string/check_all"
+            android:textColor="@color/color_state_3"
+            android:textSize="@dimen/radio_text_size_2" />
+    </RelativeLayout>
+
+</RelativeLayout>

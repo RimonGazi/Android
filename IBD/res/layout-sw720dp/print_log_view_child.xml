@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dip"
+    android:layout_marginRight="5dip"
+    android:layout_marginTop="5dip"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/p_e_margin"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/btn_pl_print"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/btn_print_child_view"
+                    android:gravity="center"
+                    android:padding="@dimen/child_button_padding"
+                    android:text="@string/print"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/child_text_size" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/btn_pl_save"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/btn_export_child_view"
+                    android:gravity="center"
+                    android:padding="@dimen/child_button_padding"
+                    android:text="@string/save"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/child_text_size" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/child_text_padding"
+            android:text="@string/print_title"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="@dimen/child_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/child_text_padding"
+            android:text="@string/print_question_subtitle_2"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="@dimen/child_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/p_q_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/child_text_padding"
+            android:text="@string/p_q_1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="@dimen/child_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/p_q_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/child_text_padding"
+            android:text="@string/p_q_2"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="@dimen/child_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/p_q_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/child_text_padding"
+            android:text="@string/p_q_3"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="@dimen/child_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/p_q_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/child_text_padding"
+            android:text="@string/p_q_4"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="@dimen/child_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/child_text_padding"
+            android:text="@string/print_question_subtitle_1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="@dimen/child_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/p_q_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/child_text_padding"
+            android:text="@string/anxiety_score"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="@dimen/child_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/p_q_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/child_text_padding"
+            android:text="@string/anxiety_severity_level"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="@dimen/child_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/p_q_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/child_text_padding"
+            android:text="@string/depression_score"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="@dimen/child_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/p_q_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/child_text_padding"
+            android:text="@string/depression_severity_level"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="@dimen/child_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/p_q_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/child_text_padding"
+            android:text="@string/stress_score"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="@dimen/child_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/p_q_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/child_text_padding"
+            android:text="@string/stress_severity_level"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="@dimen/child_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/p_q_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/child_text_padding"
+            android:text="@string/suicidal"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="@dimen/child_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/p_q_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/child_text_padding"
+            android:text="@string/mental_healt_professional"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="@dimen/child_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/p_q_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/child_text_padding"
+            android:text="@string/symptoms_worsen"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="@dimen/child_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/child_text_padding"
+            android:text="@string/second_title"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="@dimen/child_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:id="@+id/lineraLayout_title_reuslt_print"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/result_layout_margin_top"
+            android:background="@drawable/manual_input_title_text_style"
+            android:orientation="vertical"
+            android:padding="@dimen/child_text_padding" >
+
+            <TextView
+                android:id="@+id/tv_title_print"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/strt_title_padding"
+                android:text="@string/out_patient"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="@dimen/strt_title_text_size" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_sub_title_print"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/child_text_padding"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:id="@+id/tv_image_layout_parent_print"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/result_layout_margin_top"
+            android:padding="@dimen/child_text_padding" >
+
+            <LinearLayout
+                android:id="@+id/linerLayout_text_hint_leftside_print"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/layout_red"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_result_description_print"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Small Text"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linerLayout_image_hine_right_side_print"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imageview_reuslt_log"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/abs__ab_bottom_solid_light_holo" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/child_text_padding"
+            android:text="@string/please_note"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="@dimen/child_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/child_text_padding"
+            android:text="@string/please_note_text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="@dimen/child_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/lineview_margin_left_right"
+            android:layout_marginRight="@dimen/lineview_margin_left_right"
+            android:background="@drawable/ls"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+</ScrollView>

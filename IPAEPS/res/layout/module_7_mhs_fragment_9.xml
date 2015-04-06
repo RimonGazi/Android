@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout_ibd_2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_1"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/start_page_padding_lefr_right"
+    android:paddingRight="@dimen/start_page_padding_lefr_right"
+    android:paddingTop="@dimen/start_page_content_padding_top" >
+
+    <LinearLayout
+        android:id="@+id/lineraLayout_title_reuslt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <com.rimon.rsa.ipaeps.textview.AnyTextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:enabled="false"
+            android:gravity="center"
+            android:padding="@dimen/btn_text_padding_t_b"
+            android:text="@string/module_12_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/black"
+            android:textSize="@dimen/btn_text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            layout="@layout/btn_next" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lineraLayout_title_reuslt"
+        android:gravity="center_vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout_result_sub_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical" >
+
+                <com.rimon.rsa.ipaeps.textview.AnyTextView
+                    android:id="@+id/tv_sub_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                    android:gravity="center"
+                    android:text="@string/module_12_title"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/color_state_1"
+                    android:textSize="@dimen/btn_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tv_image_layout_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/linearLayout_result_sub_title"
+                android:baselineAligned="false" >
+
+                <LinearLayout
+                    android:id="@+id/linerLayout_text_hint_leftside"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                    android:layout_weight="1"
+                    android:background="@color/level_red_layout_color"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_result_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/btn_text_padding_t_b"
+                        android:text="@string/module_12_title"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/btn_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linerLayout_image_hint_right_side"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/im_rsult"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/mental_health_status"
+                        android:src="@drawable/abs__ab_bottom_solid_light_holo" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/tv_image_layout_parent"
+                android:orientation="vertical" >
+
+                <com.rimon.rsa.ipaeps.textview.AnyTextView
+                    android:id="@+id/tv_footer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                    android:gravity="center"
+                    android:text="@string/module_12_title"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/help_text_color"
+                    android:textSize="@dimen/btn_text_size" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

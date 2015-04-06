@@ -1,0 +1,613 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_1"
+    android:descendantFocusability="beforeDescendants"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/start_page_padding_lefr_right"
+    android:paddingRight="@dimen/start_page_padding_lefr_right"
+    android:paddingTop="@dimen/start_page_content_padding_top" >
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_1" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:gravity="center|left"
+                android:text="@string/default_module"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <CheckBox
+                android:id="@+id/cb_settin_default"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:button="@null"
+                android:drawableLeft="@drawable/check_box_style_2"
+                android:gravity="center|left"
+                android:text="@string/Run_all_modules"
+                android:textColor="@color/check_box_state_1"
+                android:textSize="@dimen/radio_text_size_2" />
+
+            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                android:id="@+id/tv_setting_custom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:drawablePadding="@dimen/checnox_drawable_padding_left"
+                android:enabled="false"
+                android:gravity="center|left"
+                android:text="@string/custom_module"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/linearLayout1"
+            android:fillViewport="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/cb_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/check_box_style_2"
+                        android:enabled="false"
+                        android:gravity="center|left"
+                        android:text="@string/patient_id"
+                        android:textColor="@color/check_box_state_1"
+                        android:textSize="@dimen/radio_text_size_2" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_order_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/btn_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/cb_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/check_box_style_2"
+                        android:enabled="false"
+                        android:gravity="center|left"
+                        android:text="@string/demographic_details"
+                        android:textColor="@color/check_box_state_1"
+                        android:textSize="@dimen/radio_text_size_2" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_order_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/btn_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/cb_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/check_box_style_2"
+                        android:enabled="false"
+                        android:gravity="center|left"
+                        android:text="@string/ibd_activity"
+                        android:textColor="@color/check_box_state_1"
+                        android:textSize="@dimen/radio_text_size_2" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_order_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/btn_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/cb_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/check_box_style_2"
+                        android:enabled="false"
+                        android:gravity="center|left"
+                        android:text="@string/medications"
+                        android:textColor="@color/check_box_state_1"
+                        android:textSize="@dimen/radio_text_size_2" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_order_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/btn_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/cb_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/check_box_style_2"
+                        android:enabled="false"
+                        android:gravity="center|left"
+                        android:text="@string/medication_adherence"
+                        android:textColor="@color/check_box_state_1"
+                        android:textSize="@dimen/radio_text_size_2" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_order_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/btn_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/cb_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/check_box_style_2"
+                        android:enabled="false"
+                        android:gravity="center|left"
+                        android:text="@string/pain_symptoms"
+                        android:textColor="@color/check_box_state_1"
+                        android:textSize="@dimen/radio_text_size_2" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_order_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/btn_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/cb_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/check_box_style_2"
+                        android:enabled="false"
+                        android:gravity="center|left"
+                        android:text="@string/mental_health_status"
+                        android:textColor="@color/check_box_state_1"
+                        android:textSize="@dimen/radio_text_size_2" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_order_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/btn_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/cb_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/check_box_style_2"
+                        android:enabled="false"
+                        android:gravity="center|left"
+                        android:text="@string/mental_health_status_feed_back_2"
+                        android:textColor="@color/check_box_state_1"
+                        android:textSize="@dimen/radio_text_size_2" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_order_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/btn_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/cb_9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/check_box_style_2"
+                        android:enabled="false"
+                        android:gravity="center|left"
+                        android:text="@string/you_diet"
+                        android:textColor="@color/check_box_state_1"
+                        android:textSize="@dimen/radio_text_size_2" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_order_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/btn_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/cb_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/check_box_style_2"
+                        android:enabled="false"
+                        android:gravity="center|left"
+                        android:text="@string/patient_confidence"
+                        android:textColor="@color/check_box_state_1"
+                        android:textSize="@dimen/radio_text_size_2" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_order_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/btn_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/cb_11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/check_box_style_2"
+                        android:enabled="false"
+                        android:gravity="center|left"
+                        android:text="@string/patient_questions_concerns"
+                        android:textColor="@color/check_box_state_1"
+                        android:textSize="@dimen/radio_text_size_2" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_order_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/btn_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/cb_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/check_box_style_2"
+                        android:enabled="false"
+                        android:gravity="center|left"
+                        android:text="@string/responses_to_past_goals"
+                        android:textColor="@color/check_box_state_1"
+                        android:textSize="@dimen/radio_text_size_2" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_order_12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/btn_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/cb_13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/check_box_style_2"
+                        android:enabled="false"
+                        android:gravity="center|left"
+                        android:text="@string/goal_setting"
+                        android:textColor="@color/check_box_state_1"
+                        android:textSize="@dimen/radio_text_size_2" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_order_13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/btn_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/cb_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/check_box_style_2"
+                        android:enabled="false"
+                        android:gravity="center|left"
+                        android:text="@string/identifying_problems"
+                        android:textColor="@color/check_box_state_1"
+                        android:textSize="@dimen/radio_text_size_2" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_order_14"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/btn_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/cb_15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/check_box_style_2"
+                        android:enabled="false"
+                        android:gravity="center|left"
+                        android:text="@string/program_evaluation_2"
+                        android:textColor="@color/check_box_state_1"
+                        android:textSize="@dimen/radio_text_size_2" />
+
+                    <com.rimon.rsa.ipaeps.textview.AnyTextView
+                        android:id="@+id/tv_order_15"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_state_1"
+                        android:textSize="@dimen/btn_text_size" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <com.rimon.rsa.ipaeps.button.AnyButton
+            android:id="@+id/btn_sg_q_module_13_2"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:background="@drawable/btn_next_bacground"
+            android:drawableLeft="@drawable/btn_goals_backgrount_left"
+            android:enabled="false"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="@dimen/btn_text_padding_t_b"
+            android:paddingLeft="@dimen/btn_text_padding_l_r"
+            android:paddingTop="@dimen/btn_text_padding_t_b"
+            android:text="@string/specific_goal"
+            android:textColor="@color/color_state_1"
+            android:textSize="@dimen/btn_text_size" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" >
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_clean_cb"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/start_btn_mrgin_l_r_t"
+                android:layout_marginLeft="@dimen/start_btn_mrgin_l_r_t"
+                android:layout_marginTop="@dimen/start_btn_mrgin_l_r_t"
+                android:layout_weight="1"
+                android:background="@drawable/btn_next_bacground"
+                android:drawableLeft="@drawable/btn_clean_backgrount_left"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/btn_text_padding_t_b"
+                android:paddingLeft="@dimen/btn_text_padding_l_r"
+                android:paddingTop="@dimen/btn_text_padding_t_b"
+                android:text="@string/clean_cb"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_reset"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/start_btn_mrgin_l_r_t"
+                android:layout_marginLeft="@dimen/start_btn_mrgin_l_r_t"
+                android:layout_marginTop="@dimen/start_btn_mrgin_l_r_t"
+                android:layout_weight="1"
+                android:background="@drawable/btn_next_bacground"
+                android:drawableLeft="@drawable/btn_reset_backgrount_left"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/btn_text_padding_t_b"
+                android:paddingLeft="@dimen/btn_text_padding_l_r"
+                android:paddingTop="@dimen/btn_text_padding_t_b"
+                android:text="@string/reset"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_save"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:layout_weight="1"
+                android:background="@drawable/btn_next_bacground"
+                android:drawableLeft="@drawable/btn_save_backgrount_left"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/btn_text_padding_t_b"
+                android:paddingLeft="@dimen/btn_text_padding_l_r"
+                android:paddingTop="@dimen/btn_text_padding_t_b"
+                android:text="@string/save"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

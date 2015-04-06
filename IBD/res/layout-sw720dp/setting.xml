@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/setting_bacground"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/setting_1_layout_ma_b"
+        android:layout_marginLeft="@dimen/setting_1_layout_ma_l"
+        android:layout_marginRight="@dimen/setting_1_layout_ma_r"
+        android:layout_marginTop="@dimen/setting_1_layout_ma_t"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/setting_text_m_b"
+            android:paddingLeft="@dimen/setting_text_p_l"
+            android:paddingRight="@dimen/setting_text_p_r"
+            android:paddingTop="@dimen/setting_text_p_t"
+            android:text="@string/patient_question_setting"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height_2"
+            android:background="@drawable/ls" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/setting_2_layout_ma_l"
+            android:layout_marginRight="@dimen/setting_2_layout_ma_r"
+            android:layout_marginTop="@dimen/setting_2_layout_ma_t" >
+
+            <CheckBox
+                android:id="@+id/checkBoxAllQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:button="@drawable/check_box_style"
+                android:checked="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/checkBoxAllQuestion"
+                android:layout_alignBottom="@+id/checkBoxAllQuestion"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/checkBoxAllQuestion"
+                android:text="@string/patient_question_setting_all"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/checkBoxAllQuestion"
+                android:text="@string/patient_question_setting_all_hint"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/setting_2_layout_ma_l"
+            android:layout_marginRight="@dimen/setting_2_layout_ma_r" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_view_height"
+                android:background="@drawable/ls" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/setting_2_layout_ma_l"
+            android:layout_marginRight="@dimen/setting_2_layout_ma_r"
+            android:layout_marginTop="@dimen/setting_2_layout_ma_t" >
+
+            <CheckBox
+                android:id="@+id/checkBoxIntialQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:button="@drawable/check_box_style"
+                android:checked="false" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/checkBoxIntialQuestion"
+                android:layout_alignBottom="@+id/checkBoxIntialQuestion"
+                android:layout_alignParentLeft="true"
+                android:text="@string/patient_question_setting_only_feedback"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/checkBoxIntialQuestion"
+                android:text="@string/patient_question_setting_only_hint"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/setting_2_layout_ma_l"
+            android:layout_marginRight="@dimen/setting_2_layout_ma_r" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_view_height"
+                android:background="@drawable/ls" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/setting_1_layout_ma_b"
+        android:layout_marginLeft="@dimen/setting_1_layout_ma_l"
+        android:layout_marginRight="@dimen/setting_1_layout_ma_r"
+        android:layout_marginTop="@dimen/setting_1_layout_ma_t"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/setting_text_m_b"
+            android:paddingLeft="@dimen/setting_text_p_l"
+            android:paddingRight="@dimen/setting_text_p_r"
+            android:paddingTop="@dimen/setting_text_p_t"
+            android:text="@string/change_password"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height_2"
+            android:background="@drawable/ls" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/setting_2_layout_ma_l"
+            android:layout_marginRight="@dimen/setting_2_layout_ma_r"
+            android:layout_marginTop="@dimen/setting_2_layout_ma_t"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/et_cp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/setting_et_top"
+                android:ems="10"
+                android:hint="@string/current_password"
+                android:inputType="textPassword"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_np"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/setting_et_top"
+                android:ems="10"
+                android:hint="@string/new_password"
+                android:inputType="textPassword"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_cnp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/setting_et_top"
+                android:ems="10"
+                android:hint="@string/confirm_new_password"
+                android:inputType="textPassword"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_pasword_change"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/setting_btn_m_l_r"
+                android:layout_marginRight="@dimen/setting_btn_m_l_r"
+                android:layout_marginTop="@dimen/setting_btn_m_t"
+                android:background="@drawable/login_selector"
+                android:padding="@dimen/export_btn_p"
+                android:text="@string/change_password"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

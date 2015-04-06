@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow"
+    android:orientation="vertical"
+    android:padding="@dimen/widght_padding" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="@dimen/widght_padding" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/widght_padding_3"
+                android:text="@string/tav_odometro"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/whight" />
+
+            <EditText
+                android:id="@+id/et_tav_odometo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow_light"
+                android:gravity="left|center_vertical"
+                android:inputType="textCapSentences"
+                android:padding="@dimen/widght_padding"
+                android:textColor="@color/whight"
+                android:textCursorDrawable="@null" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/widght_padding_3"
+                android:text="@string/tav_marcador_de_conbutivel"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/whight" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/checkBox_tav_danificado"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/check_box_style_3"
+                    android:text="@string/tav_danificado"
+                    android:textColor="@color/whight" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_tav_vazio"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/check_box_style_3"
+                    android:text="@string/tav_vazio"
+                    android:textColor="@color/whight" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding" >
+
+                <CheckBox
+                    android:id="@+id/checkBox_tav_14"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/check_box_style_3"
+                    android:paddingTop="@dimen/widght_padding_3"
+                    android:text="@string/tav_14"
+                    android:textColor="@color/whight" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_tav_12"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/check_box_style_3"
+                    android:paddingTop="@dimen/widght_padding_3"
+                    android:text="@string/tav_12"
+                    android:textColor="@color/whight" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widght_padding" >
+
+                <CheckBox
+                    android:id="@+id/checkBox_tav_34"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/check_box_style_3"
+                    android:paddingTop="@dimen/widght_padding_3"
+                    android:text="@string/tav_34"
+                    android:textColor="@color/whight" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_tav_cheio"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/check_box_style_3"
+                    android:paddingTop="@dimen/widght_padding_3"
+                    android:text="@string/tav_cheio"
+                    android:textColor="@color/whight" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tav_delete_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/widght_padding_3"
+                android:text="@string/tav_remocao_atraves_de"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/whight" />
+
+            <Spinner
+                android:id="@+id/sp_tav_remocao_atraves_de"
+                style="@style/Theam.Spinner_theam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/widght_padding"
+                android:textAlignment="textStart"
+                android:textDirection="firstStrong" />
+
+            <TextView
+                android:id="@+id/tv_av_nome_da_empresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/widght_padding_3"
+                android:text="@string/t_v_nome_da_empresa"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/whight" />
+
+            <EditText
+                android:id="@+id/et_tav_nome_da_empresa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow_light"
+                android:gravity="left|center_vertical"
+                android:inputType="textCapSentences"
+                android:padding="@dimen/widght_padding"
+                android:textColor="@color/whight"
+                android:textCursorDrawable="@null" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_nome_do_condutor_do_guincho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/widght_padding_3"
+                android:text="@string/t_v_nome_do_condutor_do_guincho"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/whight" />
+
+            <EditText
+                android:id="@+id/et_nome_do_condutor_do_guincho"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow_light"
+                android:gravity="left|center_vertical"
+                android:inputType="textCapSentences"
+                android:padding="@dimen/widght_padding"
+                android:textColor="@color/whight"
+                android:textCursorDrawable="@null" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/widght_padding_3"
+                android:text="@string/observacao"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/whight" />
+
+            <EditText
+                android:id="@+id/et_tav_observacao"
+                android:layout_width="fill_parent"
+                android:layout_height="120dip"
+                android:background="@color/yellow_light"
+                android:gravity="left|center_vertical"
+                android:inputType="textCapSentences"
+                android:padding="@dimen/widght_padding"
+                android:textColor="@color/whight"
+                android:textCursorDrawable="@null" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding" >
+
+            <Button
+                android:id="@+id/btn_tav_conferir"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/indicator_width"
+                android:layout_weight="1"
+                android:background="@drawable/btn_yellow_2"
+                android:padding="@dimen/widght_padding"
+                android:text="@string/conferir"
+                android:textColor="@color/whight" />
+
+            <Button
+                android:id="@+id/btn_tav_gerar"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/indicator_width"
+                android:layout_weight="1"
+                android:background="@drawable/btn_yellow_2"
+                android:padding="@dimen/widght_padding"
+                android:text="@string/gerar"
+                android:textColor="@color/whight" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

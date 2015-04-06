@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:paddingBottom="@dimen/layout_margin_buttom"
+    android:paddingLeft="@dimen/layout_margin_left_right"
+    android:paddingRight="@dimen/layout_margin_left_right"
+    android:paddingTop="@dimen/layout_margin_top"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_lets_go"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/widght_margin_top_2"
+            android:background="@drawable/btn_lets_go"
+            android:drawableLeft="@drawable/ic_lets_go"
+            android:drawablePadding="@dimen/widght_padding"
+            android:enabled="false"
+            android:gravity="left|center_vertical"
+            android:padding="@dimen/widght_padding_2"
+            android:text="@string/lets_go"
+            android:textColor="@color/whight" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/widght_margin_top_2"
+            android:background="@drawable/btn_whight"
+            android:drawableLeft="@drawable/signup_name_2"
+            android:drawablePadding="@dimen/widght_padding"
+            android:enabled="false"
+            android:gravity="left|center_vertical"
+            android:padding="@dimen/widght_padding_2"
+            android:text="@string/login"
+            android:textColor="@color/pink" />
+
+        <Button
+            android:id="@+id/btn_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/widght_margin_top_2"
+            android:background="@drawable/btn_whight"
+            android:drawableLeft="@drawable/signup_email_3"
+            android:drawablePadding="@dimen/widght_padding"
+            android:enabled="false"
+            android:gravity="left|center_vertical"
+            android:padding="@dimen/widght_padding_2"
+            android:text="@string/sign_up"
+            android:textColor="@color/yellow" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/progress_bar_height"
+            android:layout_marginBottom="@dimen/widght_margin_top_2"
+            android:progressDrawable="@drawable/progressbar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/layout_margin_top"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_margin_top"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_launcher" />
+
+        <net.sistransitomobile.textview.AnyTextViewTitle
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widght_margin"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/title_fint_size" />
+    </LinearLayout>
+
+</RelativeLayout>

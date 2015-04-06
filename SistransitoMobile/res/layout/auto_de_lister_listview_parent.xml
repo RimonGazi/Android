@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/log_list_selector"
+    android:orientation="horizontal"
+    android:padding="@dimen/widght_padding" >
+
+    <TextView
+        android:id="@+id/log_plate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/log_license_status"
+        android:layout_alignParentTop="true"
+        android:text="Placa : OFM3050"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#040404"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    
+
+    <TextView
+        android:id="@+id/log_license_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/log_plate"
+        android:layout_marginLeft="36dp"
+        android:text="Normal"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#343434" />
+
+</RelativeLayout>

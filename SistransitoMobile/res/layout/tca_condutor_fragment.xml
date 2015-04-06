@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow"
+    android:orientation="vertical"
+    android:padding="@dimen/widght_padding" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="@dimen/widght_padding" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dip"
+            android:gravity="center"
+            android:text="@string/tca_identificacao_d_condutor"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tca_nome"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_tca_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="center"
+            android:inputType="number"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingRight="@dimen/indicator_width" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/widght_padding_3"
+                    android:text="@string/tca_CNH_PPD"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <EditText
+                    android:id="@+id/et_tca_cnh_ppd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/yellow_light"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:padding="@dimen/widght_padding"
+                    android:textColor="@color/whight"
+                    android:textCursorDrawable="@null" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/indicator_width" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/widght_padding_3"
+                    android:text="@string/tca_CPF"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <EditText
+                    android:id="@+id/et_tca_cpf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/yellow_light"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:padding="@dimen/widght_padding"
+                    android:textColor="@color/whight"
+                    android:textCursorDrawable="@null" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tca_endereco"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_tca_endereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="center"
+            android:inputType="number"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" >
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/widght_padding_3"
+            android:text="@string/tca_bairro"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/whight" />
+
+        <EditText
+            android:id="@+id/et_tca_bairro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_light"
+            android:gravity="center"
+            android:inputType="number"
+            android:padding="@dimen/widght_padding"
+            android:textColor="@color/whight"
+            android:textCursorDrawable="@null" >
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight=".13"
+                android:orientation="vertical"
+                android:paddingRight="@dimen/indicator_width" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/widght_padding_3"
+                    android:text="@string/tca_municipio"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <EditText
+                    android:id="@+id/et_tca_municipio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/yellow_light"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:padding="@dimen/widght_padding"
+                    android:textColor="@color/whight"
+                    android:textCursorDrawable="@null" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight=".15"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/indicator_width" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/widght_padding_3"
+                    android:text="@string/tca_UF"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/whight" />
+
+                <Spinner
+                    android:id="@+id/sp_tca_uf"
+                    style="@style/Theam.Spinner_theam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/widght_padding" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

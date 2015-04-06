@@ -1,0 +1,835 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:paddingBottom="@dimen/main_fragment_layout_padding_bottom"
+    android:paddingLeft="@dimen/main_fragment_layout_padding_left"
+    android:paddingRight="@dimen/main_fragment_layout_padding_right"
+    android:paddingTop="@dimen/main_fragment_layout_padding_top"
+    tools:context=".StartActivityIBD" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/view_pager_padding_buttom"
+        android:layout_marginTop="@dimen/view_pager_padding_top"
+        android:background="@drawable/text_show_list_shape"
+        android:padding="@dimen/title_text_padding" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/feedback_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/off_white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/feedback_q_margin_bottom"
+            android:layout_marginTop="@dimen/feedback_q_margin_top"
+            android:gravity="center|left"
+            android:text="@string/feedback_01"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/off_white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout2" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+            android:layout_marginLeft="@dimen/checkbox_margin_left"
+            android:layout_marginRight="@dimen/checkbox_margin_right"
+            android:layout_marginTop="@dimen/checkbox_margin_top"
+            android:gravity="center"
+            android:text="@string/not_at_all_helpful"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/off_white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+            android:layout_marginLeft="@dimen/checkbox_margin_left"
+            android:layout_marginRight="@dimen/checkbox_margin_right"
+            android:layout_marginTop="@dimen/checkbox_margin_top"
+            android:gravity="center"
+            android:text="@string/extremely_helpful"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/off_white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_centerHorizontal="true"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_1_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_1_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_1_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout1" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/feedback_q_margin_bottom"
+            android:layout_marginTop="@dimen/feedback_q_margin_top"
+            android:gravity="center|left"
+            android:text="@string/feedback_02"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/off_white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout4" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+            android:layout_marginLeft="@dimen/checkbox_margin_left"
+            android:layout_marginRight="@dimen/checkbox_margin_right"
+            android:layout_marginTop="@dimen/checkbox_margin_top"
+            android:gravity="center"
+            android:text="@string/not_at_all_likly"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/off_white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+            android:layout_marginLeft="@dimen/checkbox_margin_left"
+            android:layout_marginRight="@dimen/checkbox_margin_right"
+            android:layout_marginTop="@dimen/checkbox_margin_top"
+            android:gravity="center"
+            android:text="@string/extremely_likly"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/off_white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout5"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_2_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_2_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_2_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/feedback_q_margin_bottom"
+            android:layout_marginTop="@dimen/feedback_q_margin_top"
+            android:gravity="center|left"
+            android:text="@string/feedback_03"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/off_white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout6" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+            android:layout_marginLeft="@dimen/checkbox_margin_left"
+            android:layout_marginRight="@dimen/checkbox_margin_right"
+            android:layout_marginTop="@dimen/checkbox_margin_top"
+            android:gravity="center"
+            android:text="@string/not_at_all"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/off_white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+            android:layout_marginLeft="@dimen/checkbox_margin_left"
+            android:layout_marginRight="@dimen/checkbox_margin_right"
+            android:layout_marginTop="@dimen/checkbox_margin_top"
+            android:gravity="center"
+            android:text="@string/extreme_distress"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/off_white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout7"
+        android:baselineAligned="false" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_3_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_3_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_3_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout3" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/feedback_q_margin_bottom"
+            android:layout_marginTop="@dimen/feedback_q_margin_top"
+            android:gravity="center|left"
+            android:text="@string/feedback_04"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/off_white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout8" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+            android:layout_marginLeft="@dimen/checkbox_margin_left"
+            android:layout_marginRight="@dimen/checkbox_margin_right"
+            android:layout_marginTop="@dimen/checkbox_margin_top"
+            android:gravity="center"
+            android:text="@string/not_at_all"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/off_white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+            android:layout_marginLeft="@dimen/checkbox_margin_left"
+            android:layout_marginRight="@dimen/checkbox_margin_right"
+            android:layout_marginTop="@dimen/checkbox_margin_top"
+            android:gravity="center"
+            android:text="@string/very_much_so"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/off_white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout9"
+        android:baselineAligned="false" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_4_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_4_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_fb_4_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkbox_margin_buttom"
+                android:layout_marginLeft="@dimen/checkbox_margin_left"
+                android:layout_marginRight="@dimen/checkbox_margin_right"
+                android:layout_marginTop="@dimen/checkbox_margin_top"
+                android:button="@drawable/check_box_style" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/fb_1_remove_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout4" >
+
+        <Button
+            android:id="@+id/btn_fb_1_next"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/btn_next" />
+
+        <Button
+            android:id="@+id/btn_fb_1_right"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/right_button_icon" />
+    </RelativeLayout>
+
+</RelativeLayout>

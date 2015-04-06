@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Question2" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/q2name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name" />
+
+            <TextView
+                android:id="@+id/q2main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ที่อยู่อาศัยและการเลี้ยงดู" />
+
+            <TextView
+                android:id="@+id/q21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="สภาพบ้านที่อยู่อาศัยของเด็ก (สภาพตัวบ้าน)" />
+
+            <Spinner
+                android:id="@+id/q2a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/q22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="สภาพการอยู่อาศัยภายในบ้าน" />
+
+            <Spinner
+                android:id="@+id/q2a2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/q23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="สภาพแวดล้อมที่อยู่อาศัยของเด็กมีความปลอดภัย" />
+
+            <Spinner
+                android:id="@+id/q2a3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/q24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ที่อยู่อาศัยของเด็กสะอาดถูกสุขลักษณะ" />
+
+            <Spinner
+                android:id="@+id/q2a4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/q25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ผู้ดูแลเด็กสามารถดูแล ปกป้องคุ้มครองและช่วยเหลือเด็กได้" />
+
+            <Spinner
+                android:id="@+id/q2a5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/q26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="คนในครอบครัวมีพฤติกรรมที่อาจนำไปสู่อันตรายใดๆ หรือไม่" />
+
+            <Spinner
+                android:id="@+id/q2a6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

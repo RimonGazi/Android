@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout_03"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/manual_input_bacground"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/main_fragment_layout_padding_bottom"
+    android:paddingLeft="@dimen/main_fragment_layout_padding_left"
+    android:paddingRight="@dimen/main_fragment_layout_padding_right"
+    android:paddingTop="@dimen/main_fragment_layout_padding_top" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/manual_input_layout_shape"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/end_layout_margin_t_and_b"
+            android:background="@drawable/manual_input_title_text_style"
+            android:orientation="vertical" >
+
+            <TextView
+                 android:textColor="@color/text_title"
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/strt_title_padding"
+                android:text="@string/end_title"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="@dimen/strt_title_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_t_and_b"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/strt_layout_margin"
+                android:gravity="center"
+                android:text="@string/end_describtion"
+                android:textColor="@color/black"
+                android:textSize="@dimen/strt_cntr_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/end_layout_margin_t_and_b"
+            android:layout_marginTop="@dimen/end_layout_margin_t_and_b"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_end_patient_question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/btn_start_margin_buttom"
+                android:layout_marginTop="@dimen/btn_start_margin_buttom"
+                android:background="@drawable/login_selector"
+                android:gravity="center"
+                android:paddingBottom="@dimen/end_btn_padding_t_and_b"
+                android:paddingLeft="@dimen/end_btn_padding_l_and_r"
+                android:paddingRight="@dimen/end_btn_padding_l_and_r"
+                android:paddingTop="@dimen/end_btn_padding_t_and_b"
+                android:text="@string/touch_here_start_screen"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:textSize="@dimen/strt_title_text_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

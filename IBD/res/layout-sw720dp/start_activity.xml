@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/manual_input_bacground"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:gravity="top"
+    android:paddingBottom="@dimen/main_1_fragment_layout_padding_bottom"
+    android:paddingLeft="@dimen/main_1_fragment_layout_padding_left"
+    android:paddingRight="@dimen/main_1_fragment_layout_padding_right"
+    android:paddingTop="@dimen/main_1_fragment_layout_padding_top"
+    tools:context=".StartActivityIBD" >
+
+    <com.rimon.rsa.ibd.main.CustomSwipeableViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/view_pager_background"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        tools:context=".StartActivityIBD" />
+
+</RelativeLayout>

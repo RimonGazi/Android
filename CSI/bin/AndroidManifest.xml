@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.dataminer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.project.dataminer.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Followup" >
+        </activity>
+        <activity android:name="Help" >
+        </activity>
+        <activity android:name="Conclude" >
+        </activity>
+        <activity android:name="Menu" >
+        </activity>
+        <activity android:name="Question1" >
+        </activity>
+        <activity android:name="Question2" >
+        </activity>
+        <activity android:name="Question3" >
+        </activity>
+        <activity android:name="Question4" >
+        </activity>
+        <activity android:name="Question5" >
+        </activity>
+        <activity android:name="Question6" >
+        </activity>
+        <activity android:name="QuestionAll" >
+        </activity>
+        <activity android:name="Register" >
+        </activity>
+        <activity android:name="UserMenu" >
+        </activity>
+        <activity android:name="ViewUserData" >
+        </activity>
+        <activity android:name="SingIn"></activity>
+        <activity android:name="Qdetail"></activity>
+        <activity android:name="QuestionDetail"></activity>
+    </application>
+
+</manifest>

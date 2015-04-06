@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_1"
+    android:descendantFocusability="beforeDescendants"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/start_page_padding_lefr_right"
+    android:paddingRight="@dimen/start_page_padding_lefr_right"
+    android:paddingTop="@dimen/start_page_content_padding_top" >
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_1" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                android:id="@+id/tv_q_module_9_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:gravity="center|left"
+                android:text="@string/default_module"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <CheckBox
+                android:id="@+id/cb_settin_default"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:button="@null"
+                android:drawableLeft="@drawable/check_box_style_2"
+                android:gravity="center|left"
+                android:text="@string/Run_all_modules"
+                android:textColor="@color/check_box_state_1"
+                android:textSize="@dimen/radio_text_size_2" />
+
+            <com.rimon.rsa.ipaeps.textview.AnyTextView
+                android:id="@+id/tv_setting_rb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:enabled="false"
+                android:gravity="center|left"
+                android:text="@string/what_pre_set"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/linearLayout1"
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android:id="@+id/rg_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:gravity="center|left"
+                android:orientation="vertical" >
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/rb_settin_r_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/check_box_style_2"
+                    android:enabled="false"
+                    android:gravity="top|left"
+                    android:text="@string/s_r_1"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/rb_settin_r_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/checkbox_2_margin_top_button"
+                    android:button="@drawable/check_box_style_2"
+                    android:enabled="false"
+                    android:gravity="top|left"
+                    android:text="@string/s_r_2"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/rb_settin_r_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/checkbox_2_margin_top_button"
+                    android:button="@drawable/check_box_style_2"
+                    android:enabled="false"
+                    android:gravity="top|left"
+                    android:text="@string/s_r_3"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/rb_settin_r_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/checkbox_2_margin_top_button"
+                    android:button="@drawable/check_box_style_2"
+                    android:enabled="false"
+                    android:gravity="top|left"
+                    android:text="@string/s_r_4"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/rb_settin_r_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/checkbox_2_margin_top_button"
+                    android:button="@drawable/check_box_style_2"
+                    android:enabled="false"
+                    android:gravity="top|left"
+                    android:text="@string/s_r_5"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/rb_settin_r_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/checkbox_2_margin_top_button"
+                    android:button="@drawable/check_box_style_2"
+                    android:enabled="false"
+                    android:gravity="top|left"
+                    android:text="@string/s_r_6"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+
+                <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButton
+                    android:id="@+id/rb_settin_r_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/checkbox_2_margin_top_button"
+                    android:button="@drawable/check_box_style_2"
+                    android:enabled="false"
+                    android:gravity="top|left"
+                    android:text="@string/s_r_7"
+                    android:textColor="@color/check_box_state_1"
+                    android:textSize="@dimen/radio_text_size_2" />
+            </RadioGroup>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

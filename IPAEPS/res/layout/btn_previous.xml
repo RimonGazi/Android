@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rimon.rsa.ipaeps.button.AnyButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btn_previous"
+    style="?android:attr/borderlessButtonStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/et_patient_id"
+    android:background="@drawable/btn_next_bacground"
+    android:drawableRight="@drawable/btn_previous_backgrount_right"
+    android:enabled="true"
+    android:gravity="right|center_vertical"
+    android:paddingBottom="@dimen/start_btn_padding_top_buttom"
+    android:paddingRight="@dimen/start_btn_padding_l_r"
+    android:paddingTop="@dimen/start_btn_padding_top_buttom"
+    android:text="@string/previous"
+    android:textColor="@color/color_state_1"
+    android:textSize="@dimen/start_page_text_size" />

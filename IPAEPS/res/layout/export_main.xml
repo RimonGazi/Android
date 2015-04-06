@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray_1"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/start_page_padding_lefr_right"
+    android:paddingRight="@dimen/start_page_padding_lefr_right"
+    android:paddingTop="@dimen/start_page_content_padding_top" >
+
+    <com.rimon.rsa.ipaeps.textview.TitleTextView
+        android:id="@+id/tv_q_module_9_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/start_btn_mrgin_l_r_t"
+        android:layout_marginRight="@dimen/start_btn_mrgin_l_r_t"
+        android:layout_marginTop="@dimen/start_btn_mrgin_l_r_t"
+        android:gravity="center|left"
+        android:paddingBottom="@dimen/start_btn_mrgin_l_r_t"
+        android:paddingRight="@dimen/start_btn_mrgin_l_r_t"
+        android:paddingTop="@dimen/start_btn_mrgin_l_r_t"
+        android:text="@string/export_patient_information"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black"
+        android:textSize="@dimen/btn_text_size"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_height_double"
+        android:layout_marginLeft="@dimen/start_btn_mrgin_l_r_t"
+        android:layout_marginRight="@dimen/start_btn_mrgin_l_r_t"
+        android:background="@color/setting_line_color" />
+
+    <RadioGroup
+        android:id="@+id/rg_export"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+        android:gravity="center|left"
+        android:orientation="vertical" >
+
+        <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButtonWithTitleText
+            android:id="@+id/rb_new_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/start_btn_mrgin_l_r_t"
+            android:button="@null"
+            android:drawableLeft="@drawable/check_box_style"
+            android:drawablePadding="@dimen/checnox_drawable_padding_left"
+            android:text="@string/new_p_information"
+            android:textColor="@color/check_box_state_1"
+            android:textSize="@dimen/radio_text_size_2" />
+
+        <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButtonWithTitleText
+            android:id="@+id/rb_certain_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/checkbox_margin_top_button"
+            android:button="@null"
+            android:drawableLeft="@drawable/check_box_style"
+            android:drawablePadding="@dimen/checnox_drawable_padding_left"
+            android:text="@string/certain_p_information"
+            android:textColor="@color/check_box_state_1"
+            android:textSize="@dimen/radio_text_size_2" />
+
+        <com.rimon.rsa.ipaeps.radiobutton.AnyRadioButtonWithTitleText
+            android:id="@+id/rb_all_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/start_btn_mrgin_l_r_t"
+            android:layout_marginTop="@dimen/checkbox_margin_top_button"
+            android:button="@null"
+            android:drawableLeft="@drawable/check_box_style"
+            android:drawablePadding="@dimen/checnox_drawable_padding_left"
+            android:text="@string/all_p_information"
+            android:textColor="@color/check_box_state_1"
+            android:textSize="@dimen/radio_text_size_2" />
+    </RadioGroup>
+
+    <com.rimon.rsa.ipaeps.button.AnyButtonWithTitleText
+        android:id="@+id/btn_export"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+        android:background="@drawable/btn_bacground"
+        android:drawableLeft="@drawable/btn_export_backgrount_left_3"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="@dimen/start_btn_padding_top_buttom"
+        android:paddingLeft="@dimen/start_btn_padding_l_r"
+        android:paddingTop="@dimen/start_btn_padding_top_buttom"
+        android:text="@string/export_2"
+        android:textColor="@color/color_state_1"
+        android:textSize="@dimen/start_page_text_size" />
+
+</LinearLayout>

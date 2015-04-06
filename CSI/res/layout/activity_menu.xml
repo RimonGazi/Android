@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/manual_input_bacground"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="8dip"
+    android:paddingRight="8dip"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Menu" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/addbutton"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dip"
+                android:layout_weight="1"
+                android:background="@drawable/login_selector"
+                android:text="เพิ่มข้อมูลเด็กใหม่"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sync"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dip"
+                android:layout_weight="1"
+                android:background="@drawable/login_selector"
+                android:text="ส่งข้อมูล"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="55dip"
+                android:layout_margin="5dip"
+                android:background="@drawable/manual_input_title_text_style"
+                android:gravity="center"
+                android:padding="4dip"
+                android:text="ชื่อ"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/menu_layout_shape"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <ListView
+            android:id="@+id/userlistview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

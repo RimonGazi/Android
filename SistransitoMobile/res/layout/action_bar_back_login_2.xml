@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/im_btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/btn_back_background"
+        android:contentDescription="@string/login"
+        android:padding="@dimen/widght_padding"
+        android:src="@drawable/btn_back" />
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        style="@android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/im_btn_back"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/widght_margin"
+        android:layout_marginTop="@dimen/widght_margin"
+        android:background="@drawable/btn_whight"
+        android:enabled="false"
+        android:padding="@dimen/widght_padding"
+        android:text="@string/sign_up"
+        android:textColor="@color/yellow" />
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_sign_up"
+        android:layout_alignRight="@+id/btn_sign_up"
+        android:layout_below="@+id/btn_sign_up"
+        android:background="@null"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="@color/color_state_tv" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login">ป้อนชื่อผู้ใช้และรหัสผ่าน</string>
+    <string name="user_name_login">ชื่อผู้ใช้งาน</string>
+    <string name="user_password_login">รหัสผ่าน</string>
+    <string name="login_btn">เข้าสู่ระบบ</string>
+
+    <color name="black">#000</color>
+    <color name="honeycombish_blue">#8AE6FF</color>
+    <color name="deepskyblue">#00bfff</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="teal">#008080</color>
+    <color name="lime">#00ff00</color>
+    <color name="lawngreen">#7cfc00</color>
+    <color name="yellow">#ffff00</color>
+    <color name="actionber">#02253A</color>
+    <color name="manual_input_bacground">#EEEEEE</color>
+    <color name="manul_input_title_bacground">#CFE8F4</color>
+    <color name="manual_input_title_text">#398EB9</color>
+    <color name="manual_input_btn_bacground">#3276B1</color>
+    <color name="tva_color">#57BD4F</color>
+    <color name="rrd_color">#F5AB4A</color>
+    <color name="button_pressed_color">#1DA27D</color>
+    <color name="manual_input_resulttext_bacground">#EEF5FD</color>
+    <color name="red">#D85445</color>
+    <color name="manual_input_logbtn">#5CB85C</color>
+    <color name="textview_show_result_boder_color">#CADFF4</color>
+    <color name="setting_line_color">#BCBCBC</color>
+    <color name="setting_bacground">#EAEAEA</color>
+    <color name="white_gray">#F0F0F2</color>
+    <color name="orange">#FFA500</color>
+
+    <string name="app_name">&quot;CSI&quot;</string>
+    <string name="action_settings">Menu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_question_all">QuestionAll</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_question1">Question1</string>
+    <string name="title_activity_user_menu">UserMenu</string>
+    <string name="title_activity_question2">Question2</string>
+    <string name="title_activity_question3">Question3</string>
+    <string name="title_activity_question4">Question4</string>
+    <string name="title_activity_question5">Question5</string>
+    <string name="title_activity_question6">Question6</string>
+    <string name="title_activity_conclude">Conclude</string>
+    <string name="title_activity_qdetail">Qdetail</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_followup">Followup</string>
+
+</resources>

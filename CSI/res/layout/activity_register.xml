@@ -1,0 +1,138 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Register" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/cb_male_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ชาย" />
+
+        <CheckBox
+            android:id="@+id/cb_female_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="หญิง" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ชื่อ" />
+
+        <EditText
+            android:id="@+id/ename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/lname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="นามสกุล" />
+
+        <EditText
+            android:id="@+id/elname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/nname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ชื่อเรียกแทน" />
+
+        <EditText
+            android:id="@+id/enname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/cid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="หมายเลขบัตรประชาชน" />
+
+        <EditText
+            android:id="@+id/ecid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="13" />
+
+        <TextView
+            android:id="@+id/addr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ตำบล" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView_eaddr1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:completionThreshold="1"
+            android:ems="10"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/addr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="อำเภอ" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView_eaddr2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:completionThreshold="1"
+            android:ems="10"
+            android:text="" >
+        </AutoCompleteTextView>
+
+        <TextView
+            android:id="@+id/addr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="จังหวัด" />
+
+        <Spinner
+            android:id="@+id/spinnereaddr3"
+            android:layout_width="match_parent"
+            android:layout_height="50dip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/bday"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:text="วันเกิด" />
+
+            <Button
+                android:id="@+id/regist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="บันทึก" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

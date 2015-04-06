@@ -1,0 +1,59 @@
+<resources>
+
+    <dimen name="action_ber_space">4dip</dimen>
+    <dimen name="start_page_padding_lefr_right">30dip</dimen>
+    <dimen name="start_page_content_mrgin_top">20dip</dimen>
+    <dimen name="start_page_content_padding_top">20dip</dimen>
+    <dimen name="start_btn_padding_top_buttom">10dip</dimen>
+    <dimen name="start_btn_padding_l_r">8dip</dimen>
+    <dimen name="start_btn_mrgin_l_r_t">5dip</dimen>
+    <dimen name="start_page_text_size">14sp</dimen>
+    <dimen name="title_font_size">20sp</dimen>
+    <dimen name="edit_text_height">48dip</dimen>
+    <dimen name="patient_id_compnent_margint_top">10dip</dimen>
+    <dimen name="sp_padding_top_buttom">3dip</dimen>
+    <dimen name="sp_padding_l">8dip</dimen>
+    <dimen name="sp_pddding_r">10dip</dimen>
+    <dimen name="splash_text_size_buttom">15sp</dimen>
+    <dimen name="splash_im_height">330dip</dimen>
+    <dimen name="splash_im_width">230dip</dimen>
+    <dimen name="btn_text_padding_l_r">10dip</dimen>
+    <dimen name="btn_text_padding_t_b">5dip</dimen>
+    <dimen name="btn_text_size">15sp</dimen>
+    <dimen name="checkbox_margin_top_button">5dip</dimen>
+    <dimen name="checkbox_2_margin_top_button">10dip</dimen>
+    <dimen name="checnox_drawable_padding_left">2dip</dimen>
+    <dimen name="seek_bar_text_size">10sp</dimen>
+    <dimen name="seek_bar_stroke_width">1dip</dimen>
+    <dimen name="seek_bar_conner_radious">5dip</dimen>
+    <dimen name="radio_btn_matgin_l_r_t_b">2.5dip</dimen>
+    <dimen name="hint_text_size">7.5sp</dimen>
+    <dimen name="radio_text_size_2">12sp</dimen>
+    <dimen name="btn_bg_stroke_width">2dip</dimen>
+    <dimen name="action_ber_icon_padding">4dip</dimen>
+    <dimen name="actionbar_linear_layout_paddin_l">5dip</dimen>
+    <dimen name="action_ber_lineview_height">2dip</dimen>
+    <dimen name="actionbar_view_m_t_b">2dip</dimen>
+    <dimen name="actionbar_view_m_t_b_2">4dip</dimen>
+    <dimen name="indicator_pading_t_b">2dip</dimen>
+    <dimen name="indicator_pading_l_r">3dip</dimen>
+    <dimen name="indicator_radius">6dip</dimen>
+
+    <integer name="moduel_4_drug_weight">57</integer>
+    <integer name="moduel_4_dosage_weight">43</integer>
+
+    <dimen name="ibd_height">50dip</dimen>
+    <dimen name="ibd_weidth">100dip</dimen>
+    <dimen name="view_height">2dip</dimen>
+    <dimen name="view_height_double">4dip</dimen>
+    <dimen name="log_layout_padding_top">15dip</dimen>
+    <dimen name="log_parent_tv_margin_left">30dip</dimen>
+    <dimen name="log_parent_view_margin">2dip</dimen>
+    <dimen name="log_parent_view_padding">2dip</dimen>
+    <dimen name="expendablelist_divider_height">2dip</dimen>
+    <dimen name="log_delete_margin_left">5dip</dimen>
+    <dimen name="log_delete_fotter_margin">3dip</dimen>
+    <dimen name="log_delete_fotter_view_margin">5dip</dimen>
+    <dimen name="dialog_btn_padding">15dip</dimen>
+
+</resources>

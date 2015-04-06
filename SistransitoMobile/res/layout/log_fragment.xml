@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_2"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/layout_margin_buttom"
+    android:paddingLeft="@dimen/layout_margin_left_right"
+    android:paddingRight="@dimen/layout_margin_left_right"
+    android:paddingTop="@dimen/layout_margin_top" >
+
+    <Button
+        android:id="@+id/btn_listar_placas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widght_margin_top"
+        android:layout_marginTop="@dimen/widght_margin_top"
+        android:background="@drawable/btn_organge"
+        android:drawableLeft="@drawable/ic_lister_placa"
+        android:drawablePadding="@dimen/widght_padding"
+        android:gravity="left|center_vertical"
+        android:padding="@dimen/widght_padding"
+        android:text="@string/listar_placas"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/whight" />
+
+    <Button
+        android:id="@+id/btn_listar_autos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widght_margin_top"
+        android:layout_marginTop="@dimen/widght_margin_top"
+        android:background="@drawable/btn_organge"
+        android:drawableLeft="@drawable/ic_lister_autos"
+        android:drawablePadding="@dimen/widght_padding"
+        android:gravity="left|center_vertical"
+        android:padding="@dimen/widght_padding"
+        android:text="@string/listar_autos"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/whight" />
+
+    <Button
+        android:id="@+id/btn_listar_tav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widght_margin_top"
+        android:layout_marginTop="@dimen/widght_margin_top"
+        android:background="@drawable/btn_organge"
+        android:drawableLeft="@drawable/ic_lister_tav"
+        android:drawablePadding="@dimen/widght_padding"
+        android:gravity="left|center_vertical"
+        android:padding="@dimen/widght_padding"
+        android:text="@string/listar_tav"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/whight" />
+
+    <Button
+        android:id="@+id/btn_listar_tca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widght_margin_top"
+        android:layout_marginTop="@dimen/widght_margin_top"
+        android:background="@drawable/btn_organge"
+        android:drawableLeft="@drawable/ic_lister_tc"
+        android:drawablePadding="@dimen/widght_padding"
+        android:gravity="left|center_vertical"
+        android:padding="@dimen/widght_padding"
+        android:text="@string/listar_tca"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/whight" />
+
+    <Button
+        android:id="@+id/btn_listar_rrd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widght_margin_top"
+        android:layout_marginTop="@dimen/widght_margin_top"
+        android:background="@drawable/btn_organge"
+        android:drawableLeft="@drawable/ic_lister_rrd"
+        android:drawablePadding="@dimen/widght_padding"
+        android:gravity="left|center_vertical"
+        android:padding="@dimen/widght_padding"
+        android:text="@string/listar_rrd"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/whight" />
+
+</LinearLayout>

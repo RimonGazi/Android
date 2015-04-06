@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white_gray"
+    android:orientation="vertical"
+    android:paddingTop="0dip" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:text="Powered by \n Dept. of CSE, Jahangirnagar University"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/manual_input_btn_bacground" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/white_gray"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingBottom="0dip"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".SearchFragment" >
+
+        <LinearLayout
+            android:id="@+id/layout_contain_componet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:background="@drawable/manual_input_layout_shape"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/login_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/manual_input_title_text_style"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Undergraduate Admission 2014-15"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/manual_input_title_text" />
+
+            <RelativeLayout
+                android:id="@+id/relative_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_seatPlan"
+                    android:layout_width="120dip"
+                    android:layout_height="120dip"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="35dip"
+                    android:layout_marginRight="35dip"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/set_plan_btn_style"
+                    android:paddingLeft="40dip"
+                    android:paddingRight="40dip" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/tv_s_plan_tite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginLeft="35dip"
+                android:layout_marginRight="35dip"
+                android:layout_marginTop="0dip"
+                android:background="@drawable/login_selector"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Seat Plan"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/sp_unite"
+                style="?android:attr/spinnerItemStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginBottom="0dip"
+                android:layout_marginLeft="35dip"
+                android:layout_marginRight="35dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/btn_dropdown"
+                android:gravity="center"
+                android:paddingBottom="0dip"
+                android:paddingLeft="8dip"
+                android:paddingRight="46dip"
+                android:paddingTop="0dip"
+                android:prompt="@string/app_name"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/et_roll"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginBottom="0dip"
+                android:layout_marginLeft="35dip"
+                android:layout_marginRight="35dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/edit_text"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter Roll"
+                android:inputType="number"
+                android:maxLength="6"
+                android:paddingBottom="5dip"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:paddingTop="5dip" >
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dip"
+                android:layout_marginLeft="35dip"
+                android:layout_marginRight="35dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/login_selector"
+                android:text="Submit"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginLeft="35dip"
+                android:layout_marginRight="35dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/login_selector"
+                android:text="Back"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

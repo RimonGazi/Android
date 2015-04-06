@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Button Focused -->
+    <item android:drawable="@drawable/login_hover2" 
+        android:state_focused="true" 
+        android:state_pressed="false"/>
+    <!-- Button Focused Pressed -->
+    <!--
+        <item   android:state_focused="true"
+            android:state_pressed="true"
+            android:drawable="@drawable/login_hover"
+            />
+    -->
+    <!-- Button Pressed -->
+    <item android:drawable="@drawable/login_hover" android:state_pressed="true"/>
+    <!-- Button Default Image -->
+    <item android:drawable="@drawable/login_bg"/>
+
+</selector>

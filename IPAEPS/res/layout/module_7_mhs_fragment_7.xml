@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout_ibd_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_1"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/start_page_padding_lefr_right"
+    android:paddingRight="@dimen/start_page_padding_lefr_right"
+    android:paddingTop="@dimen/start_page_content_padding_top" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_q_module_7_17"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:background="@drawable/btn_left_start_state"
+                android:drawableRight="@drawable/btn_right_start_state"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/btn_text_padding_t_b"
+                android:paddingLeft="@dimen/btn_text_padding_l_r"
+                android:paddingTop="@dimen/btn_text_padding_t_b"
+                android:text="@string/q_module_7_17"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_q_module_7_18"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:background="@drawable/btn_left_start_state"
+                android:drawableRight="@drawable/btn_right_start_state"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/btn_text_padding_t_b"
+                android:paddingLeft="@dimen/btn_text_padding_l_r"
+                android:paddingTop="@dimen/btn_text_padding_t_b"
+                android:text="@string/q_module_7_18"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_q_module_7_19"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:background="@drawable/btn_left_start_state"
+                android:drawableRight="@drawable/btn_right_start_state"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/btn_text_padding_t_b"
+                android:paddingLeft="@dimen/btn_text_padding_l_r"
+                android:paddingTop="@dimen/btn_text_padding_t_b"
+                android:text="@string/q_module_7_19"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_q_module_7_20"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:background="@drawable/btn_left_start_state"
+                android:drawableRight="@drawable/btn_right_start_state"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/btn_text_padding_t_b"
+                android:paddingLeft="@dimen/btn_text_padding_l_r"
+                android:paddingTop="@dimen/btn_text_padding_t_b"
+                android:text="@string/q_module_7_20"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_q_module_7_21"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:background="@drawable/btn_left_start_state"
+                android:drawableRight="@drawable/btn_right_start_state"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/btn_text_padding_t_b"
+                android:paddingLeft="@dimen/btn_text_padding_l_r"
+                android:paddingTop="@dimen/btn_text_padding_t_b"
+                android:text="@string/q_module_7_21"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                layout="@layout/btn_previous" />
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                layout="@layout/btn_next" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

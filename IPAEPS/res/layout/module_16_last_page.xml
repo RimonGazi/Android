@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout_03"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/start_page_padding_lefr_right"
+    android:paddingRight="@dimen/start_page_padding_lefr_right" >
+
+    <LinearLayout
+        android:id="@+id/linear_layout_last_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.rimon.rsa.ipaeps.textview.TitleTextView
+            android:id="@+id/tv_thanks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:gravity="center"
+            android:text="@string/thnaks_you_for"
+            android:textColor="@color/color_state_1"
+            android:textSize="@dimen/title_font_size" />
+
+        <ImageView
+            android:id="@+id/im_lastScreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_nurse" />
+
+        <com.rimon.rsa.ipaeps.textview.TitleTextView
+            android:id="@+id/tv_last_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:gravity="center"
+            android:text="@string/please_return_tablet"
+            android:textColor="@color/color_state_1"
+            android:textSize="@dimen/btn_text_size" />
+
+        <com.rimon.rsa.ipaeps.button.AnyButton
+            android:id="@+id/btn_last_next"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:background="@drawable/btn_bacground"
+            android:drawableLeft="@drawable/btn_home_backgrount_left"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="@dimen/start_btn_padding_top_buttom"
+            android:paddingLeft="@dimen/start_btn_padding_l_r"
+            android:paddingRight="@dimen/start_btn_padding_l_r"
+            android:paddingTop="@dimen/start_btn_padding_top_buttom"
+            android:text="@string/touch_here_to"
+            android:textColor="@color/color_state_1"
+            android:textSize="@dimen/start_page_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

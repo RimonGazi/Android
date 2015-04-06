@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray_1"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/start_page_padding_lefr_right"
+    android:paddingRight="@dimen/start_page_padding_lefr_right"
+    android:paddingTop="@dimen/start_page_content_padding_top" >
+
+    <LinearLayout
+        android:id="@+id/linear_layout_mediaction_4_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_q_module_4_1"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:layout_weight="@integer/moduel_4_drug_weight"
+                android:background="@drawable/btn_left_start_state"
+                android:drawable="@drawable/btn_right_start_state"
+                android:drawableRight="@drawable/btn_right_start_state"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/btn_text_padding_t_b"
+                android:paddingLeft="@dimen/btn_text_padding_l_r"
+                android:paddingTop="@dimen/btn_text_padding_t_b"
+                android:text="@string/ibd_drug"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_dosage_q_module_4_1"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:layout_weight="@integer/moduel_4_dosage_weight"
+                android:background="@drawable/btn_next_bacground"
+                android:drawableLeft="@drawable/btn_drug_backgrount_left"
+                android:enabled="false"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/btn_text_padding_t_b"
+                android:paddingLeft="@dimen/btn_text_padding_l_r"
+                android:paddingTop="@dimen/btn_text_padding_t_b"
+                android:text="@string/dosage"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+        </LinearLayout>
+
+        <com.rimon.rsa.ipaeps.edittext.AnyEditText
+            android:id="@+id/et_q_module_4_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:background="@drawable/btn_bacground"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="left|center_vertical"
+            android:hint="@string/drug_dosage_and_method_of_entry"
+            android:inputType="textMultiLine"
+            android:paddingLeft="@dimen/start_btn_padding_l_r"
+            android:scrollHorizontally="false"
+            android:textColor="@color/color_state_1"
+            android:textSize="@dimen/start_page_text_size" >
+        </com.rimon.rsa.ipaeps.edittext.AnyEditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_q_module_4_2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:layout_weight="@integer/moduel_4_drug_weight"
+                android:background="@drawable/btn_left_start_state"
+                android:drawable="@drawable/btn_right_start_state"
+                android:drawableRight="@drawable/btn_right_start_state"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/btn_text_padding_t_b"
+                android:paddingLeft="@dimen/btn_text_padding_l_r"
+                android:paddingTop="@dimen/btn_text_padding_t_b"
+                android:text="@string/ibd_drug"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_dosage_q_module_4_2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:layout_weight="@integer/moduel_4_dosage_weight"
+                android:background="@drawable/btn_next_bacground"
+                android:drawableLeft="@drawable/btn_drug_backgrount_left"
+                android:enabled="false"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/btn_text_padding_t_b"
+                android:paddingLeft="@dimen/btn_text_padding_l_r"
+                android:paddingTop="@dimen/btn_text_padding_t_b"
+                android:text="@string/dosage"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+        </LinearLayout>
+
+        <com.rimon.rsa.ipaeps.edittext.AnyEditText
+            android:id="@+id/et_q_module_4_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:background="@drawable/btn_bacground"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="left|center_vertical"
+            android:hint="@string/drug_dosage_and_method_of_entry"
+            android:inputType="textMultiLine"
+            android:paddingLeft="@dimen/start_btn_padding_l_r"
+            android:scrollHorizontally="false"
+            android:textColor="@color/color_state_1"
+            android:textSize="@dimen/start_page_text_size" >
+        </com.rimon.rsa.ipaeps.edittext.AnyEditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_q_module_4_3"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:layout_weight="@integer/moduel_4_drug_weight"
+                android:background="@drawable/btn_left_start_state"
+                android:drawable="@drawable/btn_right_start_state"
+                android:drawableRight="@drawable/btn_right_start_state"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/btn_text_padding_t_b"
+                android:paddingLeft="@dimen/btn_text_padding_l_r"
+                android:paddingTop="@dimen/btn_text_padding_t_b"
+                android:text="@string/ibd_drug"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+
+            <com.rimon.rsa.ipaeps.button.AnyButton
+                android:id="@+id/btn_dosage_q_module_4_3"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+                android:layout_weight="@integer/moduel_4_dosage_weight"
+                android:background="@drawable/btn_next_bacground"
+                android:drawableLeft="@drawable/btn_drug_backgrount_left"
+                android:enabled="false"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="@dimen/btn_text_padding_t_b"
+                android:paddingLeft="@dimen/btn_text_padding_l_r"
+                android:paddingTop="@dimen/btn_text_padding_t_b"
+                android:text="@string/dosage"
+                android:textColor="@color/color_state_1"
+                android:textSize="@dimen/btn_text_size" />
+        </LinearLayout>
+
+        <com.rimon.rsa.ipaeps.edittext.AnyEditText
+            android:id="@+id/et_q_module_4_3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            android:background="@drawable/btn_bacground"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="left|center_vertical"
+            android:hint="@string/drug_dosage_and_method_of_entry"
+            android:inputType="textMultiLine"
+            android:paddingLeft="@dimen/start_btn_padding_l_r"
+            android:scrollHorizontally="false"
+            android:textColor="@color/color_state_1"
+            android:textSize="@dimen/start_page_text_size" >
+        </com.rimon.rsa.ipaeps.edittext.AnyEditText>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/start_btn_mrgin_l_r_t"
+            layout="@layout/btn_next" />
+    </LinearLayout>
+
+</ScrollView>

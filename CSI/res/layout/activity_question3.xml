@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Question3" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/q3name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name" />
+
+            <TextView
+                android:id="@+id/q3main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="การปกป้องคุ้มครอง" />
+
+            <TextView
+                android:id="@+id/q31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ความรุนแรงทางเพศ ทางร่างกาย และจิตใจ" />
+
+            <Spinner
+                android:id="@+id/q3a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/q32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="การเลือกปฏิบัติหรือการกีดกันทางสังคม" />
+
+            <Spinner
+                android:id="@+id/q3a2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/q33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="การใช้แรงงานเด็ก" />
+
+            <Spinner
+                android:id="@+id/q3a3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/q34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="เด็กไร้สถานะทางกฎหมาย" />
+
+            <Spinner
+                android:id="@+id/q3a4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/q35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="เด็กอยู่ในกระบวนการยุติธรรม หรือคดีความรอลงอาญา คุมประพฤติ เป็นต้น" />
+
+            <Spinner
+                android:id="@+id/q3a5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
